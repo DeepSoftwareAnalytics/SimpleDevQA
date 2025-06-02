@@ -44,14 +44,6 @@ def main():
     def get_evals(eval_name):
         # Set num_examples = None to reproduce full evals
         match eval_name:
-            # case "simpleqa":
-            #     return SimpleQAEval(
-            #         grader_model=grading_sampler,
-            #         num_examples=10 if debug else 4326)
-            # case "chinses_simpleqa":
-            #     return ChineseSimpleQAEval(
-            #         grader_model=grading_sampler,
-            #         num_examples=10 if debug else 3000)
             case "se_simpleqa":
                 return SESimpleQAEval(
                     grader_model=grading_sampler)
