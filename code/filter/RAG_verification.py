@@ -7,7 +7,6 @@ import pandas as pd
 import requests
 from typing import Dict, Any, List
 from llama_index.core import VectorStoreIndex, Document
-from query_llm import query_searchllm, query_llm
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, ServiceContext, Settings
 from llama_index.core.agent.workflow import FunctionAgent
 import asyncio
@@ -38,6 +37,23 @@ index = load_index_from_storage(
     embed_model=Settings.embed_model,
 )
 query_engine = index.as_query_engine()
+
+google_api_key = ""
+google_cx = ""
+
+
+def google_search(query, num=10, date="y1"):
+    RATE_LIMITER.wait()  # 等待以满足速率限制
+    # query = json.dumps(query, ensure_ascii=False, indent=2)
+    url = f"https://www.googleapis.com/customsearch/v1?q={query}&key={google_api_key}&cx={google_cx}&num={num}&dateRestrict={date}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        results = response.json().get("items", [])
+        return results, response.text
+    else:
+        print("Error in API request:", response.status_code)
+        print(query)
+        return [], response.text
 
 
 class RateLimiter:
@@ -84,8 +100,8 @@ def get_documents(input_file, outpath):
     with open(input_file, 'r', encoding='utf-8') as f:
         ref = json.load(f)
     urls = []
-    for result in ref['results']:
-        urls.append(result['link'])
+    for result in ref:
+        urls.append(result.get('link'))
     doc_num = 0
     for url in urls:
         document, title = fetch_document_goose(url)
@@ -100,7 +116,7 @@ def search_ref(input_file, output_path):
         data = json.load(f)
     df = pd.DataFrame(data)  # 将 JSON 数据转换为 DataFrame
     for idx, row in df.iterrows():
-        links = query_searchllm(row['question'])
+        search_results, response = google_search(row['question'])
         # 创建以 idx 命名的文件夹路径
         folder_path = os.path.join(output_path, str(idx))
         # 如果文件夹不存在，则创建
@@ -108,7 +124,7 @@ def search_ref(input_file, output_path):
             os.makedirs(folder_path)
         ref_file = os.path.join(folder_path, "urls.json")
         with open(ref_file, 'w', encoding='utf-8') as file:
-            json.dump(links, file, indent=4)
+            json.dump(search_results, file, indent=4)
         get_documents(ref_file, folder_path)
 
 

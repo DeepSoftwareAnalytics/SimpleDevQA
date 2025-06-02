@@ -16,6 +16,23 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+google_api_key = ""
+google_cx = ""
+
+
+def google_search(query, num=10, date="y1"):
+    RATE_LIMITER.wait()  # 等待以满足速率限制
+    # query = json.dumps(query, ensure_ascii=False, indent=2)
+    url = f"https://www.googleapis.com/customsearch/v1?q={query}&key={google_api_key}&cx={google_cx}&num={num}&dateRestrict={date}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        results = response.json().get("items", [])
+        return results, response.text
+    else:
+        print("Error in API request:", response.status_code)
+        print(query)
+        return [], response.text
+
 
 class RateLimiter:
     def __init__(self, max_calls: int, period: float):
@@ -129,7 +146,6 @@ def process_all_queries(folder_path, output_folder, output_folder2):
 def generate_ref(input_file, folder_path, output_folder):
     # 根据query生成ref
     pattern = r"\[Query\](.*)"
-    num = 0
     df = pd.read_excel(input_file)
     for idx, row in df.iterrows():
         query_file = os.path.join(folder_path, f"{row['conversation_id']}.json")
@@ -141,26 +157,13 @@ def generate_ref(input_file, folder_path, output_folder):
                     match = re.search(pattern, query_data, re.DOTALL)
                     if match:
                         queries = match.group(1).strip()
-                        prompt = f"Here is the given queries: {queries}"
-                        system_prompt = f"You are an expert software programmer. Based on the provided queries, search for high-quality references, including documentation, technical articles, and official resources. Ensure that the references are relevant, authoritative, and directly address the queries. Provide the correct URLs that can be used to access the content.\n\n"\
-                                        f"Your task:\n"\
-                                        f"1. Use the provided queries to search for the most useful and high-quality references.\n"\
-                                        f"2. Include a variety of sources, such as official documentation, technical blogs, and paper.\n"\
-                                        f"3. Ensure the URLs are valid and directly link to the content.\n\n"\
-                                        f"Your response must have these parts:\n"\
-                                        f"[References]\n"\
-                                        f"1. [Title]:[URL]\n"\
-                                        f"2. [Title]:[URL]\n"
                         RATE_LIMITER.wait()  # 等待以满足速率限制
-                        # response = query_llm2(prompt, system_prompt)
-                        response = query_searchllm(prompt, system_prompt)
-                        num += 1
+                        search_results, response = google_search(queries)
                         search_file = os.path.join(output_folder, f"{row['conversation_id']}.json")
                         # 保存获取的 document 到文件
                         with open(search_file, 'w', encoding='utf-8') as f:
-                            f.write(response)
+                            f.write(search_results)
                         logger.info(f"conversation_id {row['conversation_id']} be processed")
-    print("ref_num: ", num)
 
 
 def generate_query(input_file, output_folder):
@@ -212,19 +215,17 @@ def generate_qa_by_doc(input_file, folder_path, qa_output_folder, outfile):
                         link = item.get('link')
                         if link not in seen_links:
                             seen_links.add(link)
+                            key_content = extract_key_content(item)
                             unique_data.append({
                                 "link": item['link'],
-                                "key_content": item['document'],  # documents
-                                # "key_content": item['key_content'],  # filter_documents, jina.ai
+                                "key_content": key_content,  # documents
                             })
                     # 提取关键内容并拼接
                     key_contents = []
                     for webpage in unique_data:
                         key_content = webpage['key_content']
-                        if key_contents:
-                            # key_contents.append(key_content)
+                        if key_content:
                             key_contents.append(f"{webpage['link']}\n{key_content}")
-                    # document = "".join(key_contents)  # 直接拼接，不插入空格
                     # 将 key_contents 列表中的所有内容用换行符拼接成一段文本
                     document = '\n'.join(key_contents)
                     conversation = {
@@ -263,8 +264,7 @@ Your response must have the following format:
 {{\"question\": \"What is the term for grouping related data and functions (or methods) into a single unit in object-oriented programming (OOP).\", \"answer\": \"Encapsulation.\"}}
 """
                     RATE_LIMITER.wait()  # 等待以满足速率限制
-                    # response = query_llm(prompt, system_prompt, model="gpt-4o")
-                    response = query_llm2(prompt, system_prompt, model="gpt-4o")
+                    response = query_llm(prompt, system_prompt, model="gpt-4o")
                     search_file = os.path.join(qa_output_folder, f"{row['conversation_id']}.json")
                     # 保存获取的 document 到文件
                     with open(search_file, 'w', encoding='utf-8') as f:
@@ -293,12 +293,12 @@ def two_steps_generate_qa(input_file, output_folder, outfile):
     folder_path = "filter_documents"
     qa_output_folder = "output_qa"
     process_all_queries(output_folder, "documents", folder_path)
-    generate_qa_by_doc(input_file, "/data/generate_qa/goose_documents", qa_output_folder, outfile)  # goose
+    generate_qa_by_doc(input_file, "goose_documents", qa_output_folder, outfile)  # goose
 
 
 if __name__ == "__main__":
     # 输入 JSON 文件路径和输出文件路径
-    input_file = "filtered_conversations_threelang.xlsx"
+    input_file = ""
     output_folder = "references"  # 输出文件夹路径
     outfile = "initial_qas.json"
     # 设置速率限制

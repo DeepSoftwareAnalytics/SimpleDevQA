@@ -7,7 +7,6 @@ import requests
 import logging
 from openai import OpenAI
 import http.client
-from log_tokens import *
 
 # 配置日志
 logging.basicConfig(level=logging.INFO)

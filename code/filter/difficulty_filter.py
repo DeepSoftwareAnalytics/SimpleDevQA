@@ -58,7 +58,7 @@ def predict_answer(input_file, output_file):
             if response is not None:
                 new_qa = {
                     "question": qa['problem'],
-                    "answer": qa['answer'],
+                    "golden_answer": qa['answer'],
                     "predict_answer": response,
                 }
                 new_qas.append(new_qa)
