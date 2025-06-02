@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://geeksforgeeks.org/sort-a-list-in-python-without-sort-function",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/438684/how-to-convert-a-list-of-longs-into-a-comma-separated-string-in-python",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/11964450/order-a-list-of-numbers-without-built-in-sort-min-max-function",
+        "document": ""
+    },
+    {
+        "link": "https://codegolf.stackexchange.com/questions/12824/sorting-a-list-of-strings-without-using-any-built-in-sort-method",
+        "document": ""
+    },
+    {
+        "link": "https://quora.com/How-do-you-write-a-Python-program-that-accepts-a-sequence-of-comma-separated-positive-integers-from-the-user-and-print-the-largest-integer-in-sequence-without-using-lists-and-tuples",
+        "document": ""
+    },
+    {
+        "link": "https://docs.python.org/3/howto/sorting.html",
+        "document": ""
+    },
+    {
+        "link": "https://developers.google.com/edu/python/sorting",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/24027656/a-more-elegant-way-to-sort-3-lists-in-python",
+        "document": ""
+    },
+    {
+        "link": "https://realpython.com/python-sort",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/70086184/sorting-a-short-list-according-to-the-order-of-a-longer-list",
+        "document": ""
+    },
+    {
+        "link": "https://digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/66789232/how-to-use-join-and-format-together-in-python",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/python/ref_string_join.asp",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/python-string-join-method",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/3395138/using-multiple-arguments-for-string-formatting-in-python-e-g-s-s",
+        "document": ""
+    }
+]

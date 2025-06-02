@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://spigotmc.org/wiki/create-a-simple-command",
+        "document": ""
+    },
+    {
+        "link": "https://spigotmc.org/threads/how-to-create-a-functional-interface-command-api.553093",
+        "document": ""
+    },
+    {
+        "link": "https://bukkit.org/threads/making-a-plugin-to-run-a-command.100850",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/CommandAPI/CommandAPI",
+        "document": ""
+    },
+    {
+        "link": "https://bukkit.org/threads/tutorial-command-arguments.186497",
+        "document": "\n• None args. //Sender only typed '/hello' and nothing else\n• None //Sender typed more then 1 argument, so args[0] can't be null.\n• None //Sender had attest 1 argument, but didn't type sir as a second one!\n• None //args[0] also returns string, so lets send the message right back to them!\n• None sender. \"Your first argument was: \" args"
+    },
+    {
+        "link": "https://bukkit.org/threads/tutorial-scoreboards-teams-with-the-bukkit-api.139655",
+        "document": "\n• None //Adding prefixes (shows up in player list before the player's name, supports ChatColors)\n• None //Adding suffixes (shows up in player list after the player's name, supports ChatColors)\n• None //Making invisible players on the same team have a transparent body\n• None //Making it so players can't hurt others on the same team\n• None //Setting where to display the scoreboard/objective (either SIDEBAR, PLAYER_LIST or BELOW_NAME)\n• None //Setting the display name of the scoreboard/objective\n• None //If you are using custom player names (as shown above), then you have to do this:\n• None board. ChatColor. //Same as what I used above, case/color sensitive"
+    },
+    {
+        "link": "https://spigotmc.org/threads/need-help-with-scoreboard-plugin.426642",
+        "document": ""
+    },
+    {
+        "link": "https://bukkit.org/threads/updating-scoreboards.484704",
+        "document": ""
+    },
+    {
+        "link": "https://spigotmc.org/resources/realscoreboard.22928",
+        "document": ""
+    },
+    {
+        "link": "https://dev.bukkit.org/projects/scoreboardstats?page=4",
+        "document": "This plugin is compatible with HealthBar, ColoredTags, Ghost Player and all other scoreboard plugins.\n\nJust enable compatibilityMode in the configuration and install ProtocolLib. For normal use ProtocolLib is required.\n\nYou don't need a database for all these features\n• Much better performance (since 0.7)\n• All versions of ScoreboardStats supports all Minecraft versions above 1.5\n• Optimized for all kinds of servers.\n• Support UTF-8 characters like the hearts Click here:\n• PvP can also be displayed on Signs Click here:\n• No database required unless you don't want this plugin to track pvpstats\n• The Player can see his own stats (Kills/Deaths) with the Scoreboard on the right side\n• You can disable the scoreboard for custom worlds\n\nVariables for all the following plugin:\n• and many more coming soon\n\nPlease use the Tickets for any issues, errors or suggestions.\n• drop it in your /plugins/ folder\n• All variables can be found here: https://dev.bukkit.org/projects/scoreboardstats/pages/variables\n\nSee the wiki on Github: https:\n\nYou don't have to decompile the plugin. You can find there the source code with comments and building utilities.\n\n ScoreboardStats is open source and hosted on GitHub; feel free to fork, star, or contribute by making pull requests and opening issues.\n• This plugin uses an Auto-updater. if you don't want an automatically update. Disable it in the configuration.\n• The updater only utilize the api of curse/dev.bukkit, so you don't get an unapproved version. Every file providing there is accepted by the devBukkit staff\n• I can upload a new version with bug fixes where you don't have to download it, the plugin can do it for you automatically.\n• The updater only runs on plugin startup, and then as a seperate thread, so it doesn't really affect your startup time.\n• Every file there equals the files on this page.\n\nAs you can see on file list there are selected three versions. These version numbers are for the Minecraft versions. Lowest test version, mid version and the highest tested version. That means that you should always use the latest version of ScoreboardStats although you use an old Minecraft version. It's very hard to use all versions at once, so please use the newest version of ScoreboardStats."
+    }
+]

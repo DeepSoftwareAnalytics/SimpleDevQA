@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://geeksforgeeks.org/string-functions-in-c",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/c/c_ref_string.php",
+        "document": ""
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/C_standard_library",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/c-library-string-h",
+        "document": ""
+    },
+    {
+        "link": "https://web.stanford.edu/class/archive/cs/cs107/cs107.1254/guide/stdlib.html",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc",
+        "document": ""
+    },
+    {
+        "link": "https://programiz.com/c-programming/c-dynamic-memory-allocation",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/c/c_memory_allocate.php",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@theodoretsori/how-to-use-malloc-and-free-in-c-for-dynamic-memory-allocation-and-deallocation-335482dd15b4",
+        "document": ""
+    },
+    {
+        "link": "https://design-reuse.com/articles/25090/dynamic-memory-allocation-fragmentation-c.html",
+        "document": ""
+    }
+]

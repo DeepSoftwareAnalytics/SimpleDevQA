@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://umijs.org/en-US/docs/guides/routes",
+        "document": ""
+    },
+    {
+        "link": "https://umijs.org/en-US/docs/api/config",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/umijs/umi/issues/3913",
+        "document": "We have a to generate routes. Our pages folder is as follows:\n\nand the routing configuration is:\n\nNow we would like to have a configuration in which we have a path like .\n\n We have tried the following configuration, which doesn't work and doesn't throw a 404 also. It doesn't redirect to anything.\n• Override the router.config.js inside directory as above.\n• Should open up Results component in URL after redirect from , but it doesn't redirect to anything."
+    },
+    {
+        "link": "https://github.com/umijs/umi/issues/48",
+        "document": "To see all available qualifiers, see our documentation .\n\nSaved searches Use saved searches to filter your results more quickly\n\nWe read every piece of feedback, and take your input very seriously.\n\nYou signed in with another tab or window. Reload to refresh your session.\n\nYou signed out in another tab or window. Reload to refresh your session.\n\nYou switched accounts on another tab or window. Reload to refresh your session."
+    },
+    {
+        "link": "https://umi-git-docs-ssr.umijs.vercel.app/guide/router.html",
+        "document": "Assume that the directory structure is as follows:\n\nThen, umi will automatically generate the routing configuration as follows:\n\nAs agreed in umi, directories or files with the prefix are dynamic routes.\n\nFor example, the following directory structure:\n\nThe routing configuration will be generated as follows:\n\nIn umi, dynamic routing is an optional dynamic route if it has a suffix.\n\nFor example, the following structure:\n\nThe routing configuration will be generated as follows:\n\nWhen there is in the umi directory, a nested route will be generated, with as the layout of the directory.\n\nFor example, the following directory structure:\n\nThe routing configuration will be generated as follows:\n\nThe convention is a global route, returning a React component, and rendering the child components via .\n\nYou may need to output a different global layout for different routes. umi does not support such a configuration, but you can still distinguish between location.path and render different layouts in .\n\nFor example, if you want to output a simple layout for /login,\n\nThe convention is a 404 page and needs to return a React component.\n\nThe first comment of the contracted routing file is used to extend the route if it contains a configuration in the yaml format.\n\nIf you prefer to use a configured route, you can configure in the configuration file either or , this configuration item will not be parsed for the directory.\n• component is relative to the directory\n\nThe permission routing of umi is implemented by configuring the attribute of the route. The convention is added by the yaml annotation, and the configuration formula can be directly matched.\n\nFor example, the following configuration:\n\nThen umi will render with .\n\nThere are several ways to implement route transition effects. Here is an example of react-transition-group .\n\nIn the layout component ( or in the pages subdirectory), wrap a subassembly with and and use as the key.\n\nThe style used above can be defined in under :\n\nThere are many ways to implement breadcrumbs. Here is an example of react-router-breadcrumbs-hoc .\n\nThen implement a , such as:\n\nThen introduce this React component where you need it.\n\nUmi defaults to the Browser History. If you want to use Hash History, you need to configure:\n\nDecide whether to scroll to top in the of the layout component ( or the in the pages subdirectory), for example:"
+    },
+    {
+        "link": "https://umijs.org/en-US/docs/guides/routes",
+        "document": ""
+    },
+    {
+        "link": "https://v3.umijs.org/docs/routing",
+        "document": "In Umi, applications are single-page ) applications, and the page address jumps are done on the browser side, and the server will not be re-requested for html, and html is only loaded once when the application is initialized. All pages are composed of different components. The switching of pages is actually the switching of different components. You only need to associate different routing paths with corresponding components in the configuration.\n\nConfigure through in the configuration file, the format is an array of routing information.\n\nConfigure path wildcards that can be understood by path-to-regexp@^1.7.0 .\n\nConfigure the React component path for rendering after matching location and path. It can be an absolute path or a relative path. If it is a relative path, it will be found from .\n\nIf you point to a file in the directory, you can use either or . For example, , or , the former is recommended.\n\nIndicates whether it is a strict match, that is, whether location and path exactly correspond.\n\nConfigure sub-routes, usually used when you need to add layout components to multiple paths.\n\nThen in , pass to render child routes,\n\nIn this way, accessing and will bring the layout component .\n\nVisiting will jump to , which will be rendered by the file.\n\nFor example, you can run authorization check for a specific route:\n\nSee below example as content of ,\n\nWith above configuration, user request of will be validated via . gets rendered or page redirected to .\n\nThen click on the to jump to the address.\n• is only used for internal jumps of single page applications, if it is an external address jump, please use the tag\n\nThe routing component can get the following properties through ,\n• match, the object after the current route and url match, including the attributes of , , and\n• location, which indicates where the application is currently located, including attributes such as , , and\n\nWith cloneElement, one time is fine (it is necessary twice for Umi 2)."
+    },
+    {
+        "link": "https://github.com/umijs/umi/issues/3913",
+        "document": "We have a to generate routes. Our pages folder is as follows:\n\nand the routing configuration is:\n\nNow we would like to have a configuration in which we have a path like .\n\n We have tried the following configuration, which doesn't work and doesn't throw a 404 also. It doesn't redirect to anything.\n• Override the router.config.js inside directory as above.\n• Should open up Results component in URL after redirect from , but it doesn't redirect to anything."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/75680831/what-is-the-difference-between-convention-routing-and-configuring-routing",
+        "document": "I would use the routing best supported by the framework you pick. For Next.js use their file system based routing https://nextjs.org/docs/routing/introduction if you rather use or then use their recommendation. But to better answer your specific question ->\n\nConvention Routing like the one used in Next.js on a high level allows the developer to set up their folder structures to essentially be their routes. This is very intuitive and easy to get set up as you would do this anyways. It is also the way vanilla PHP does it and the way most servers would serve static content.\n\nConfiguration Routing the main advantage for configuration routing is that it allows more control over how the routes are set up and nested. It also frees you to have any folder/file structure you'd like."
+    },
+    {
+        "link": "https://github.com/umijs/umi/issues/8462",
+        "document": "It seams like nested layouts and wrapping is not supported anymore for conventional routing and doesn't even work while using explicit route definitions with Umi 4.\n\nBefore migrating to Umi 4 we were using nested conventional routing (https://v3.umijs.org/docs/convention-routing#nested-routing) with some custom wrappers and nested files for certain sets of subpages. This leads now to missing data injection, wrong access control...\n\nAnyway, we also tested it while not using conventional routing via defining the routes manually and tried using some components as 'layout' which doesn't work eighter.\n• Create layouts or wrappers for each nesting layer with reporting ( console.log, alert, ... )\n• Layouts other than the rooted global layout don't get called\n\nSimilar behaviour like UmiJS 3 or an convenient alternative to use multiple and nested layouts and wrappers."
+    }
+]

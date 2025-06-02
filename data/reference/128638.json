@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/help/matlab/ref/fft.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/discovery/fft.html",
+        "document": ""
+    },
+    {
+        "link": "https://ww2.mathworks.cn/help/matlab/ref/fft.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/251061-how-to-plot-frequency-spectrum-of-a-signal-in-matlab",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/619963-understanding-the-fft-documentation",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/ref/subplot.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/ref/stem.html",
+        "document": ""
+    },
+    {
+        "link": "https://plotly.com/matlab/subplots",
+        "document": "How to make Subplots plots in MATLAB ® with Plotly.\n\nCreate a figure with two stacked subplots. Plot a sine wave in each one.\n\nCreate a figure divided into four subplots. Plot a sine wave in each one and title each subplot.\n\nCreate a figure containing with three subplots. Create two subplots across the upper half of the figure and a third subplot that spans the lower half of the figure. Add titles to each subplot.\n\nCreate a figure with four stem plots of random data. Then replace the second subplot with empty axes.\n\nCreate a figure with two subplots that are not aligned with grid positions. Specify a custom position for each subplot.\n\nCreate a figure with two subplots. Assign the objects to the variables and . Specify the objects as inputs to the plotting functions to ensure that the functions plot into a specific subplot.\n\nModify the axes by setting properties of the objects. Change the font size for the upper subplot and the line width for the lower subplot. Some plotting functions set axes properties. Execute plotting functions before specifying axes properties to avoid overriding existing axes property settings. Use dot notation to set properties.\n\nCreate a line chart. Then convert the axes so that it is the lower subplot of the figure. The subplot function uses the figure in which the original axes existed.\n\nCombine axes that exist in separate figures in a single figure with subplots.\n\nCreate two plots in two different figures. Assign the objects to the variables and . Assign the object to the variable .\n\nCreate copies of the two objects using . Specify the parents of the copied axes as a new figure. Since legends and colorbars do not get copied with the associated axes, copy the legend with the axes."
+    },
+    {
+        "link": "https://it.mathworks.com/help/matlab/ref/stem.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/ident/ref/iddata.plot.html",
+        "document": ""
+    }
+]

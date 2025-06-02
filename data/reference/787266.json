@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://petsc.org/release/manualpages/Mat/MatMatTransposeMult",
+        "document": "fill - expected fill as ratio of nnz(C)/(nnz(A) + nnz(B)), use PETSC_DETERMINE or PETSC_CURRENT if not known\n\n-matmattransmult_mpidense_mpidense_via {allgatherv,cyclic} - Choose between algorithms for MATMPIDENSE matrices: the first redundantly copies the transposed B matrix on each process and requires O(log P) communication complexity; the second never stores more than one portion of the B matrix at a time but requires O(P) communication complexity.\n\nC will be created if and must be destroyed by the user with .\n\ncan only be used if the matrices A and B have the same nonzero pattern as in the previous call\n\nTo determine the correct fill value, run with -info and search for the string “Fill ratio” to see the value actually needed.\n\nThis routine is currently only implemented for pairs of matrices, for the class, and for pairs of matrices.\n\nThis routine is shorthand for using with the of\n\nThe deprecated in also means use the current value"
+    },
+    {
+        "link": "https://petsc.org/main/manualpages/Mat/MatTranspose",
+        "document": "Computes the transpose of a matrix, either in-place or out-of-place.\n\nIf you use then you must pass in for\n\nuses the matrix obtained from a previous call to this function with to store the transpose. If you already have a matrix to contain the transpose, call before calling this routine.\n\nIf the nonzero structure of changed from the previous call to this function with the same matrices an error will be generated for some matrix types.\n\nConsider using instead if you only need a matrix that behaves like the transpose but don’t need the storage to be changed. For example, the result of will compute the transpose of the given matrix times a vector for matrix-vector products computed with .\n\nIf is unchanged from the last call this function returns immediately without recomputing the result\n\nIf you only need the symbolic transpose of a matrix, and not the numerical values, use"
+    },
+    {
+        "link": "https://petsc.org/release/manualpages/Mat/MatTransposeMatMult",
+        "document": "fill - expected fill as ratio of nnz(C)/(nnz(A) + nnz(B)), use PETSC_DETERMINE or PETSC_CURRENT if not known\n\nwill be created if and must be destroyed by the user with .\n\ncan only be used if the matrices A and B have the same nonzero pattern as in the previous call.\n\nThis routine is shorthand for using with the of\n\nTo determine the correct fill value, run with -info and search for the string “Fill ratio” to see the value actually needed.\n\nThis routine is currently implemented for pairs of matrices and pairs of matrices and classes which inherit from . will be of the same type as the input matrices.\n\nThe deprecated in also means use the current value"
+    },
+    {
+        "link": "https://petsc.org/main/manualpages/Mat/MatTransposeMatMult",
+        "document": "fill - expected fill as ratio of nnz(C)/(nnz(A) + nnz(B)), use PETSC_DETERMINE or PETSC_CURRENT if not known\n\nwill be created if and must be destroyed by the user with .\n\ncan only be used if the matrices A and B have the same nonzero pattern as in the previous call.\n\nThis routine is shorthand for using with the of\n\nTo determine the correct fill value, run with -info and search for the string “Fill ratio” to see the value actually needed.\n\nThis routine is currently implemented for pairs of matrices and pairs of matrices and classes which inherit from . will be of the same type as the input matrices.\n\nThe deprecated in also means use the current value"
+    },
+    {
+        "link": "https://petsc.org/release/manualpages/Mat/MatTranspose",
+        "document": "Computes the transpose of a matrix, either in-place or out-of-place.\n\nIf you use then you must pass in for\n\nuses the matrix obtained from a previous call to this function with to store the transpose. If you already have a matrix to contain the transpose, call before calling this routine.\n\nIf the nonzero structure of changed from the previous call to this function with the same matrices an error will be generated for some matrix types.\n\nConsider using instead if you only need a matrix that behaves like the transpose but don’t need the storage to be changed. For example, the result of will compute the transpose of the given matrix times a vector for matrix-vector products computed with .\n\nIf is unchanged from the last call this function returns immediately without recomputing the result\n\nIf you only need the symbolic transpose of a matrix, and not the numerical values, use"
+    },
+    {
+        "link": "https://petsc.org/main/manualpages/Mat/MatMultTranspose",
+        "document": "x - the vector to be multiplied\n\nThe vectors and cannot be the same. I.e., one cannot call (A,y,y).\n\nFor complex numbers this does NOT compute the Hermitian (complex conjugate) transpose multiple, use"
+    },
+    {
+        "link": "https://petsc.org/release/manualpages/Mat/MatMultTranspose",
+        "document": "x - the vector to be multiplied\n\nThe vectors and cannot be the same. I.e., one cannot call (A,y,y).\n\nFor complex numbers this does NOT compute the Hermitian (complex conjugate) transpose multiple, use"
+    },
+    {
+        "link": "https://petsc.org/release/manualpages/Mat/MatMultTranspose.html",
+        "document": ""
+    },
+    {
+        "link": "https://mcs.anl.gov/petsc/petsc-3.4/docs/manualpages/Mat/MatMultTranspose.html",
+        "document": ""
+    },
+    {
+        "link": "https://petsc.org/main/manualpages/Mat/MatTranspose",
+        "document": "Computes the transpose of a matrix, either in-place or out-of-place.\n\nIf you use then you must pass in for\n\nuses the matrix obtained from a previous call to this function with to store the transpose. If you already have a matrix to contain the transpose, call before calling this routine.\n\nIf the nonzero structure of changed from the previous call to this function with the same matrices an error will be generated for some matrix types.\n\nConsider using instead if you only need a matrix that behaves like the transpose but don’t need the storage to be changed. For example, the result of will compute the transpose of the given matrix times a vector for matrix-vector products computed with .\n\nIf is unchanged from the last call this function returns immediately without recomputing the result\n\nIf you only need the symbolic transpose of a matrix, and not the numerical values, use"
+    }
+]

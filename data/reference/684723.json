@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.unity3d.com/Manual/com.unity.burst.html",
+        "document": "Burst is a compiler that translates from IL/.NET bytecode to highly optimized native code using LLVM.\n\nThese package versions are available in Unity version 6000.0:"
+    },
+    {
+        "link": "https://docs.unity3d.com/Packages/com.unity.burst@0.2",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/internal-compiler-error-for-burst/874447",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/what-are-the-optimizations-that-burst-compiler-do/864522",
+        "document": ""
+    },
+    {
+        "link": "https://docs.unity.com/ugs/en-us/manual/cloud-code/manual/modules/how-to-guides/error-handling",
+        "document": "Learn how to handle errors in your modules.\n\nCloud Code returns a status error if your module throws an exception.\n\nUse the error code or error type for your error-handling logic, instead of the error message returned from the Cloud Code API error response. Error messages can change in the future, but error codes and type remain the same.\n\nWrap your code in / blocks to handle errors. If an error occurs, you can log it and return an error to the client.\n\nFor example, you can have a non-wrapped function:\n\nIf you add the / blocks to handle errors, you can return a more specific error message. You can also log the error:\n\nThe wrapped function returns an error message with more detail:\n\nYou can check the logs in the Unity Cloud Dashboard. To get more details about the error, select Products > Cloud Code > Logs.\n\nFor more information about batch requests, refer to Batch requests.\n\nEvery time a Cloud Code C# SDK returns an unsuccessful status code, the SDK throws an exception. You can use this exception to get the status code and error message.\n\nYou can catch the exception and handle it, or log and rethrow the error. This means you don't have to check for the status code in the object.\n\nCloud Code can't handle exceptions that result from memory leaks, such as infinite loops. If your module exceeds the memory limit, the worker eventually crashes. Cloud Code can't handle exceptions for patterns. Always return a or . For best practices in asynchronous programming, refer to the official Microsoft documentation.\n\nTo help you debug your modules, you can log errors and warnings with the interface.\n\nCloud Code automatically adds attributes like the , and to the logs, so you don't need to add them to your log messages.\n\nYou can log messages at different levels. These levels can help you query logs in the Unity Cloud Dashboard.\n\nTo view and filter your logs, navigate to the Unity Cloud Dashboard and select Products > Cloud Code > Logs.\n\nFor more information, refer to Emit logs."
+    },
+    {
+        "link": "https://discussions.unity.com/t/job-failed-with-exception-system-reflection-targetinvocationexception-unity-error/884509",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/40066772/how-to-fix-system-reflection-targetinvocationexception-has-been-thrown",
+        "document": "I'm following a tutorial for making a discord bot, and after following the basics for setting up a bot I keep running into this exception:\n\nSystem.Reflection.TargetInvocationException has been thrown. Exception has been thrown by the target of an invocation.\n\nThis is the code I have:\n\nMonoDevelop says that the exception is happening with this piece of code:\n\nI don't know how to fix this, so any help would be greatly appreciated."
+    },
+    {
+        "link": "https://discussions.unity.com/t/system-reflection-targetinvocationexception-exception-has-been-thrown-by-the-target-of-an-invocatio/800222",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/12164488/system-reflection-targetinvocationexception-occurred-in-presentationframework",
+        "document": "To diagnose this issue, place the line of code causing the TargetInvocationException inside the try block.\n\nTo troubleshoot this type of error, get the inner exception. It could be due to a number of different issues."
+    },
+    {
+        "link": "https://reddit.com/r/Unity2D/comments/1178k0b/why_cant_i_convert_my_existing_unity_2d_project",
+        "document": "So I was using Post Processing prior to installing the URP package from package manager, after downloading and installing the URP it said that my Burst package is updated and I need to restart my Unity Editor, And when I press on OK and it starts to compile things and then I get the following error:\n\nThen I read the Unity manual on how to install the URP and it said something about first removing the existing Post Processing and then installing the URP package, I did that as well and reinstalled the URP but I still got the above error.\n\nSo I thought I will restart Unity Editor and try again, After restarting I tried to create an URP profile and assigned it in Graphics and Quality menu and pressed ok for the Burst option that pops up and I got this error:\n\nI had Burst version 1.8 something, and I did downgraded to 1.6.6 hoping it will work but that didn't worked either.\n\nAt this point I don't know what to do or how to make it work.\n\nSide Note: My project is a multiplayer game and its using Photon Networking."
+    }
+]

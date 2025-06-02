@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/1778-tz-VLAN-Best-Practices-and-Security-Tips-for-Cisco-Business-Routers.html",
+        "document": ""
+    },
+    {
+        "link": "https://cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/1778-tz-VLAN-Best-Practices-and-Security-Tips-for-Cisco-Business-Routers.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://ciscopress.com/articles/article.asp?p=2181837&seqNum=11",
+        "document": ""
+    },
+    {
+        "link": "https://practicalnetworking.net/stand-alone/configuring-vlans",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/homelab/comments/v8gbut/best_practices_for_vlans",
+        "document": ""
+    },
+    {
+        "link": "https://cisco.com/c/en/us/support/docs/lan-switching/inter-vlan-routing/14976-50.html",
+        "document": ""
+    },
+    {
+        "link": "https://cisco.com/c/en/us/support/docs/lan-switching/inter-vlan-routing/41260-189.html",
+        "document": ""
+    },
+    {
+        "link": "https://comparitech.com/net-admin/inter-vlan-routing-configuration",
+        "document": ""
+    },
+    {
+        "link": "https://ciscopress.com/articles/article.asp?p=3089357&seqNum=6",
+        "document": ""
+    },
+    {
+        "link": "https://info.pivitglobal.com/resources/inter-vlan-routing-configuration-guide-for-cisco",
+        "document": ""
+    }
+]

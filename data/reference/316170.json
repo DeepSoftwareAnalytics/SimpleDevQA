@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://numpy.org/doc/2.1/reference/generated/numpy.std.html",
+        "document": ""
+    },
+    {
+        "link": "https://numpy.org/doc/2.2/user/absolute_beginners.html",
+        "document": ""
+    },
+    {
+        "link": "https://numpy.org/doc/stable/reference/routines.statistics.html",
+        "document": ""
+    },
+    {
+        "link": "https://numpy.org/doc/stable/reference/index.html",
+        "document": ""
+    },
+    {
+        "link": "https://numpy.org/doc/stable//reference/routines.statistics.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/24281263/axis-in-a-multidimensional-numpy-array",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/26663314/best-practice-for-fancy-indexing-a-numpy-array-along-multiple-axes",
+        "document": ""
+    },
+    {
+        "link": "https://freecodecamp.org/news/multi-dimensional-arrays-in-python",
+        "document": ""
+    },
+    {
+        "link": "http://kestrel.nmt.edu/~raymond/software/python_notes/paper003.html",
+        "document": ""
+    },
+    {
+        "link": "https://statology.org/how-to-efficiently-swap-axes-multidimensional-arrays-numpy",
+        "document": ""
+    }
+]

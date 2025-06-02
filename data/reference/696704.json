@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://github.com/gerddie/ginkgocadx",
+        "document": "\n• The project had been abandoned by the original authors. Since the programs requires an OpenGL compatibility profile porting it to use current VTK versions would require porting it also to wxWindgets >= 3.1, which has not yet a stable API. Since my personal interest in this projecr is now zero, I archive this project.\n\nGinkgo CADx is an advanced DICOM viewer and dicomizer that can also be used to convert png, jpeg, bmp, pdf, tiff to DICOM files.\n\nThe version developed here is a continuation of the now abandoned free version developed by MetaEmotion:\n\nGinkgo CADx is licensed under the terms of the Lesser GNU Public Licence 3.\n\nTo build Ginkgo CADx the following software packages are required:\n• VTK (>= 6.2), Please note that the code does currently not compile with the VTK OpenGL2 rendering backend (see #21 and #34). VTK >= 7.0 defaults to this newer backend when configured without parameters, and currently you will have to set VTK_RENDERING_BACKEND=OpenGL when building VTK to sucessfully compile ginkgocadx.\n• A C++ compiler that supports the C++11 standard\n\nWith these prerequisites available run cmake on the Ginkgo CADx source tree and then use the selected build system to build the software. After the software was sucessfully compiled run the install target:\n\nThe original Ginkgo CADx implementation was done with cross-platform compatibility in mind, i.e. the software should compile on MS Windows, macOS, and flavours of Linux. However, currently the main development platforms are Debian GNU/Linux and Gentoo Linux using the GNU gcc compiler tool chain. Hence incompatibilities may creep in and bug reports with fixes for other platforms are very welcome.\n\nThe following packages must be installed in order to compile it:\n\nOn Debian Stretch and Sid these packages can be installed by simply running:\n\nAlternatively, if you don't have the src in your , the following should enable you to install all the dependencies:\n\nOn Ubuntu Xenial (16.04 )the package can be installed from the Xenial ports PPA:\n\nFor Yantal the package available from the usual Ubuntu repositories."
+    },
+    {
+        "link": "https://forums.linuxmint.com/viewtopic.php?t=380262",
+        "document": ""
+    },
+    {
+        "link": "https://packages.debian.org/buster/ginkgocadx",
+        "document": "Ginkgo CADx provides a complete DICOM viewer solution with advanced capabilities and support for extensions."
+    },
+    {
+        "link": "https://manpages.debian.org/buster/ginkgocadx/ginkgocadx.1",
+        "document": ""
+    },
+    {
+        "link": "https://askubuntu.com/questions/909692/is-there-a-way-to-open-dicom-files",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://orthanc-server.com/static.php?page=documentation",
+        "document": "Read the thorough documentation for Orthanc. Find support to your problems."
+    },
+    {
+        "link": "https://orthanc.uclouvain.be/book/users/debian-packages.html",
+        "document": "Orthanc is available as an official Debian package that is continuously updated by the Orthanc core developers in the Debian Sid/unstable distribution. This implies that Orthanc is also available in the Debian derivative distributions, most notably in Ubuntu. Most of the official plugins are also available as separate packages.\n\nNote that the installed versions depend on the version of the Debian distribution. If you absolutely need the latest Orthanc version, you should:\n• None Use the bleeding-edge Debian unstable, or use a Debian-based distro that derives from unstable (such as Kali Linux).\n• None Advanced users: replace the binaries from the package by the LSB binaries.\n\nNote about backporting: Bringing a new version of Orthanc to an older Ubuntu/Debian release (typically, a LTS release) is known as “backporting”. The process for initiating a backport in Ubuntu or in Debian is publicly available, but the core developers of Orthanc will not do this packaging task by themselves because of a limited bandwidth: You are kindly invited to contribute!"
+    },
+    {
+        "link": "https://orthanc.uclouvain.be/book/dicom-guide.html",
+        "document": "This section of the Orthanc Book provides a gentle, informal, high-level introduction to DICOM. We will try and map DICOM’s own concepts to a modern terminology that should hopefully be more easy to understand for software engineers diving for the first time into DICOM. Once the concepts of this page are understood, interested readers are invited to read a more formal textbook about DICOM, such as the so-called “Practical introduction and survival guide”, or to read the full DICOM specification.\n\nAll the DICOM concepts that are defined in this introduction are illustrated with Orthanc, a lightweight, yet powerful standalone DICOM server for healthcare and medical research. As Orthanc is free and open-source software, it is a good companion to learn DICOM."
+    },
+    {
+        "link": "https://packages.debian.org/bookworm/orthanc",
+        "document": "Orthanc aims at providing a simple, yet powerful DICOM server for medical imaging. Orthanc can turn any computer running Windows or Linux into a Vendor Neutral Archive (in other words, a mini-PACS system). Its architecture is lightweight, meaning that no complex database administration is required, nor the installation of third-party dependencies.\n\nWhat makes Orthanc unique is the fact that it provides a RESTful API. Thanks to this major feature, it is possible to drive Orthanc from any computer language. The DICOM tags of the stored medical images can be downloaded in the JSON file format. Furthermore, standard PNG images can be generated on-the-fly from the DICOM instances by Orthanc.\n\nOrthanc lets its users focus on the content of the DICOM files, hiding the complexity of the DICOM format and of the DICOM protocol."
+    },
+    {
+        "link": "https://orthanc-server.com/static.php?page=dicomweb",
+        "document": "\"DICOMweb is the Web standard for medical imaging. It is primarily a set of RESTful services.\"\n\nOut-of-the-box, Orthanc comes with its own REST API. This API allows full CRUD operations (create, read, update and delete) on the set of DICOM resources that Orthanc stores, together with commands that trigger calls to the DICOM protocol (C-Echo SCU/SCP, C-Store SCU/SCP, C-Find SCU/SCP, C-Move SCU/SCP, C-Get SCP).\n\nThe present plugin extends the native REST API of Orthanc with a reference implementation of the DICOMweb standard. Loading the plugin into Orthanc will provide support of WADO-URI (previously known simply as WADO), WADO-RS, QIDO-RS and STOW-RS.\n\nThe full standard is not implemented yet, the supported features are tracked in the repository.\n\nThe code of the DICOMweb plugin is licensed under the Affero General Public License (AGPL). Pay attention to the fact that this license is more restrictive than the license of the Orthanc core."
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.arduino.cc/language-reference/en/functions/digital-io/pinMode",
+        "document": ""
+    },
+    {
+        "link": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/gpio.html",
+        "document": ""
+    },
+    {
+        "link": "https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/api/gpio.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.arduino.cc/tutorials/nano-esp32/pin-setup",
+        "document": ""
+    },
+    {
+        "link": "https://randomnerdtutorials.com/esp32-digital-inputs-outputs-arduino",
+        "document": ""
+    },
+    {
+        "link": "https://docs.arduino.cc/language-reference/en/functions/time/delayMicroseconds",
+        "document": ""
+    },
+    {
+        "link": "https://forum.arduino.cc/t/precision-of-delaymicroseconds/335858",
+        "document": ""
+    },
+    {
+        "link": "https://arduino.stackexchange.com/questions/92240/delaymicroseconds-and-micros-execution-time-not-explainable",
+        "document": ""
+    },
+    {
+        "link": "https://arduino.cc/reference/cs/language/functions/time/delaymicroseconds",
+        "document": ""
+    },
+    {
+        "link": "https://forum.arduino.cc/t/i-investigated-precision-of-delaymicroseconds-x-function/505774",
+        "document": ""
+    }
+]

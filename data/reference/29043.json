@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.fivem.net/docs/scripting-reference/runtimes/lua/functions/RegisterNetEvent",
+        "document": ""
+    },
+    {
+        "link": "https://docs.fivem.net/docs/scripting-manual/runtimes/lua",
+        "document": ""
+    },
+    {
+        "link": "https://docs.fivem.net/docs/scripting-reference",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/TanKode/fivem-lua-sdk/blob/master/client/fivem/event.lua",
+        "document": ""
+    },
+    {
+        "link": "https://forum.cfx.re/t/fivem-scripting-documentation/192",
+        "document": ""
+    },
+    {
+        "link": "https://forum.cfx.re/t/c-triggerserverevent-registerevent/37999",
+        "document": ""
+    },
+    {
+        "link": "https://docs.fivem.net/docs/scripting-reference/runtimes/lua/functions/TriggerServerEvent",
+        "document": ""
+    },
+    {
+        "link": "https://forum.cfx.re/t/triggerserverevent-doesnt-emit-the-event/2443273",
+        "document": ""
+    },
+    {
+        "link": "https://docs.fivem.net/docs/scripting-manual/working-with-events/triggering-events",
+        "document": ""
+    },
+    {
+        "link": "https://docs.fivem.net/docs/developers/server-security",
+        "document": ""
+    }
+]

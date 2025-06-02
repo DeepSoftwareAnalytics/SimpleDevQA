@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/43876891/given-ip-address-and-netmask-how-can-i-calculate-the-subnet-range-using-bash",
+        "document": "Well, you already have the network address. The first host address is just one higher than the network address, which is easy to calculate since you know the low-order bits are zeroes (so there's no overflow to high bytes...)\n\nThen the broadcast address. That's just the address where all the host address bits are set to ones. Those are the bits where the subnet mask is zero. So, to get the broadcast address, invert the mask and do a bitwise . The last host address is just one less from that.\n\nBash's arithmetic supports the same bitwise operators as C and most other languages, so for , for , for xor and for negation. From what you already have, you should be able to produce the missing ones."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/15429420/given-the-ip-and-netmask-how-can-i-calculate-the-network-address-using-bash",
+        "document": "For people who hit this while googling and need an answer that works in , the that's included in BusyBox and therefore on many routers, here's something for that case:\n\nAnd here's what to do if you only have the prefix length:"
+    },
+    {
+        "link": "https://gist.github.com/cskeeters/278cb27367fbaa21b3f2957a39087abf",
+        "document": "You can’t perform that action at this time."
+    },
+    {
+        "link": "https://routertech.org/viewtopic.php?t=1609",
+        "document": "he he that is the weak point - its all pretty academic - I only need the bit between #'s!. There's a 'pure half bridge mode' but many routers can't handle the single Ip address and out-of network gateway this requires (can be fixed in routers with 3rd party firmware...). One way to get around this is to 'spoof' the netmask so the ISP gateway is in the network defined by the IP address and netmask. A downside of this is that the receiving router/PC thinks all those addresses are in the local network, and won't be accessible. I can make the router advertize and route these addresses correctly using proxy arp to those addresses if I can do this calculation and add an extra route command. [edit] see also http://forums.whirlpool.net.au/forum-re ... #r12250396 Some other routers use this netmask spoof method, I don't know if they also use use the proxy arp but if I can - I want to! I think I know how D-Link ZIPB works it effectively proxy-arps the whole of the internet but this needs a kernel patch in arp.c so I am not going there...The 'experimental' half bridge script in RT2.3 has an option of the netmask spoof - but not this refinement. I also now have 1-2-1 NAT and Gateway spoof working but both need to keep iptables netfilter running for snat /dnat but not masquerade..... have I lost you yet?"
+    },
+    {
+        "link": "https://quora.com/How-would-I-create-a-bash-script-to-automatically-find-the-subnet-mask-of-my-private-network-such-as-identifying-if-my-network-is-192-168-or-10-0",
+        "document": "Something went wrong. Wait a moment and try again."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/22185139/bash-script-to-batch-convert-ip-addresses-to-cidr",
+        "document": "I have a plaintext list of IP addresses that I'm blocking on my servers, growing more and more unwieldy every day (added 3000+ entries today alone).\n\nIt's already been sorted for duplicates so that's not a problem. What I'd like to do is write a script to go through it and consolidate the entries a bit better for mass blocking.\n\nFor example, take this:\n\nAnd turn it into this:\n\nAny suggestions on how to code that in a bash script?\n\nUPDATE: I've worked out part-way how to do what I'm needing. Converting it to /24 is easy, as follows:\n\nThat reduced it down from 4,452 entries to 4,148 entries.\n\nInstead of having:\n\nAll well and good. BUT, there's 17 entries from the 109.86.. area. In a case where the first 2 octets match more than say 5 entries on /24, I'd like to reduce that to /16.\n\nFor Steve: Here's the block list for today. And here's the result so far. Apparently it's not removing the near-duplicate entries from twentyfour that are in sixteen."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/57140911/validating-a-cidr-ip-to-set-for-an-interface",
+        "document": "I'm writing a bash script, which sets a fixed IP for an interface. I'd set the chosen IP with .\n\nFor this I'll need to validate the user given CIDR IP and came across this perl command:\n\nNow this would be a great one-liner for the bash script, but it only checks if it is a valid network, not if it's valid client IP on the network.\n\nBash-only solutions become rather extensive quickly, so I'd be fine to use perl or python for this.\n\nI could not identify the appropriate perl command to check if the user entered a valid client IP (CIDR).\n\nI started implementing a regex check in bash, but that became rather extensive quickly.\n\nThis perl command almost does the job perfectly, except it states client IPs on the network are \"invalid\".\n\nI'd expect the function to identify valid CIDR client IPs. For example:\n\nWhat perl/python/bash function can I use to check if a user define IP (CIDR) is a valid client IP?"
+    },
+    {
+        "link": "https://medium.com/@kuldeepkumawat195/understanding-cidr-notation-and-ip-address-range-0c0770572990",
+        "document": "In the world of network administration, knowing about IP addressing and CIDR notation is key. IP addresses are like names for devices on the internet. They help us talk to each other online.\n\nAs more devices connect, we need to use these names wisely. This is why network experts focus on managing them well.\n\nThis article will explore IP addressing in detail. We’ll look at how it has changed over time. We’ll also see how CIDR notation helps use IP addresses better.\n\nBy learning about IP addresses and CIDR notation, you’ll understand how networks work. You’ll see how they are structured and how CIDR notation helps in designing networks.\n• IP addresses have network and host parts. IPv4 uses 32-bit addresses, and IPv6 uses 128-bit addresses.\n• CIDR notation, like “/24”, splits the IP address into network and host parts.\n• There are about 4 billion possible IP addresses. Some are reserved for networks and broadcasts.\n• CIDR notation helps use IP addresses efficiently. It prevents running out of IPv4 addresses.\n• Knowing CIDR notation is vital for designing networks, calculating subnets, and managing IP addresses."
+    },
+    {
+        "link": "https://unix.com/shell-programming-and-scripting/34301-get-ip-list-cidr.html",
+        "document": ""
+    },
+    {
+        "link": "https://community.unix.com/t/convert-ip-ranges-to-cidr-netblock/374341",
+        "document": "Hi, Recently I had to convert a 280K lines of ip ranges to the CIDR notation and generate a file to be used by ipset (netfilter) for ip filtering. Input file: pre { overflow:scroll; margin:2px; paddin | The UNIX and Linux Forums"
+    }
+]

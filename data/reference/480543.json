@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/help/matlab/cell-arrays.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/matlab_prog/access-data-in-a-cell-array.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/ref/cell.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/1904490-indexing-in-complex-cell-arrays",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/84413-indexing-cell-array-of-arrays",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/math/array-indexing.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/math/multidimensional-arrays.html",
+        "document": ""
+    },
+    {
+        "link": "https://cheresearch.engin.umich.edu/mranton/pdf/matlab_array_tips.pdf",
+        "document": ""
+    },
+    {
+        "link": "http://bioinformatics.intec.ugent.be/MotifSuite/INCLUSive_for_users/CPU_64/Matlab_Compiler_Runtime/v79/toolbox/matlab/demos/html/nddemo.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/38381848/matlab-how-to-extract-matrix-elements-corresponding-to-row-and-column-subscrip",
+        "document": "I am stuck with cell arrays and indexing. I have a matrix M and I want to extract only those elements with specific row- and column- indices. These indices are stored in cell arrays: C1 (for row subscripts) and C2 for column subscripts.\n\nThis is the way I did it:\n\nHowever, the result is not what I want. I only need to take same-index values from C1 and C2: Sub_M {4} should have only those elements of M with the row and column subscripts having the same index in the respective arrays. For example, Sub_M (2,2) should be:\n\nI do not know how to do that. Note: cells in C1 have different size, same for cells in C2. But the first cell in C1 has the same size as the first in C2, the second in C1 as the second in C2 and so on...\n\nCan you help me?"
+    }
+]

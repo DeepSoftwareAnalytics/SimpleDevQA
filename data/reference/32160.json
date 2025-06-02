@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://docs.python.org/3/library/html.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.python.org/3/library/functions.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/2360598/how-do-i-unescape-html-entities-in-a-string-in-python-3-1",
+        "document": ""
+    },
+    {
+        "link": "https://wiki.python.org/moin/EscapingHtml",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/html-unescape-in-python",
+        "document": ""
+    },
+    {
+        "link": "https://platform.openai.com/docs/guides/text-generation",
+        "document": ""
+    },
+    {
+        "link": "https://platform.openai.com/docs/api-reference/chat",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@marc.bolle/openai-apis-with-python-complete-guide-d933fb770f95",
+        "document": ""
+    },
+    {
+        "link": "https://community.openai.com/t/how-to-pass-prompt-to-the-chat-completions-create/592629",
+        "document": ""
+    },
+    {
+        "link": "https://arize.com/blog-course/mastering-openai-api-tips-and-tricks",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/56176580/how-to-use-pythons-pyperclip-to-paste-text-on-a-separate-program",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/pyperclip-module-in-python",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/14685999/trigger-an-event-when-clipboard-content-changes",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/Python/comments/1awjuv9/copykitten_the_missing_clipboard_library_for",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/analytics-vidhya/clipboard-operations-in-python-3cf2b3bd998c",
+        "document": ""
+    }
+]

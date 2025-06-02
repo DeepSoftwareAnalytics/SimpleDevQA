@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.disnake.dev/en/stable/ext/commands/api/bots.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.disnake.dev/en/stable/quickstart.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.disnake.dev/en/v2.9.3/quickstart.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.disnake.dev/en/latest/ext/commands/api/bots.html",
+        "document": ""
+    },
+    {
+        "link": "https://thecodingchannel.hashnode.dev/full-tutorial-we-build-a-python-wordle-clone-discord-bot-with-disnake",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/51292027/how-to-schedule-a-task-in-asyncio-so-it-runs-at-a-certain-date",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/60419277/python-asyncio-schedule-tasks-weekly",
+        "document": ""
+    },
+    {
+        "link": "https://discordpy.readthedocs.io/en/stable/ext/tasks/index.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.python.org/3/library/asyncio-task.html",
+        "document": ""
+    },
+    {
+        "link": "https://discordpy.readthedocs.io/en/latest/ext/tasks/index.html",
+        "document": ""
+    }
+]

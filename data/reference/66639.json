@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://mathworks.com/discovery/convolution.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/ref/conv.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/fixedpoint/ref/conv.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/610176-how-to-use-the-convolution-function-rather-than-filter-for-signal",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/706443-how-can-i-use-the-conv-function-to-calculate-convolution-of-two-functions-with-different-ranges",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ref/rectpuls.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help//releases/R2021a/signal/ref/rectpuls.html",
+        "document": "Generate 200 ms of a rectangular pulse with a sample rate of 10 kHz and a width of 20 ms.\n\nGenerate two copies of the same pulse:\n• None One displaced 60 ms into the future and half as wide.\n\nPlot the original pulse and the two copies on the same axes."
+    },
+    {
+        "link": "https://mathworks.com/help/symbolic/sym.rectangularpulse.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ug/signal-generation-and-visualization.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/72279084/generate-a-rectangular-pulse-in-matlab",
+        "document": "I need to create a rectangular pulse with and a range where 59 msec.\n\nI wrote this code but I'm not sure if that's correct.\n\nThis code generates a rectangular pulse but I'm not sure if it's right. Also, I'm not quite sure what the means. I mean the range is from -29.5 to 29.5 with step 1. When I set this to 0.1 or 0.01 my pulse is better. Why does this affect my output?\n\nNote that the second thing I have to do is to create a periodic sequence of clock pulses. I don't know if this affects the way I must implement my initial rectangular pulse."
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/1950233-signals-processing-convolution-graph",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/1816825-how-to-plot-the-convolution-integral-of-two-functions",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/159760-plotting-the-convolution-of-two-signals",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/1813195-convolution-of-signals-using-matlab",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/1878917-do-you-draw-the-results-and-graphs-of-the-convolution",
+        "document": ""
+    }
+]

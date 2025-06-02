@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://overleaf.com/learn/latex/Sections_and_chapters",
+        "document": "Documents usually have some form of “logical structure”: division into chapters, sections, sub-sections etc. to organize their content. LaTeX supports the creation of a document structure and also enables customization of sectioning and numbering. The commands available to organize a document depend on the document class being used, although the simplest form of organization, sectioning, is available in all formats.\n\nLet’s begin with a basic example to demonstrate the command, which marks the beginning of a new section called . Section numbering is automatic and can be customized, or disabled.\n\nOpen this example in Overleaf.\n\n\n\n This example produces the following output:\n\nLaTeX can organize, number, and index chapters and sections of document. There are up to 7 levels of depth for defining sections depending on the document class:\n\nUsually, is the top-level document command in most documents. However, in reports or books, and similar long documents, this would be or .\n\nTo get an unnumbered chapter, section, subsection, etc. add an asterisk ( ) at the end of the command, before the opening curly brace. These will not go into the table of contents. Here is our first example (above) but this time using instead of :\n\nOpen this example in Overleaf.\n\n\n\n This example produces the following output:\n\nUnnumbered sections in the table of contents\n\nTo add an unnumbered section to the table of contents, use the command like this:\n\nHere is an example using but see the article Table of contents for further information and examples.\n\nOpen this example in Overleaf.\n\n\n\n This example produces the following output:\n\nAs mentioned before, can be used in books and reports.\n\nBelow you can see an example using text taken the Overleaf article An Introduction to LuaTeX (Part 1): What is it—and what makes it so different?\n\nOpen this example in Overleaf (using )\n\nThis example produces the following output—here we show pages 2–4, where the page images have been overlapped to ease presentation:\n\nThe following example reproduces text from the example but with , containing parts, chapters, sections, subsections and sub-subsections. If you open the example in Overleaf you should see that sub-subsections produced by are not numbered. That is by design of the class: if you want to change this behavior, add the following command to your document preamble:\n\nTo see the output, open this example in Overleaf (it uses )\n\nYou can use the package to customize chapters, sections and subsections style in an easy way.\n\nOpen this example in Overleaf.\n\nThis example produces the following output:\n\nThere are two general commands:\n\nwhere and are optional parameters, and:\n• is the sectioning command to be redefined: , , , , , or .\n• is sectioning paragraph shape; possible values are: , , , , , , , and .\n• is the format to be applied to the title, label, and text; for example\n• is the horizontal separation between label and title body and it must be a length and not be empty.\n• is code following the title body.\n• is the vertical space before the title.\n• is the separation between title and non-sectioning text.\n\nThe starred version of this command ( ) kills the indentation of the paragraph following the title.\n\nFor more information see:"
+    },
+    {
+        "link": "https://tex.stackexchange.com/questions/237927/change-section-command-in-article",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://tex.stackexchange.com/questions/17275/defining-custom-sectioning-commands",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://tex.stackexchange.com/questions/483919/how-to-get-custom-section-style-using-titlesec",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://ctan.org/pkg/titlesec?lang=en",
+        "document": "A package providing an interface to sectioning commands for selection from various title styles. E.g., marginal titles and to change the font of all headings with a single command, also providing simple one-step page styles. Also includes a package to change the page styles when there are floats in a page. You may assign headers/footers to individual floats, too.\n\nDownload the contents of this package in one zip archive (695.1k)."
+    },
+    {
+        "link": "https://tex.stackexchange.com/questions/17275/defining-custom-sectioning-commands",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://tex.stackexchange.com/questions/160738/how-to-define-a-new-command-based-on-section-with-its-optional-argument",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://tex.stackexchange.com/questions/414202/defining-a-new-command-every-time-a-command-is-called",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://tex.stackexchange.com/questions/175635/create-new-section-commands-with-correct-toc-entries-in-koma-script",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://cmor-faculty.rice.edu/~heinken/latex/latex2e.html",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://arduino.cc/en/Tutorial/StringIndexOf",
+        "document": ""
+    },
+    {
+        "link": "https://arduino.cc/en/Tutorial/BuiltInExamples/StringIndexOf",
+        "document": ""
+    },
+    {
+        "link": "https://docs.arduino.cc/built-in-examples/strings/StringIndexOf",
+        "document": ""
+    },
+    {
+        "link": "https://arduino.cc/en/Tutorial/StringSubstring",
+        "document": ""
+    },
+    {
+        "link": "https://forum.arduino.cc/t/string-searching-substring-vs-indexof/549663",
+        "document": "I'm working on a remote home monitoring system for my off grid cabin. I have the MKR GSM that I will text to get status updates. In the code I'm writing I'm searching the incoming phone number to only respond to my phone, and then searching the text body for commands.\n\nAs I research code I see a lot of string searching uses indexOf(). Not many examples use Substring. Is there a reason? Is there an advantage to one over the other? Maybe it's splitting hairs and it doesn't matter for a non-intensive application.\n\nThanks for your input, Spanky"
+    },
+    {
+        "link": "https://arduino.cc/en/Tutorial/StringIndexOf",
+        "document": ""
+    },
+    {
+        "link": "https://tutorialspoint.com/find-if-a-substring-exists-within-a-string-in-arduino",
+        "document": "Find if a substring exists within a string in Arduino\n\nIn order to check if a specific substring exists within a string in Arduino, the indexOf() function can be used. This returns the index of the first occurrence of the character or a string that you are searching for within another string. In case the character or string does not exist within the given string, the function returns -1.\n\nExample implementations are given in the code below −\n\nThe Serial Monitor output is given below −\n\nAs you can see, for the first two cases, the index is returned correctly (the counting starts from 0, thus 'H' has index 0, 'e' has index 1 and so on). \"Wor\" starts from index 6. For the last two cases, the searched character/string are not found in s1, and therefore, -1 is returned.\n\nIn case you wish to start the search from an offset, you can provide the second argument to the function, specifying the index from which the search should start.\n\nSee the below code −\n\nAs you can see, at the first step, the location of 'o' in Hello is returned (index 4). Later, when we specified that search should start from index 5, the location of 'o' in World is returned (index 7 of \"Hello World\")."
+    },
+    {
+        "link": "https://forum.arduino.cc/t/string-searching-substring-vs-indexof/549663",
+        "document": "I'm working on a remote home monitoring system for my off grid cabin. I have the MKR GSM that I will text to get status updates. In the code I'm writing I'm searching the incoming phone number to only respond to my phone, and then searching the text body for commands.\n\nAs I research code I see a lot of string searching uses indexOf(). Not many examples use Substring. Is there a reason? Is there an advantage to one over the other? Maybe it's splitting hairs and it doesn't matter for a non-intensive application.\n\nThanks for your input, Spanky"
+    },
+    {
+        "link": "https://forum.arduino.cc/t/using-indexof-and-substring/243091",
+        "document": "i would like to capture the value of a text box submitted from a form. My URL when the form is submitted is: I need to set the variable startTime to 33. I have the index of “startTime” in the URL. I can get what comes after “startTime” in the URL but I am getting everything that comes after it, not just the two number. (33). int stTimeInd = HTTP_req.indexOf(\"startTime=\"); String startTime = HTTP_req.substring(stTimeInd+9); //////////// this is where i need the help (I think) Serial.print(\"start time is\"); Serial.println(startTime); I commented the line where i think i am in trouble.\n\nIf indexOf() successfully returns the location of the =, why does it not successfully return the location of the &? Or perhaps I should ask why you aren't asking for the location of the &. The substring of interest is between the = and the &, isn't it?\n\nIm not sure what you are asking me. I am looking for the location of \"startTime=\" and what i want to capture is everything between \"startTime=\" and \"&\". So in other words using the example i gave in my original post, When i submit the form (URL: http://192.168.0.25/?startTime=33&duration=) the result of \"Serial.println(startTime)\" needs to be\"start time is=33. What i am getting is :start time is=33&duration= The line where i think i have the issue is: This is requesting a string starting at the 9th position after startTime=, what i need to find out is how to tell it where to stop. I want to limit what it returns to what is between \"startTime=\" and the ampersand. Even if i could limit what it returns to 2 characters that would be fine as well since this will always be a two digit number.\n\nI think the general approach would be to split the URL at the first '?' to find the start of the URL-encoded values, and then split the right hand side at '&' to separate the value assignments, and then split each assignment at '=' to separate the name from the value. If your URL can include entity references then the decoding would need to be a bit cleverer. This feels like the sort of common requirement that somebody somewhere will surely have implemented as a library. If you only want to deal with this specific value then you could search for \"startTime=\" and the following '&' and anything in between them should be the value you want.\n\nThat is correct. The issue i have is how do i do it? What is the code i need to limit the string to what is between startTime= and the ampersand? I can get everything after startTime=, but how do i stop it at the ampersand?\n\nIm not sure what you are asking me. I am looking for the location of \"startTime=\" and what i want to capture is everything between \"startTime=\" and \"&\". No, the string you want to capture is between the = and the &. You need to find the location of startTIme= ONLY so that you know that the substring between the = and the & IS the start time. Once you know that indexOf(\"startTime=\") is not -1, the the actual value does NOT matter. Get the indexOf() the =. Get the indexOf() the &. The stubstring starts at indexOf(\"=\")+. The length is indexOf(\"&\") - indexOf(\"=) - 1."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/60859071/extracting-a-sequence-of-a-whole-string-arduino-c-indexof-substring",
+        "document": "I would like to extract an arbitrary part of an entire string and post it via Serial.println().\n\nThe source problem I encounter is that the string values (A, B, C) are variables and thus \"unknown\". It messes with the defined terminators \" -\" and \" END $\". I can't find suitable anchor points to fetch the exact part of the string I want. I can, if these string values are not present: \"curD = 'Data: String1 A'\" vs. \"curD = 'String1'\". I would like to have only \"String1 A\", \"String2 B\" or \"String3 C\".\n\nThe examples A, B, C are either an int, float, or string of variable/random length.\n\nThis is what I have so far:"
+    }
+]

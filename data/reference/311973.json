@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/347358/inheriting-constructors",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/constructor-in-multiple-inheritance-in-cpp",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/120876/what-are-the-rules-for-calling-the-base-class-constructor",
+        "document": ""
+    },
+    {
+        "link": "https://modernescpp.com/index.php/c-core-guidelines-constructors",
+        "document": ""
+    },
+    {
+        "link": "https://isocpp.org/wiki/faq/proper-inheritance",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/10282787/calling-the-base-class-constructor-from-the-derived-class-constructor",
+        "document": ""
+    },
+    {
+        "link": "https://cplusplus.com/forum/general/97350",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/6923722/how-do-i-call-the-base-class-constructor",
+        "document": ""
+    },
+    {
+        "link": "https://forum.arduino.cc/t/calling-constructor-of-the-base-class/489135",
+        "document": ""
+    },
+    {
+        "link": "https://quora.com/In-C-how-can-I-properly-call-a-parent-class-constructor-in-the-derived-classs-constructor",
+        "document": ""
+    }
+]

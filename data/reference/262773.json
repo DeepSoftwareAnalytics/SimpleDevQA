@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://support.hpe.com/connect/s/product?language=en_US&kmpmoid=3884343&tab=manuals",
+        "document": ""
+    },
+    {
+        "link": "https://community.hpe.com/t5/proliant-servers-ml-dl-sl/dl160-g6-unable-to-use-raid-before-install-os/td-p/4474389",
+        "document": ""
+    },
+    {
+        "link": "https://superuser.com/questions/94253/ubuntu-raid-on-hp-proliant-dl-160-g6",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://linuxquestions.org/questions/linux-hardware-18/hp-proliant-dl160-g6-install-wont-work-debian-raid-controller-b110i-4175682917-new",
+        "document": "A quick search for that model controller gives a lot of information and this caught my eye. There is a lot more info out there, and research should help you find most of what you need. Thanks, but I think the problem is I need to disable the controller for it to work. However, I can't seem to figure that out on my own. \n\n \n\n According to this link: \n\n \n\n The HW RAID B110i has issues with Debian. \n\n \n\n \"Hardware RAID logical volumes are invisible to OS, physical disks are exposed to OS, Debian could be installed but has to be handled with great care upon post-installation and when upgrading! See post #3 in this thread at linuxquestions which is a rough howto for CentOS. I would suggest disabling hardware raid and setting up software raid or no raid at all until the driver makes its way on the Linux Kernel, if it ever does.\"\n\n \n\n I know that's for the DL360 G6, but that's only because the DL160 G6 was using the Smart Array P410 SAS while the DL160 G6 I have has the HW RAID B110i. \n\n \n\n As mentioned, I have tried to disable it by selecting to use AHCI in the BIOS, but it still shows up as a RAID array when installing Debian and then 4 individual hard drives when installing the GRUB bootloader.\n\n \n\n It's almost like selecting between RAID and AHCI does nothing; other than the fact that when I do select AHCI I don't get the RAID controller menu popping up during boot to configure anything with it. Thanks, but I think the problem is I need to disable the controller for it to work. However, I can't seem to figure that out on my own.According to this link: https://wiki.debian.org/HP/ProLiant The HW RAID B110i has issues with Debian.\"Hardware RAID logical volumes are invisible to OS, physical disks are exposed to OS, Debian could be installed but has to be handled with great care upon post-installation and when upgrading! See post #3 in this thread at linuxquestions which is a rough howto for CentOS. I would suggest disabling hardware raid and setting up software raid or no raid at all until the driver makes its way on the Linux Kernel, if it ever does.\"I know that's for the DL360 G6, but that's only because the DL160 G6 was using the Smart Array P410 SAS while the DL160 G6 I have has the HW RAID B110i.As mentioned, I have tried to disable it by selecting to use AHCI in the BIOS, but it still shows up as a RAID array when installing Debian and then 4 individual hard drives when installing the GRUB bootloader.It's almost like selecting between RAID and AHCI does nothing; other than the fact that when I do select AHCI I don't get the RAID controller menu popping up during boot to configure anything with it."
+    },
+    {
+        "link": "https://serverfault.com/questions/680440/install-centos-7-or-ubuntu-14-04-on-hp-dl160-g6",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://serverfault.com/questions/683936/hp-proliant-gnu-linux-cant-find-raid-drives",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://support.hpe.com/connect/s/softwaredetails?collectionId=MTX-b3c33d9d46704593",
+        "document": ""
+    },
+    {
+        "link": "https://support.hpe.com/connect/s/softwaredetails?collectionId=MTX-3d8cb748df644cf3",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/sysadmin/comments/1cj4n3n/installing_linux_on_hp_smart_array_b120i_raid",
+        "document": "I'm working with an old server (HP ProLiant DL360e Gen8) with a HP Smart Array B120i SATA/SAS controller with hardware RAID functionality and I'm struggling to get Linux installed. I have 4 drives set up in a RAID 10 configuration and when booting into a live USB of any distro (Debian, Fedora Server, whatever else...) it detects all the drives individually and trying to install the system on any of them goes alright, but then the system won't boot as the server will not detect the bootloader. At some point I got a broken GRUB installed on a random drive of the ones in the controller, so it would boot into GRUB, display an error and give me the GRUB rescue prompt. Is there something I'm doing wrong? Do I need a driver to load in the installer of my distro?"
+    },
+    {
+        "link": "https://serverfault.com/questions/1037149/how-to-install-and-detect-raid-controller-in-latest-ubuntu-20-on-hp-proliant",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    }
+]

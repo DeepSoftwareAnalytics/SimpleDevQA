@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://zhuanlan.zhihu.com/p/642592934",
+        "document": ""
+    },
+    {
+        "link": "https://bepress.com/wp-content/uploads/2016/12/Search-Engine-Optimization-Features-and-Best-Practices-Chinese-version-21Oct2022.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://docs.stripe.com/dashboard/search?locale=zh-CN",
+        "document": ""
+    },
+    {
+        "link": "https://zhuanlan.zhihu.com/p/653171778",
+        "document": ""
+    },
+    {
+        "link": "https://aws.amazon.com/cn/solutions/guidance/custom-search-of-an-enterprise-knowledge-base-on-aws",
+        "document": "该指南中使用的所有服务, 如 Lambda 和 API 网关，都提供了Amazon CloudWatch 指标，用于监控指南的各个组件。API 网关和 Lambda 允许通过自动化管道发布新版本。Amazon Connect、Amazon Lex 和 Amazon Kendra 也提供了 CloudWatch，可实现这些服务的监控、指标收集和性能分析。"
+    },
+    {
+        "link": "https://blog.csdn.net/qq_45507768/article/details/131596094",
+        "document": ""
+    },
+    {
+        "link": "https://zhuanlan.zhihu.com/p/348827277",
+        "document": ""
+    },
+    {
+        "link": "https://blog.csdn.net/m0_52380556/article/details/135920264",
+        "document": ""
+    },
+    {
+        "link": "https://cloud.baidu.com/article/3345888",
+        "document": ""
+    },
+    {
+        "link": "https://aws.amazon.com/cn/blogs/china/intelligent-search-based-enhancement-solutions-for-llm-part-three",
+        "document": ""
+    }
+]

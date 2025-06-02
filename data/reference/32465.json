@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.fivem.net/docs/scripting-manual/working-with-events",
+        "document": ""
+    },
+    {
+        "link": "https://docs.fivem.net/docs/scripting-reference/events/server-events",
+        "document": ""
+    },
+    {
+        "link": "https://forum.cfx.re/t/fivem-scripting-documentation/192",
+        "document": ""
+    },
+    {
+        "link": "https://docs.fivem.net/docs/scripting-reference/events",
+        "document": ""
+    },
+    {
+        "link": "https://qbcore.net/tutorials/how-to-learn-fivem-scripting-qbcore",
+        "document": ""
+    },
+    {
+        "link": "https://docs.fivem.net/docs/scripting-reference/runtimes/lua/functions/TriggerEvent",
+        "document": ""
+    },
+    {
+        "link": "https://forum.cfx.re/t/howto-fivem-lua-scripting-complete-not-yet-guide/1467797",
+        "document": ""
+    },
+    {
+        "link": "https://docs.fivem.net/docs/scripting-reference/runtimes/lua/functions/TriggerServerEvent",
+        "document": ""
+    },
+    {
+        "link": "https://docs-backend.fivem.net/docs/scripting-reference/runtimes/lua/functions/TriggerEvent",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/N0rmie/Fivem-Trigger-Protector-V2",
+        "document": ""
+    }
+]

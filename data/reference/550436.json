@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/1988249/how-do-i-use-su-to-execute-the-rest-of-the-bash-script-as-that-user",
+        "document": "I've written a script that takes, as an argument, a string that is a concatenation of a username and a project. The script is supposed to switch (su) to the username, cd to a specific directory based upon the project string.\n\nI basically want to do:\n\nThe problem is that once I do an su... it just waits there. Which makes sense since the flow of execution has passed to switching to the user. Once I exit, then the rest of the things execute but it doesn't work as desired.\n\nI prepended su to the svn command but the command failed (i.e. it didn't update svn in the directory desired).\n\nHow do I write a script that allows the user to switch user and invoke svn (among other things)?"
+    },
+    {
+        "link": "https://unix.stackexchange.com/questions/1087/su-options-running-command-as-another-user",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://community.unix.com/t/confusion-with-su-c-and-quotes-user-context-switching/329777",
+        "document": "Trying to execute commands for different Unix user with that user's environment variable context without fully switching as that user using sudo && su capabilities.\n\n Hoping this would help with security and not having to waste time switching between 10 different app users on same server.\n\nI do not understand why 'ls' command would not get executed, but 'ls -l' would from below output!?..\n\n Does anyone know why?\n\n[SIZE=3][FONT=Bodoni MT][SIZE=3][FONT=Bodoni MT][SIZE=3][FONT=Bodoni MT][SIZE=3][FONT=Bodoni MT][SIZE=3][FONT=Bodoni MT]Please explain what difference does \"-c\" really make?\n\n I am able to execute commands as a sudo userB and his env variables(.profile, .login etc) without \"-c\" option as well.\n\n/home/userA> man su\n\n .........\n\n Example 2: Becoming User bin and Changing to bin's Login\n\n Environment\n\n To become user bin but change the environment to what would\n\n be expected if bin had originally logged in, execute:\n\n example% su - bin\n\n Example 3: Executing command with user bin's Environment and\n\n Permissions\n\n To execute command with the temporary environment and per-\n\n missions of user bin, type:\n\n example% su - bin -c \"command args\""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/3420280/can-i-run-su-in-the-middle-of-a-bash-script",
+        "document": "Not like this. will invoke a process, which defaults to a shell. On the command line, this shell will be interactive, so you can enter commands. In the context of a script, the shell will end right away (because it has nothing to do).\n\nwill be executed as - if the succeeds, which is generally only the case with password-less users or when running the script as root.\n\nUse for a better and more fine-grained approach."
+    },
+    {
+        "link": "https://askubuntu.com/questions/1456730/in-a-bash-script-how-do-i-change-from-root-user-to-another-user-using-su-and-th",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://unix.stackexchange.com/questions/176997/sudo-as-another-user-with-their-environment",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://askubuntu.com/questions/294736/run-a-shell-script-as-another-user-that-has-no-password",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://serverfault.com/questions/44400/run-a-shell-script-as-a-different-user",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/52427308/running-commands-as-different-user-from-bash-script",
+        "document": "I have 2 users: usr1 and usr2. Neither is a root user.\n\nusr1 starts a bash script. And from the script, I want to run some commands as usr2. I understand that the way to do it is:\n\nThe issue is with passing the password. These are 2 different users with different privileges, so, skipping the password for usr2 is not an option.\n\nThis script can go interactive, and ask the user for the password. Is there a way to do this in bash script ?\n\nNote: I am not an expert with scripting. And I have done some research before asking this question, but I couldnt find a suitable answer."
+    },
+    {
+        "link": "https://unix.stackexchange.com/questions/710632/running-commands-inside-the-same-script-as-different-users",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://github.com/redis/go-redis/blob/master/CHANGELOG.md",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/redis/go-redis/discussions/2446",
+        "document": ""
+    },
+    {
+        "link": "https://redis.io/docs/latest/operate/rc/changelog/2023/june-2023",
+        "document": ""
+    },
+    {
+        "link": "https://pkg.go.dev/github.com/go-redis/redis/v8",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/golang/comments/1avbw4a/psa_goredis_950_contains_a_breaking_change",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/go-redis/redis/issues/1593",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/77102569/redis-getting-redis-nil-error-in-rdb-pipelined-despite-data-being-present",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@cheickzida/using-redis-in-golang-applications-efe318cc846e",
+        "document": ""
+    },
+    {
+        "link": "https://pkg.go.dev/github.com/redis/go-redis/v9",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/go-redis/redis/issues/2121",
+        "document": ""
+    }
+]

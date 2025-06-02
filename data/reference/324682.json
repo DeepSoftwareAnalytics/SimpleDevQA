@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://learn.microsoft.com/en-us/dotnet/standard/base-types/stringbuilder",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=net-9.0",
+        "document": ""
+    },
+    {
+        "link": "https://henriquesd.medium.com/the-stringbuilder-class-5b12301b4da1",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/stringbuilder-in-c-sharp",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/21644658/how-to-use-stringbuilder-wisely",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/dotnet/standard/base-types/stringbuilder",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@ieplt/demystifying-stringbuilder-in-net-optimizing-string-manipulation-for-performance-94018f6c9a30",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/csharp/comments/18mwmlf/top_6_performance_tips_when_dealing_with_strings",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/12113044/better-option-for-string-manipulation-net",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings",
+        "document": ""
+    }
+]

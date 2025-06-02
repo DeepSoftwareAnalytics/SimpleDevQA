@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.docker.com/build/building/base-images",
+        "document": ""
+    },
+    {
+        "link": "https://docs.docker.com/build/concepts/dockerfile",
+        "document": ""
+    },
+    {
+        "link": "https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile",
+        "document": ""
+    },
+    {
+        "link": "https://docs.docker.com/get-started/introduction/build-and-push-first-image",
+        "document": ""
+    },
+    {
+        "link": "https://docs.docker.com/get-started/docker-concepts/building-images",
+        "document": ""
+    },
+    {
+        "link": "https://hub.docker.com/_/archlinux",
+        "document": ""
+    },
+    {
+        "link": "https://hub.docker.com/r/archlinux/archlinux",
+        "document": ""
+    },
+    {
+        "link": "https://hub.docker.com/r/amd64/archlinux",
+        "document": ""
+    },
+    {
+        "link": "https://wiki.archlinux.org/title/Docker",
+        "document": ""
+    },
+    {
+        "link": "https://hub.docker.com/_/docker",
+        "document": ""
+    }
+]

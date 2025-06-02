@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://backtrader.com/docu/indautoref",
+        "document": ""
+    },
+    {
+        "link": "https://backtrader.com/docu",
+        "document": ""
+    },
+    {
+        "link": "https://pypi.org/project/backtrader",
+        "document": "A required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings. Please check your connection, disable any ad blockers, or try using a different browser."
+    },
+    {
+        "link": "https://backtrader.com/docu/concepts",
+        "document": ""
+    },
+    {
+        "link": "https://backtrader.com/docu/induse",
+        "document": ""
+    },
+    {
+        "link": "https://backtrader.com/docu/signal_strategy/signal_strategy",
+        "document": ""
+    },
+    {
+        "link": "https://quora.com/How-does-one-create-a-custom-indicator-for-a-backtrader-in-Python",
+        "document": "Something went wrong. Wait a moment and try again."
+    },
+    {
+        "link": "https://medium.com/@alexzap922/creating-backtesting-16-popular-algo-trading-strategies-with-backtrader-21a45e93bc8d",
+        "document": "Learn how to a use a powerful Python library for backtesting popular algorithmic trading strategies!\n• Today, many fintech projects highlight the importance of backtesting in determining the efficiency of a data-driven algorithmic trading strategy in financial markets.\n• Backtesting allows traders to evaluate their strategies without risking capital, thereby assessing potential profitability and associated risks.\n• In this article, we will focus on Backtrader [1] — a popular Python framework for backtesting, strategy visualization, and live-trading [2–13].\n• Our objective is to compare various trading techniques using technical indicators that form the basis of technical analysis in Backtrader. The premise is simple — if a strategy didn’t perform well in the past, it’s unlikely to yield positive results in the future.\n• Most of the popular indicators are already programmed in the Backtrader platform. In addition, Ta-LIB integration is offered to satisfy each and every taste (see Appendix)."
+    },
+    {
+        "link": "https://backtrader.com/docu/talib/talib",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/79196969/how-can-i-use-my-own-strategy-to-test-by-backtrader",
+        "document": "I try to backtest my strategy of trading that is named \"AI reversal\". Light-weight implementation is available in strategies and I checked the document of backtrader to be right. But everytime I run it, it's just showing the data and not my buy or sell or any of portfolio overtime and ...\n\nMy implementation should get the last 24 hours data as 15 minutes timeframes for each point of chart and then decide to buy or sell."
+    }
+]

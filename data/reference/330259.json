@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://w3schools.com/html/html5_semantic_elements.asp",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
+        "document": ""
+    },
+    {
+        "link": "https://w3.org/TR/2016/REC-html51-20161101/dom.html",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics",
+        "document": ""
+    },
+    {
+        "link": "https://freecodecamp.org/news/semantic-html5-elements",
+        "document": ""
+    },
+    {
+        "link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/css/css3_flexbox.asp",
+        "document": ""
+    },
+    {
+        "link": "https://freecodecamp.org/news/learn-flexbox-build-5-layouts",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/css/css3_flexbox_responsive.asp",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/75480147/how-do-i-toggle-dom-elements-to-show-and-hide",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/11416979/how-do-you-toggle-the-visibility-of-an-html-element-in-javascript",
+        "document": ""
+    },
+    {
+        "link": "https://freecodecamp.org/news/dom-manipulation-in-javascript",
+        "document": ""
+    },
+    {
+        "link": "https://perishablepress.com/toggle-element-visibility-via-javascript",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/jsref/prop_style_visibility.asp",
+        "document": ""
+    }
+]

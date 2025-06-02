@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://w3schools.com/php/php_forms.asp",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/68435119/insert-php-variable-into-html-form-field-from-php-function",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/25993022/password-protected-form-with-html-and-php",
+        "document": ""
+    },
+    {
+        "link": "http://web.cs.ucla.edu/classes/fall14/cs143/project/php/php_input.html",
+        "document": ""
+    },
+    {
+        "link": "https://codeshack.io/secure-login-system-php-mysql",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/webdev/comments/14pbx7/how_do_you_create_a_secure_login_with_html_php",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/1624846/php-best-practices-for-user-authentication-and-password-security",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/8119496/php-secure-session-login-best-practice",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@ajuatahcodingarena/building-a-secure-login-and-registration-system-with-html-css-javascript-php-and-mysql-591f839ee8f3",
+        "document": ""
+    }
+]

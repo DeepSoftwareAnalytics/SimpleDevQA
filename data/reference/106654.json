@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/466505-possible-workaround-for-non-integer-indices",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/40455299/does-matlab-accept-non-integer-indices",
+        "document": "Of course not! ...Or does it? Let's do some tests.\n\nDefine . Then any of the following statements, as expected, gives an error in Matlab (Subscript indices must either be real positive integers or logicals):\n\nHowever, non-integer values are accepted in colon indices. All of the following work in recent Matlab versions, although with a warning (Integer operands are required for colon operator when used as index).\n\nIt also works if the colon expression includes :\n\nOn the other hand, the following do not work, and give the same error as above:\n\nThe observed behaviour can be summarized as follows:\n• Some internal rounding kicks in when a colon index is used. A colon index is an expression of the form or . No rounding takes place when the indexing array is a standard array, such as or even or .\n• Rounding is done to the nearest integer, except that numbers between and are special-cased: they are rounded to instead of to . Of course, if the integer resulting from the rounding is negative an error occurs.\n\nSimilar behaviour is seen in recent versions of Octave, except that:\n• None Apparently, normal rounding to the nearest integer is done, without treating numbers between and as a special case; and so these give an error:\n• None An error is issued when the non-integer range contains a single value: works, but doesn't (of course, and don't work either).\n\nOther than this, the results are the same as in Matlab, and a warning is also issued (Non-integer range used as index).\n\nThe warnings and the fact that Octave works similarly as Matlab suggest that this is intended behaviour. Is it documented somewhere? Can anyone give more information or shed some light on this?"
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/math/array-indexing.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/434074-why-am-i-getting-the-error-array-indices-must-be-positive-integers-or-logical-values",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/461679-i-m-getting-an-error-of-array-indices-must-be-positive-integers-or-logical-values",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/matlab_prog/integers.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/108932-replacing-non-integer-values",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/ref/double.fix.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/10296-how-can-i-convert-a-decimal-to-an-integer",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/466505-possible-workaround-for-non-integer-indices",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.python.org/3/library/functions.html",
+        "document": ""
+    },
+    {
+        "link": "https://realpython.com/documenting-python-code",
+        "document": ""
+    },
+    {
+        "link": "https://docs.python.org/3/tutorial/inputoutput.html",
+        "document": ""
+    },
+    {
+        "link": "https://codecademy.com/resources/docs/python/built-in-functions/input",
+        "document": ""
+    },
+    {
+        "link": "https://swimm.io/learn/code-documentation/documentation-in-python-methods-and-best-practices",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/32252387/how-to-convert-input-to-float-with-exception-handling",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@ryan_forrester_/converting-strings-to-floats-in-python-a-complete-guide-f0ec19bf30a0",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/19736589/confusing-python-cannot-convert-string-to-float",
+        "document": ""
+    },
+    {
+        "link": "https://cs.cornell.edu/courses/cs1110/2022fa/videos/lesson14/slides-14.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://labex.io/tutorials/python-how-to-convert-inputs-to-float-safely-421320",
+        "document": ""
+    }
+]

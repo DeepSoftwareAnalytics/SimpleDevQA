@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://open.clemson.edu/cgi/viewcontent.cgi?article=2936&context=all_theses",
+        "document": ""
+    },
+    {
+        "link": "https://sciencedirect.com/topics/computer-science/intelligent-driver-model",
+        "document": ""
+    },
+    {
+        "link": "https://nrel.gov/docs/fy21osti/78817.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://traffic-simulation.de/info/info_IDM.html",
+        "document": "The Intelligent-Driver Model and its Variants\n\nThe basis model for the longitudinal dynamics, i.e., accelerations and braking decelerations of the drivers, is the Intelligent-Driver Model (IDM). In the actual simulation, we use a variant of it, the Adaptive Cruise Control Model (ACC Model), see the book Traffic Flow Dynamics, Chapter 11 (it's a free sample chapter). \n\n\n\nThe IDM and the ACC model are car-following model. In such models,\n• The influencing factors (model input) are the own speed v, the bumper-to-bumper gap s to the leading vehicle, and the relative speed (speed difference) Δ v = v-v of the two vehicles (positive when approaching).\n• The model output is the acceleration dv/dt chosen by the driver for this situation.\n• The model parameters describe the driving style, i.e., whether the simulated driver drives slow or fast, careful or reckless, and so on: They will be described in detail below.\n\nThe IDM model equations read as follows:\n\nFurthermore, to close this system (one dynamical equation for the two unknown quantities v and s), the gap s obeys its own kinematic equation since the changing rate of the gap is just the relative speed:\n• decreasing distance to the front vehicle (one wants to maintain a certain \"safety distance\")\n• increasing speed difference to the front vehicle (when approaching the front vehicle at a too high rate, a dangerous situation may occur).\n\nThe mathematical form of the IDM model equations is that of coupled ordinary differential equations:\n• They are differential equations since, in one equation, the dynamic quantities v (speed) and its derivative dv/dt (acceleration) appear simultaneously.\n• They are coupled since, besides the speed v, the equations also contain the speed v =v− Delta v of the leading vehicle.\n• trucks are characterized by low values of v0, a, and b,\n• aggressive (\"pushy\") drivers are characterized by a low T in connection with high values of v0, a, and b.\n• If there is no leading vehicle and no other obstructing object (\"free road\"), just set the gap to a very large value such as 1000 m (The limes gap to infinity is well-defined for any meaningful car-following model such as the IDM).\n• If the next obstructing object is not a leading vehicle but a red traffic light or a stop-signalized intersection, just model the red light or the stop sign by a standing virtual vehicle of length zero positioned at the stopping line. When simulating a transition to a green light, just eliminate the virtual vehicle. (See the szenario \"traffic Lights\")\n• If a speed limit (either directly by a sign or indirectly, e.g., when crossing the city limits) becomes effective, reduce the desired speed, if the present value is above this limit (scenario \"Laneclosing\"). Likewise, reduce the desired speed of trucks in the presence of gradients (scenario \"Uphill Grade\")\n• the scientific reference for the IDM,"
+    },
+    {
+        "link": "https://arxiv.org/pdf/2104.02583",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/ref/animatedline.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/creating_plots/line-animation-of-streaming-data.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/ref/addpoints.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/36269928/matlab-animated-line-in-3d",
+        "document": "Let's say I have a nx3 matrix (in this example 100x3), where each column represents the x,y,z coordinate, in some discrete time sample, in 3d. I want to use the animatedLine function to track the coordinate with a maximum of 10 points at a given time. I've been using the Matlab documentation but still stuck on how to do it correctly.\n\nDo I need to pre-define the grid or can Matlab automatically do that given the data? (For this example, the matrix is random, however, in the actual data set, the matrix is known)"
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/creating_plots/animation-techniques-1.html",
+        "document": ""
+    }
+]

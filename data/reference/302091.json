@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/7560114/random-number-c-in-some-range",
+        "document": ""
+    },
+    {
+        "link": "https://digitalocean.com/community/tutorials/random-number-generator-c-plus-plus",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/5008804/how-do-you-generate-uniformly-distributed-random-integers",
+        "document": ""
+    },
+    {
+        "link": "https://simplilearn.com/tutorials/cpp-tutorial/random-number-generator-in-cpp",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/how-to-generate-random-number-in-range-in-cpp",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/cpp-multidimensional-array",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/cpp/cpp_arrays_multi.asp",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/47664127/create-a-multidimensional-array-dynamically-in-c",
+        "document": ""
+    },
+    {
+        "link": "https://lsdtopotools.github.io/LSDCodingBlog/2015/09/19/Arrays-in-C++.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/936687/how-do-i-declare-a-2d-array-in-c-using-new",
+        "document": ""
+    }
+]

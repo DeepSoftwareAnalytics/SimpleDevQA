@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://learn.microsoft.com/en-us/sql/sql-server?view=sql-server-ver16",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/sql/t-sql/statements/create-trigger-transact-sql?view=sql-server-ver16",
+        "document": ""
+    },
+    {
+        "link": "https://sqlshack.com/triggers-in-sql-server",
+        "document": ""
+    },
+    {
+        "link": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_SQLServer.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/3986366/how-to-create-materialized-views-in-sql-server",
+        "document": ""
+    },
+    {
+        "link": "https://sqlshack.com/delete-cascade-and-update-cascade-in-sql-server-foreign-key",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/6260688/how-do-i-use-cascade-delete-with-sql-server",
+        "document": ""
+    },
+    {
+        "link": "https://dba.stackexchange.com/questions/44956/good-explanation-of-cascade-on-delete-update-behavior",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/6720050/foreign-key-constraints-when-to-use-on-update-and-on-delete",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/cascade-in-sql",
+        "document": ""
+    },
+    {
+        "link": "https://sqlshack.com/creating-a-sql-server-audit-using-sql-server-extended-events-and-triggers",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/1962398/creating-audit-triggers-in-sql-server",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/SQL/comments/15sybt3/tsql_trigger_best_practice_for_audit",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/sql/relational-databases/security/auditing/sql-server-audit-database-engine?view=sql-server-ver16",
+        "document": ""
+    },
+    {
+        "link": "https://metisdata.io/blog/implementing-hassle-free-audits-in-the-sql-database",
+        "document": ""
+    }
+]

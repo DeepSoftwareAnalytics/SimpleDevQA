@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/4202538/escape-special-characters-in-a-python-string",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/280435/escaping-regex-string",
+        "document": ""
+    },
+    {
+        "link": "https://docs.python.org/3/library/re.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.python.org/3/howto/regex.html",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/python/gloss_python_escape_characters.asp",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/python-substituting-patterns-in-text-using-regex",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/71131172/replace-matched-susbtring-using-re-sub",
+        "document": ""
+    },
+    {
+        "link": "https://pynative.com/python-regex-replace-re-sub",
+        "document": ""
+    },
+    {
+        "link": "https://docs.python.org/3/library/re.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/32081249/using-re-sub-and-replacing-string-with-a-regular-expression-using-variables-in-p",
+        "document": ""
+    }
+]

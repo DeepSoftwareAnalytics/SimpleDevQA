@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://expressjs.com/en/resources/middleware/session.html",
+        "document": ""
+    },
+    {
+        "link": "https://expressjs.com/en/resources/middleware/cookie-session.html",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/how-to-manage-sessions-and-cookies-in-express-js",
+        "document": ""
+    },
+    {
+        "link": "https://expressjs.com.cn/resources/middleware/session.html",
+        "document": ""
+    },
+    {
+        "link": "https://expressjs.com/en/resources/middleware/cookie-parser.html",
+        "document": ""
+    },
+    {
+        "link": "https://dvmhn07.medium.com/jwt-authentication-in-node-js-a-practical-guide-c8ab1b432a49",
+        "document": ""
+    },
+    {
+        "link": "https://digitalocean.com/community/tutorials/nodejs-jwt-expressjs",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/how-to-implement-jwt-authentication-in-express-js-app",
+        "document": ""
+    },
+    {
+        "link": "https://mattermost.com/blog/json-web-token-jwt-authentication-in-nodejs-applications",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/json-web-token-jwt",
+        "document": ""
+    }
+]

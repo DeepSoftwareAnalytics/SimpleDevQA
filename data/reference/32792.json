@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://reddit.com/r/discordapp/comments/1cezahu/bots_best_practices_and_recommendations",
+        "document": ""
+    },
+    {
+        "link": "https://answers.microsoft.com/en-us/xbox/forum/all/how-to-report-hacks-from-discord-bots/4dd463b7-c108-48e2-b973-244ab49a3d7c",
+        "document": ""
+    },
+    {
+        "link": "https://dev.to/janeth/best-practices-for-discord-server-moderation-84f",
+        "document": ""
+    },
+    {
+        "link": "https://discord.com/safety/360044103651-reporting-abusive-behavior-to-discord",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/discordapp/comments/n8kz9r/how_do_i_report_bots_operating_as_normal_discord",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/70309005/best-way-to-do-error-handling-in-a-discord-js-bot",
+        "document": ""
+    },
+    {
+        "link": "https://discordjs.guide/popular-topics/errors",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/77161813/how-to-create-top-level-error-handling-in-discord-js",
+        "document": ""
+    },
+    {
+        "link": "https://discordjs.guide/creating-your-bot/command-handling",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/Discord_Bots/comments/tkzmri/how_to_do_a_try_catch_block_with_discordjs",
+        "document": ""
+    }
+]

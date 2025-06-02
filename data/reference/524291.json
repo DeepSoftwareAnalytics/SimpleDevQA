@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://developers.meta.com/horizon/documentation/unreal/unreal-controllers-getting-started",
+        "document": ""
+    },
+    {
+        "link": "https://dev.epicgames.com/community/learning/tutorials/3Vx6/unreal-engine-5-3-2-for-meta-quest-vr",
+        "document": ""
+    },
+    {
+        "link": "https://developers.meta.com/horizon/documentation/unreal/unreal-controller-input-mapping-reference",
+        "document": ""
+    },
+    {
+        "link": "https://forums.unrealengine.com/t/oculus-quest-input-mapping/503264",
+        "document": "According to Oculus’s docs: https://developer.oculus.com/documentation/unreal/unreal-controller-input-mapping-reference/\n\n If I wanted to map the triggers I’d need to do something like this:\n\n\n\nBut doing so hasn’t given me any results. It tells me axis is 0 all the time no matter what.\n\nHow do I find the input and handle the input of the Oculus Quest 2?"
+    },
+    {
+        "link": "https://dev.epicgames.com/community/learning/tutorials/y4vB/unreal-engine-5-4-x-for-meta-quest-vr",
+        "document": ""
+    },
+    {
+        "link": "https://forums.unrealengine.com/t/newbie-question-triggering-animations-with-blueprints/851",
+        "document": "First post here. Been playing with the UE4 for the last couple of days and super impressed with the ease of use and speed. I was going through the level creation tutorials on youtube and did the sliding door example.\n\nThat seems fine and good for sliding a simple geometry around but it seems very hard to animate something that has multiple pieces that way. I am wonding how I can go about exporting an animation from maya and triggering that in game with blueprints.\n\nWhat I have in mind is:\n\n-Import that to UDK and trigger it with blueprints while hopefully having controls in UE4 for how fast the animation plays and adjust accordingly.\n\nAny pointers on how I can go about approaching task?\n\nThanks so much in advance."
+    },
+    {
+        "link": "https://reddit.com/r/unrealengine/comments/7mkk3g/best_practice_for_assigning_animation_blueprints",
+        "document": "If my findings are correct, it would seem that UE4 doesn't intend for you to share one animation blueprint between different skeletons, which I suppose makes sense. But is the alternative really to create individual blueprints for every single skeleton? That sounds exhausting."
+    },
+    {
+        "link": "https://forums.unrealengine.com/t/skeletal-animation-to-trigger-event-in-actor-instance/425523",
+        "document": "I have an actor containing a skeletal mesh with animations that are played depending of its state.\n\nI would like the animation to trigger some event in the actor blueprint at specific keys (e.g.: fire a bullet just before the recoil)\n\nThe only way I found so far, beside polling values at each tick, is to broadcast the event to every instance of the blueprint class. I don’t want to do that.\n\nI would have expected to be able to start a skeletal animation giving some parameters so I could pass the actor blueprint instance but I can’t seem to find how."
+    },
+    {
+        "link": "https://reddit.com/r/unrealengine/comments/9bur7k/blueprint_animation_best_practice",
+        "document": "Hi, so just prefacing I'm still pretty noob with the engine(been using it for a couple of weeks in my spare time).\n\nI followed a small tutorial for collectable objects in which there's a blue print to make them rotate and move up and down.\n\nMy question is (as seen in my BP) : Is having the animations on the Event tick just fine ? It feels a bit overkill to update that every tick no ? What are my options ?"
+    },
+    {
+        "link": "https://forums.unrealengine.com/t/how-to-trigger-fire-an-skeletal-animation-using-a-interact-e-key-in-a-static-mesh-overlap/2032612",
+        "document": "Hello all! I’m new to unreal engine 5, and i can not find a tutorial or answer for my problem.\n\n I already made the following steps:\n\n 1 - a widget interaction “E” key;\n\n 2 - i made an input action “E”, and configurated on the IMC_default;\n\n 3 - a blueprint with an static mesh (like a 3d model button), and add a sphere for overlaping (with generate overlap events - and collision presets as overlapalldynamic);\n\n 4 - made the event graph with begin and end overlap and did the visibility of the widget, so that can show the “E” when the thirdperson character overlaps the sphere, and hide on overlaps end.\n\nall worked fine, but the problem is:\n\ni have a imported .fbx animation, with skeletal mesh, animated mesh, physical mesh etc.\n\n how can i use this static mesh “glued” to the interaction “E” key widget, to fire my .fbx skeletal mesh animation? Only when i overlap that sphere and press “E”.\n\nHope i did explain well, thank you!!\n\n i’m sorry for the gramatics, because english isn’t my mother language."
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/18432925/handling-null-values-in-hive",
+        "document": "I am trying to create a table (table 2) in Hive from another table (table 1). I am trying to exclude certain rows with NULL values and tried the following condition.\n\nHowever, when I try this following query with the new table I get 300+ rows with NULL vaues:\n\nCould someone point to what is causing these NULL values?"
+    },
+    {
+        "link": "https://stackoverflow.com/questions/40143249/hive-insert-overwrite-into-a-partitioned-table",
+        "document": "Here are some sample scripts and their effects.\n\nLet's say we have a table with three fields, , , and , and two partition fields, , and . Let's assume that we want to delete the data in the table but not the structure of the table.\n\nthen the query executes but the data stays there.\n\nthen the same happens: the data stays there.\n\nonly then will the data be erased, and only for the given year and month. The data in other partitions doesn't get deleted.\n\nNote that no partitions have been dropped, and a returns all partitions, including those that existed before running an .\n\nSide note: I'd be curious to know if there is a way to delete all existing data, but keep the table structure. would drop the structure. would only delete the targeted partitions, so we would have to know in advance what range of values each partition field takes. In this example, we could do\n\nbut it still seems too complex a solution."
+    },
+    {
+        "link": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-dml-insert-overwrite-directory-hive",
+        "document": "Overwrites the existing data in the directory with the new values using Hive . Hive support must be enabled to use this command. You specify the inserted rows by value expressions or the result of a query.\n• The destination directory. The keyword specifies that the directory is on the local file system.\n• The row format for this insert. Valid options are clause and clause. clause can be used to specify a custom for this insert. Alternatively, clause can be used to specify the native and state the delimiter, escape character, null character, and so on.\n• The file format for this insert. Valid options are , , , , , and . You can also specify your own input and output format using and . can only be used with , , or , while can only be used with .\n• The values to be inserted. Either an explicitly specified value or a NULL can be inserted. A comma must be used to separate each value in the clause. More than one set of values can be specified to insert multiple rows.\n• A query that produces the rows to be inserted. One of following formats:"
+    },
+    {
+        "link": "https://community.cloudera.com/t5/Support-Questions/How-to-insert-NULL-value-into-Hive-complex-columns-array/m-p/203625",
+        "document": "We have a Hive table with some columns being arrays and structs. When inserting a row into the table, if we do not have any value for the array and struct column and want to insert a NULL value for them, how do we specify in the INSERT statement the NULL values?\n\nFor e.g., if the table definition is:\n\nthen to insert NULL value to C2 and C3 columns, I was expecting to have the INSERT statement as: “insert into table some_test_table select \"c1_val\", NULL, NULL from z_dummy;” where z_dummy is a 1 row table. But Hive reports a syntax error.\n\nAny idea on how to specify the correct syntax to use for the above example?"
+    },
+    {
+        "link": "https://downloads.apache.org/spark/docs/3.2.1/sql-ref-syntax-dml-insert-overwrite-directory-hive.html",
+        "document": ""
+    },
+    {
+        "link": "https://community.cloudera.com/t5/Support-Questions/Display-blank-space-for-a-column-as-NULL-in-the-HIVE-table/m-p/337579",
+        "document": "This property is for the opposite of what you want. The value of this property is what hive shows when the source day has a null value.\n\nI don't think there's a property to do what you want, but you can use an expression like the following in your select:\n\ncase when mycol = ' ' then NULL else mycol end\n\n--\n\nWas your question answered? Please take some time to click on \"Accept as Solution\" below this post.\n\nIf you find a reply useful, say thanks by clicking on the thumbs up button."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/38872500/serialization-null-format-for-hive-orc-table",
+        "document": "I have a Hive table where the data is stored as ORC. Now, when I run a select * query on this table I see that the empty string columns are shown as NULL in the query result. I would like the empty string columns to be shown as empty strings in the hive query result as well.\n\nI tried both of these, but it still shows the NULLs:\n\nIs there any way around this?"
+    },
+    {
+        "link": "https://community.cloudera.com/t5/Support-Questions/Hive-Insert-Query/m-p/291391",
+        "document": "Yes, this is a default behaviour in Hive. When an empty value ( '' ) is passed for STRING datatype, it is taken as it is.\n\nIf you would like the null values for STRING to be treated as NULL instead of just empty, you can set this property - serialization.null.format for the table of your choice. For example, you can do this on a new table or to an existing table by running a statement like the below,\n\nOnce done, the empty values inserted for the columns with STRING datatype will be shown as NULL."
+    },
+    {
+        "link": "https://studywithswati.wordpress.com/2020/06/30/hive-table-properties-null-format",
+        "document": "This property allows the given value passed to this property, to be treated as null value.\n\nLet’s see an example.\n\nBelow File to be used as source, contains 3 columns, but there are 3 rows (2nd, 3rd and 5th row) in which value of 2nd column is missing. Like in 2nd row, after value 20, 2nd column value is missing.\n\nNow if we try to load this file into a hive table having 3 columns, hive will obviously load this file successfully, but if we try to capture the data from table having 2nd column value as NULL, it would return zero rows.\n\nBecause by default nothing is null between the delimiters. Evrything is data for Hive between the delimiters. Hive won’t treat a missing value as NULL value. It will be normal value for Hive, even if it is empty.\n\nLet’s load data from above file into it.\n\nAs we can see above, Hive is not putting null value in the empty values. We have checked it by where clause as well.\n\nNow to capture this NULL values or to marks these empty values as null values, we have to mention a table property while creation of table.\n\nLet’s create another table – We have used table property “serialization.null.format” is equals to “” (empty) as we want to replace empty fields with null. In case we want to replace spaces with null we would have to change the value(after equal to sign) while setting table property, so that it gets treated as null.\n\nAs we can see above, Hive is replacing empty fields with Null values now.\n\nNow after setting this property hive will treat every empty value as a Null value only.\n\nThat’s all for now. Sharing is Caring."
+    },
+    {
+        "link": "https://medium.com/@boggarapuharanath/serialization-null-format-in-hive-ca5d246b49b2",
+        "document": "Empty String is not treated as null in Hive\n\nMy understanding of the following statement is that if blank or empty string is inserted into hive column, it will be…"
+    }
+]

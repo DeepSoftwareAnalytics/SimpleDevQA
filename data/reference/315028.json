@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.ewm.html",
+        "document": ""
+    },
+    {
+        "link": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rolling.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/76317946/calculate-exponential-moving-average-using-pandas-dataframe",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/how-to-calculate-moving-average-in-a-pandas-dataframe",
+        "document": ""
+    },
+    {
+        "link": "https://pandas.pydata.org/docs/reference/api/pandas.Series.rolling.html",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@hp.in.2019/simple-ema-crossover-trading-signals-using-pandas-python-68e4ce5ca429",
+        "document": ""
+    },
+    {
+        "link": "https://blog.stackademic.com/a-guide-to-identifying-candlestick-patterns-in-python-using-ta-lib-and-custom-formulas-1b6ff4b0670f",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/twopirllc/pandas-ta",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@elia.enrico/candle-stick-pattern-detection-with-python-bcd3733125e2",
+        "document": ""
+    },
+    {
+        "link": "https://developers.lseg.com/en/article-catalog/article/automating-technical-analysis-and-strategy-backtesting-with-pyth",
+        "document": ""
+    }
+]

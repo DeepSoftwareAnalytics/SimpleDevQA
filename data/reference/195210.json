@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://p5js.org/reference/p5.sound/p5.AudioIn",
+        "document": "Get sound from an input source, typically a computer microphone.\n\nenabled Client must allow browser to access their microphone / audioin source. Default: false. Will become true when the client enables access. amplitude Input amplitude, connect to it by default but not to master out\n\nconnect Connect to an audio unit. If no parameter is provided, will connect to the main output (i.e. your speakers).\n\n disconnect Disconnect the AudioIn from all audio units. For example, if connect() had been called, disconnect() will stop sending signal to your speakers.\n\n getLevel Read the Amplitude (volume level) of an AudioIn. The AudioIn class contains its own instance of the Amplitude class to help make it easy to get a microphone's volume level. Accepts an optional smoothing value (0.0 < 1.0). NOTE: AudioIn must .start() before using .getLevel().\n\n amp Set amplitude (volume) of a mic input between 0 and 1.0. getSources Returns a list of available input sources. This is a wrapper for MediaDevices.enumerateDevices() - Web APIs | MDN and it returns a Promise. setSource Set the input source. Accepts a number representing a position in the array returned by getSources(). This is only available in browsers that support navigator.mediaDevices.enumerateDevices()\n\nNotice any errors or typos? Please let us know . Please feel free to edit src/AudioIn.js and open a pull request!"
+    },
+    {
+        "link": "https://p5js.org/reference/p5.AudioIn/getLevel",
+        "document": "Read the Amplitude (volume level) of an AudioIn. The AudioIn class contains its own instance of the Amplitude class to help make it easy to get a microphone's volume level. Accepts an optional smoothing value (0.0 < 1.0). NOTE: AudioIn must .start() before using .getLevel()."
+    },
+    {
+        "link": "https://p5js.org/reference/p5.sound",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/68192821/cannot-get-mic-input-in-p5-js",
+        "document": "I'm just trying to get my audio level and draw some effects, for this basic example, just an ellipse but I cannot get it to work. Following are the code files:\n\nI'm not able to get my audio input and hence it's not drawing anything. I tried in 2 different browsers and got the following in console, hope it helps in debugging:\n\nFirefox: (In Firefox I get nothing, only this error)\n\nChrome: (In Chrome it's just a black canvas and when I speak, the ellipse doesn't show)\n\nI search some github issues and tried to insert the function but no luck.\n\nAnd by the way, I'm using Python Flask server to host it locally for now.\n\nAny solutions, guidance would be really appreciated."
+    },
+    {
+        "link": "https://github.com/processing/p5.js-sound/blob/master/docs/reference/data.json",
+        "document": ": <p>Generate an audio source from an input such as your computer's microphone.</p> <p>Some browsers let the client choose their input source, while others leave this to the application designer, and for this we have the methods getSources() and setSoure().</p> <p>Turn the mic on/off with the on() and off() methods. When the mic is on, its volume can be measured with getLevel or by connecting an FFT object.</p> <p>If you want to hear the AudioIn, use the .connect() method. (AudioIn does not connect to p5.sound output by default to prevent feedback).</p> ,\n\n: <p>Create a SoundFile object with a path to a file.</p> <p>The SoundFile may not be available immediately because it loads the file information asynchronously.</p> <p>To do something with the sound as soon as it loads pass the name of a function as the second parameter.</p> <p>Only one file path is required. However, audio file formats (i.e. mp3, ogg, wav and m4a/aac) are not supported by all web browsers. If you want to ensure compatability, instead of a single file path, you may include an Array of filepaths, and the browser will choose a format that works.</p> ,"
+    },
+    {
+        "link": "https://editor.p5js.org/mrbombmusic/sketches/ByPS5UnY7",
+        "document": ""
+    },
+    {
+        "link": "https://p5js.org/examples",
+        "document": ""
+    },
+    {
+        "link": "https://medium.spatialpixel.com/sounds-bd05429aba38",
+        "document": "Ok great, so we have a sound, and we’ve loaded it. But now we want to hear it. So we need to write code that tells P5 to play the sound.\n• In the setup() function, play the sound when the sketch starts:\n• Click the “Play” button at the top of the code editor to run your p5.js sketch.\n• You’ll hear the “goat.wav” sound file play automatically when the sketch starts. If you don’t hear it but don’t see any errors it may be too quiet. Let’s play with making it louder.\n• You can change the volume by using before the . In p5.js and many other programming languages, the dot (.) notation is used to access and manipulate properties and methods of objects. So when we have created this variable goatSound that represents our sound file, we can use the dot notation to manipulate the properties of this file. Here represents the volume level. Try changing this to or to see it change.\n\nYour full sketch should look like this:\n\nThat’s it! You’ve created a simplified p5.js sketch that plays the sound. Remember to save your project in the web editor so you can access it later.\n• How might you create a button to play the sound?\n• We can then do fun things like change the pitch based on the position of our mouse. Here’s an example!\n\nSince you probably aren’t interested in making a contraption that sounds like a goat…you’re probably wondering “How can I load a larger sound file and one of my own files.” To which I respond, “Great question!”\n\nIn order to do this, you’ll need to run P5.js locally on your machine and run a local web server. This is quite common in software development and used during the development phase before hosting code projects on the cloud. We’ll do this in a future tutorial. For now just be satisfied with with “goat.wav” and the varieties of projects that can be done with “goat.wav.”\n\nIf you’re adament about using other sounds, you can find your own sounds but they’ll need to be smaller than 5mb in order to be hosted on the P5.js web editor. You can find many sounds online here: https://freesound.org/ You’ll need to create an account and most files will need to be downsized."
+    },
+    {
+        "link": "https://github.com/processing/p5.js/issues/5323",
+        "document": "Most appropriate sub-area of p5.js?\n• Other (specify if possible)\n\n (all?) p5 examples (https://editor.p5js.org/p5/sketches)\n\n https://editor.p5js.org/p5/sketches/Hello_P5:_song\n\n https://editor.p5js.org/p5/sketches/Hello_P5:_drawing\n\n https://editor.p5js.org/p5/sketches/Hello_P5:_weather\n\n https://editor.p5js.org/p5/sketches/Hello_P5:_flocking\n\n https://editor.p5js.org/p5/sketches/Hello_P5:_interactivity\n\n ...\n\nIn Safari, go to one of the URLs above (e.g. https://editor.p5js.org/p5/sketches/Hello_P5:_interactivity) and press the Play button. You'll see \"Loading...\" to the right but nothing more.\n\nThe Javascript console reports a couple of errors:\n\n -- this seems innocuous and also is reported on Chrome where the examples do work.\n\n Error while parsing the 'sandbox' attribute: 'allow-downloads' is an invalid sandbox flag' -- also an innocuous error? I say this because I have been doing testing on my own site with Safari and have the same \"Loading...\" problem w/o the sandbox error.\n\nMost revealing: When I load p5.js and NOT p5.sound.js these examples run as expected.\n\nAlso note, the examples do run fine in other contexts. E.g. https://p5js.org/examples/hello-p5-interactivity-1.html"
+    },
+    {
+        "link": "https://p5js.org/reference/p5.sound",
+        "document": ""
+    }
+]

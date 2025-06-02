@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://support.spirent.com/s/article/SOL12572",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/Spirent/nfv-solutions/blob/master/testcenter-rfc2544-throughput.py",
+        "document": "\"If Search Mode is BINARY, the percent line rate that will be used at the start of the test\" ,"
+    },
+    {
+        "link": "https://support.spirent.com/s/article/SOL11519",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/Spirent/nfv-solutions/blob/master/testcenter-rfc2544-throughput.md",
+        "document": "The test is designed to be run with a lab server. The lab server, the Spirent TestCenter software on the script host, and the Spirent chassis must all be running the same version of TestCenter software, e.g. 4.56.\n\nThe lab server, the TestCenter chassis, and a license server must be up and running prior to the execution of the test script."
+    },
+    {
+        "link": "https://support.spirent.com/SpirentCSC/s/article/SOL11519",
+        "document": ""
+    },
+    {
+        "link": "https://support.spirent.com/s/article/FAQ11906",
+        "document": ""
+    },
+    {
+        "link": "https://support.spirent.com/SpirentCSC/s/article/FAQ11906",
+        "document": ""
+    },
+    {
+        "link": "https://assets.ctfassets.net/wcxs9ap8i19s/3F6iW2IjmN7kK0tiAZk9ro/a08de6fa3770569ef6996987791e6fdb/DS_STC_Ethernet_Switch_Test_Solution_RevA.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://support.spirent.com/s/article/FAQ15149",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/Spirent/nfv-solutions/blob/master/testcenter-rfc2544-throughput.py",
+        "document": "\"If Search Mode is BINARY, the percent line rate that will be used at the start of the test\" ,"
+    }
+]

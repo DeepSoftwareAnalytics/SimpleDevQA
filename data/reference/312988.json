@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/3910324/why-java-inner-classes-require-final-outer-instance-variables",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/4732544/why-are-only-final-variables-accessible-in-anonymous-class",
+        "document": ""
+    },
+    {
+        "link": "https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/anonymous-inner-class-java",
+        "document": ""
+    },
+    {
+        "link": "https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/anonymous-inner-class-java",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/3251018/java-anonymous-inner-class-using-a-local-variable",
+        "document": ""
+    },
+    {
+        "link": "https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/758570/is-it-possible-to-make-anonymous-inner-classes-in-java-static",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@gauravverma.career/inner-and-anonymous-inner-class-in-java-704f06fd6b24",
+        "document": ""
+    }
+]

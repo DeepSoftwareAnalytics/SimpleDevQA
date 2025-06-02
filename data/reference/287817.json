@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/help/deeplearning/ug/time-series-forecasting-using-deep-learning.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/deeplearning/ug/long-short-term-memory-networks.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/deeplearning/ug/time-series-forecasting-using-deep-network-designer.html",
+        "document": ""
+    },
+    {
+        "link": "https://ww2.mathworks.cn/help/deeplearning/ug/long-short-term-memory-networks.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/deeplearning/gs/get-started-with-time-series-forecasting.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ug/detect-anomalies-in-machinery-using-lstm-autoencoder.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/deeplearning/ug/long-short-term-memory-networks.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/512226-anomaly-detection-sequence-prediction-with-lstm",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/discovery/anomaly-detection.html",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@zhonghong9998/anomaly-detection-in-time-series-data-using-lstm-autoencoders-51fd14946fa3",
+        "document": "Anomaly detection is an important concept in data science and machine learning. It involves identifying outliers or anomalies that do not conform to expected patterns in data.\n\nIn time series data specifically, anomaly detection aims to detect abnormal points that differ significantly from previous time steps.\n\nOne effective technique for anomaly detection in time series is using LSTM autoencoders. Let’s understand what these are and how they can identify anomalies.\n\nA time series is a sequence of data points ordered by time. It captures how a metric changes over time. Some common examples include:\n\nThe unique aspect of time series data is that past values can be used to predict future values. However, sometimes unpredictable anomalies can occur.\n\nLSTM stands for Long Short-Term Memory. LSTMs are a type of Recurrent Neural Network (RNN) designed to model temporal sequences and long-range dependencies more accurately than regular RNNs.\n\nAn autoencoder is a type of neural network designed to copy its input to its output. Internally, it has a hidden layer that encodes the input into a representation. By training the network to minimize the difference between the input and output, it learns efficient data encodings in the hidden layer.\n\nAn LSTM autoencoder combines both of these concepts. It uses LSTM layers to learn representations of temporal input sequences.\n\nAs shown above, an LSTM autoencoder takes a sequence as input, encodes it to a vector using an LSTM encoder, and then decodes this vector back to the original sequence as closely as possible using an LSTM decoder.\n\nThe key premise is that an LSTM autoencoder trained on normal time series data will encode such data very efficiently in its inner representations.\n\nHowever, when anomalous data is fed to the network, the decoder will not be able to reconstruct this data properly since the encoder did not see such patterns during training. The higher reconstruction error will indicate the presence of an anomaly.\n\nHere are the steps to detect anomalies with LSTM autoencoders:\n• Train the autoencoder on normal time series data only\n• Determine a threshold for the reconstruction error above which a data point is considered anomalous\n• Feed new time-series data through the trained autoencoder\n• If reconstruction error exceeds the threshold for any data point, label it an anomaly\n\nSetting an optimal threshold is important here to accurately classify anomalies every time.\n\nSome other ways the reconstruction error can be analyzed for anomalies:\n• Contextual anomalies: One point may have high error given context of surrounding points\n• Collective anomalies: Sequence of points has high error overall\n\nBenefits of Using LSTMs for Anomaly Detection\n\nLSTMs have distinctive capabilities that lend themselves nicely to anomaly detection in time series:\n• Sensitivity to new patterns not seen during training\n\nThese attributes combined enable LSTM autoencoders to model complex time series and detect aberrations.\n\nThe training process creates two LSTM models — an encoder to reduce sequences into vector representations and a decoder that tries to replicate vectors back to original sequences.\n\nHere is some sample Python code to define and compile an LSTM autoencoder model with the Keras API:\n\nThe code trains and models end-to-end to minimize reconstruction loss. Once ready, the encoder portion can be used to generate vector encodings of time series input for anomaly analysis.\n\nWhile LSTM Autoencoders exhibit impressive performance in anomaly detection, it’s essential to be aware of potential challenges:\n• Training Data Quality: The effectiveness of the model heavily relies on the quality of the training data. Ensure that your dataset adequately represents normal and anomalous patterns.\n• Hyperparameter Tuning: Experiment with various hyperparameter configurations to find the optimal settings for your specific use case.\n\nThe applications of LSTM Autoencoders extend across multiple domains. Here are a few examples:\n• Finance: Detecting fraudulent transactions by identifying unusual patterns in financial data.\n• Healthcare: Monitoring patient vitals to identify potential health issues before they escalate.\n\nTo summarize, here are the key points:\n• Anomaly detection is critical for identifying abnormalities in time series data\n• LSTM autoencoders leverage LSTM networks to encode time series into vector representations and reconstruct inputs\n• High reconstruction error signifies anomalies not seen during training\n• LSTMs help capture time dependencies well for accurate anomaly evaluation\n• Autoencoder training must be optimized carefully to distinguish anomalies effectively\n\nIf you’re interested in a more in-depth exploration of this topic, you can refer to the following research papers:"
+    }
+]

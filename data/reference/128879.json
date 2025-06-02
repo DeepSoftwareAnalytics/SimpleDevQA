@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/67243040/how-to-make-xmessage-use-a-font",
+        "document": "I come across your question posted a long while ago, while configuring xmessage myself. For your info, the font \"-adobe-source code variable-extralight-\" is not available on my system and cannot test myself. The 2 steps that may be worthwhile to do are:\n\n(1) double-check the spelling of all the names in your -fn option against the ones listed :\n\n(2) check xmessage does pick up the -font option with a more basic font like -*-times- :\n\nEven though I do not have the font on my system to try myself, I am sure the above 2 steps should help pinpoint the problem.\n\nFurthermore, I would suggest testing with another adobe font:\n\nIf this adobe font works, perhaps you have more confidence that \"source code variable\" should also work."
+    },
+    {
+        "link": "https://unix.stackexchange.com/questions/303712/how-can-i-enable-utf-8-support-in-the-linux-console",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://linux.fm4dd.com/en/man1/xmessage.htm",
+        "document": "The xmessage program displays a window containing a message from the command line, a file, or standard input. Along the lower edge of the message is row of buttons; clicking the left mouse button on any of these buttons will cause xmessage to exit. Which button was pressed is returned in the exit status and, optionally, by writing the label of the button to standard output.\n\nThe program is typically used by shell scripts to display information to the user or to ask the user to make a choice.\n\nUnless a size is specified, xmessage sizes itself to fit the message, up to a maximum size. If the message is too big for the window, xmessage will display scroll bars.\n\nThese are the command line options that xmessage understands.\n\nKnowing the name and position in the hierarchy of each widget is useful when specifying resources for them. In the following chart, the class and name of each widget is given.\n\nThe program has a few top-level application resources that allow customizations that are specific to xmessage.\n\nIf it detects an error, xmessage returns 1, so this value should not be used with a button."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/37951494/xmessage-long-text-cut-off-how-to-wrap-using-variable",
+        "document": "I want to use to display a message to the user, because it is the sole relevant tool that is available in the release of the OS that I am using.\n\nHowever, the message is a bit long, so it does not fit in one line. Specifically, displays the message in one line, up to the point that part of it displays off the monitor.\n\nConsequently, is there any way to automatically wrap the text?\n\nI have tried the trick to:\n\nHowever, because my message is coming from a variable, and I want to also use it in my logger, I do not want to use the in it. Do I have any recourse?"
+    },
+    {
+        "link": "https://linux.die.net/man/1/xmessage",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/5306153/how-to-get-terminals-character-encoding",
+        "document": "To my knowledge, no.\n\nCircumstantial indications from , and such might seem alluring, but these are completely separated from the encoding the terminal application (actually an emulator) happens to be using when displaying characters on the screen.\n\nThey only way to detect encoding for sure is to output something only present in the encoding, e.g. , take a screenshot, analyze that image and check if the output character is correct.\n\nSo no, it's not possible, sadly."
+    },
+    {
+        "link": "https://unix.stackexchange.com/questions/303712/how-can-i-enable-utf-8-support-in-the-linux-console",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://beebom.com/how-enable-utf-8-support-linux",
+        "document": "There may be times when you are working in the Linux terminal and suddenly see the “can’t set the locale” error and see some mysterious characters like “��”. This error occurs due to misconfigured or missing UTF-8 encoding support in Linux. UTF-8 locale support becomes necessary when you are using a language other than English or using emojis. So in this article, we will first explain what is UTF-8, and then show how to enable UTF-8 support in Linux in case it’s missing.\n\nWhat Does UTF-8 Mean?\n\nUTF-8 stands for “UCS Transformation Format 8,” and it is the most common form of character encoding for Unicode. Here, each unique character is mapped to one-byte units. And since one byte consists of 8 bits, thus, UTF includes “-8” in its name. These bytes are finally interpreted by the language processor into binary for the processor to understand our human language.\n\nThe environment variable locale provides support for UTF-8 in Linux and can be modified in easy steps via the terminal. It enables your Linux system to show characters correctly from different languages in a text file or website.\n\nHow to Enable UTF-8 Locale in Linux\n\nThe package is usually installed during the installation of your Linux distro, but sometimes, it can get corrupted and show some errors to use. If you are facing issues, we first suggest pasting the below command in the Linux Terminal to check if the locale package is installed on your computer:\n\nIf the local package is installed on your system, you will get a similar output as below:\n\nIf you get any errors or missing values in the output, then you need to install the package using the command below. Then, you can manually enable support for UTF-8 in Linux.\n\n1. Once you have installed the package, you need to regenerate the locales to enable UTF-8 support via the below command in the Linux terminal:\n\n2. The above command is used to regenerate the locales for all the languages available. Move down the list using the arrow keys and select your preferred UTF – 8 locales to enable. We have selected “en_US.UTF-8” (English UTF-8) in this tutorial.\n\n3. Next, set the default locale as “ ” and hit Enter. This will regenerate the selected UTF-8 locale in your Linux Terminal.\n\n1. After the above command has finished regenerating the locale, open the .bashrc file using this command in the Terminal:\n\n2. Once the file opens in the Vim editor in the Terminal, copy and paste the following lines at the end of the file.\n\n3. After adding these, you need to exit the vim editor. For that, you first need to press the “Esc” key and then type “:w” to save and exit the file.\n\nAfter going through so many steps, you must be skeptical about whether UTF – 8 support for the Linux terminal has been enabled or not. To verify the changes, run the command in the Terminal. You will now see the changes you made to the .bashrc configuration file. Finally, reboot the system to have the UTF-8 locale support come into effect.\n\nWith UTF – 8 support disabled in the Linux Terminal, it can lead to a pretty frustrating experience for most users as the text comes out as gibberish and is unreadable. However, with the steps we have shown above, we hope you were able to enable support for the UTF-8 locale on your Linux computer. If you face any issues in fixing this problem, let us know in the comments below. Also, while you are here, check out the essential Linux Terminal commands that everyone should know."
+    },
+    {
+        "link": "https://serverfault.com/questions/13898/how-to-find-out-if-a-terminal-supports-utf-8",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://unix.stackexchange.com/questions/112216/which-terminal-encodings-are-default-on-linux-and-which-are-most-common",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    }
+]

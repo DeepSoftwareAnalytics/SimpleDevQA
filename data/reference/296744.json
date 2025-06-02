@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://learn.microsoft.com/en-us/windows/win32/ipc/pipes",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/windows/win32/ipc/named-pipes",
+        "document": ""
+    },
+    {
+        "link": "https://versprite.com/vs-labs/microsoft-windows-pipes-intro",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/50153/interprocess-communication-for-windows-in-c-sharp-net-2-0",
+        "document": ""
+    },
+    {
+        "link": "https://help.hcl-software.com/hclinformix/1410/admin/ids_admin_0136.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/1235958/ipc-performance-named-pipe-vs-socket",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/10872557/how-slow-are-tcp-sockets-compared-to-named-pipes-on-windows-for-localhost-ipc",
+        "document": ""
+    },
+    {
+        "link": "https://quora.com/Are-pipes-faster-than-sockets",
+        "document": ""
+    },
+    {
+        "link": "http://khambatti.com/mujtaba/ArticlesAndPapers/cse532.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://mohitdtumce.medium.com/understanding-interprocess-communication-ipc-pipes-message-queues-shared-memory-rpc-902f918fba58",
+        "document": ""
+    }
+]

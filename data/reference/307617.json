@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.unity3d.com/6000.0/Documentation/Manual/instantiating-prefabs.html",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/how-to-make-an-game-object-instantiate-based-on-a-players-position/911492",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/instantiating-without-creating-clone/268120",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/instantiate-how-to-pass-data-to-a-script/920868",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/general-scripting-best-practices/509286",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/lonely-vertex-development/how-we-optimised-our-scripts-in-unity-447924863b3a",
+        "document": ""
+    },
+    {
+        "link": "https://learn.unity.com/tutorial/loops-z2b",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/2447475/best-practice-for-creating-objects-used-in-for-foreach-loops",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/for-loop-and-instantiate-issue/191339",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.Distance.html",
+        "document": "Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable. Close\n\nFor some reason your suggested change could not be submitted. Please <a>try again</a> in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation. Close"
+    },
+    {
+        "link": "https://docs.unity3d.com/2020.1/Documentation/ScriptReference/Vector3.Distance.html",
+        "document": "Did you find this page useful? Please give it a rating:\n\nIs something described here not working as you expect it to? It might be a Known Issue . Please check with the Issue Tracker at\n\nWhat kind of problem would you like to report?\n\nThanks for letting us know! This page has been marked for review based on your feedback. If you have time, you can provide more information to help us fix the problem faster. Provide more information\n\nYou've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:\n\nYou've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:\n\nYou've told us there is information missing from this page. Please tell us more about what's missing:\n\nYou've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:\n\nYou've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:\n\nYou've told us there is a spelling or grammar error on this page. Please tell us what's wrong:\n\nYou've told us this page has a problem. Please tell us more about what's wrong:"
+    },
+    {
+        "link": "https://discussions.unity.com/t/different-ways-to-find-distance/560038",
+        "document": ""
+    },
+    {
+        "link": "https://community.gamedev.tv/t/using-vector3-distance/220627",
+        "document": "That’s basically the right of it. The way modern CPUs handle floating point processors, multiplication is always faster than division. This extends into Squares and Square Roots (owing that these are implemented using multiplication and division.\n\nis calculated by taking the square root of the sums of (x1-x2)^2 + (y1-y2)^2 + (z1-z2)^2. So here we have three subtractions (average) three multiplications (fast!) two additions (fast) and one complex division (slow).\n\n is calculated by taking the square root of x^2 + y^2 + z^2. In the case of .magnitude, we’ve likely front loaded the Vector1 - Vector2 math (three subtractions), plus the aforementioned three multiplications, two additions and a complex division.\n\n is calculated by adding x^2 + y^2 + z^2. Once again, for our purposes, we’re still subtracting the vectors in advance, and now we have three multiplications and two additions. On the other end of the equation, we add one multiplication (PlayerChasingRange * PlayerChasingRange), but that replaces one of the CPU’s slowest math functions with one of the CPU’s fastest math function.\n\nUltimately, on a high end PC, you’re not likely to notice the difference, if 20 or 30 enemies make this square root transaction once a frame. On the average Android phone, however (most Android phones active in the world are older and slower and don’t do quite as well at math)."
+    },
+    {
+        "link": "https://reddit.com/r/Unity3D/comments/qv6hrn/i_really_dont_understand_how_vector3_distance",
+        "document": "So, I understand that the Vector3 distance method takes the two values, subtracts them from each other, then finds the magnitude of the remaining value (so x*x + y*y + z*z). But it some how always turns into a positive value?\n\nI can't quite work it out as (0,0,0) - (10, 10, 10) = -10, -10, -10.\n\n-10 * -10 = 100. So we can safely say it becomes (100 + 100 + 100) = 300. aka, the square root or magnitude is 300.\n\nSo I am kinda confused how Unity returns a value of 17.32051 for the distance between the two values given? Can someone enlighten me to how I've done the maths wrong, or how it should be worked out?"
+    },
+    {
+        "link": "https://discussions.unity.com/t/best-practice-for-getting-references-to-gameobjects/823477",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/Unity3D/comments/1qzilw/best_practice_using_gameobjectfind_vs_public",
+        "document": "I've often wondered which of these two methods is better for performance. I've seen countless tutorials where people are using GameObject.Find(\"myObject\") to get the object. Is this a more efficient method of getting objects rather just just creating a public variable in your script, and then dragging and dropping the object onto the script within the editor? The latter method seems much less prone to null reference exceptions and makes for cleaner code.\n\nOr am I missing something?"
+    },
+    {
+        "link": "https://discussions.unity.com/t/findgameobject-or-keep-references-in-memory-best-practice/754096",
+        "document": ""
+    },
+    {
+        "link": "https://gamedev.stackexchange.com/questions/135209/how-to-store-references-to-scene-objects-in-prefabs",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://discussions.unity.com/t/what-are-your-practices-for-finding-and-dealing-with-references/573217",
+        "document": ""
+    }
+]

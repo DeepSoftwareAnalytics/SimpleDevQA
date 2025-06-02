@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://linuxhowtos.org/C_C++/socket.htm",
+        "document": ""
+    },
+    {
+        "link": "https://gnu.org/s/libc/manual/html_node/Sockets.html",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/nguyenchiemminhvu/LinuxNetworkProgramming",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/socket-programming-cc",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/5791860/beginners-socket-programming-in-c",
+        "document": ""
+    },
+    {
+        "link": "https://dev.to/educative/a-tutorial-on-modern-multithreading-and-concurrency-in-c-1j9l?comments_sort=latest",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/C_Programming/comments/tx11li/what_are_some_projects_to_practice_concurrency",
+        "document": ""
+    },
+    {
+        "link": "https://harrisonclarke.com/blog/mastering-concurrency-a-guide-for-software-engineers",
+        "document": ""
+    },
+    {
+        "link": "https://dev.to/educative/a-tutorial-on-modern-multithreading-and-concurrency-in-c-1j9l?comments_sort=oldest",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/C_Programming/comments/fnzf2l/concurrent_programming_in_c_with_examples",
+        "document": ""
+    },
+    {
+        "link": "https://sysprog21.github.io/lkmpg",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/8865731/how-to-get-started-with-linux-kernel-development",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/26323280/learning-linux-kernel-programming-on-a-virtual-machine-on-ubuntu",
+        "document": ""
+    },
+    {
+        "link": "https://ubuntu.com/blog/real-time-kernel-technical",
+        "document": ""
+    },
+    {
+        "link": "https://quora.com/How-do-I-start-developing-Linux-Kernel",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://pandas.pydata.org",
+        "document": ""
+    },
+    {
+        "link": "https://pandas.pydata.org/docs",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/pandas-tutorial",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/python/pandas/pandas_intro.asp",
+        "document": ""
+    },
+    {
+        "link": "https://learnenough.com/blog/how-to-import-Pandas-in-python?srsltid=AfmBOoq_IFjIBTIdKuRXWpPzPtmBpCXbMr7g95c7brM2H2s8j2tjgD2F",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/plotting-histogram-in-python-using-matplotlib",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/33381330/histogram-with-boxplot-above-in-python",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/box-plot-in-python-using-matplotlib",
+        "document": ""
+    },
+    {
+        "link": "https://realpython.com/python-histograms",
+        "document": ""
+    },
+    {
+        "link": "https://matplotlib.org/stable/gallery/statistics/hist.html",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://manpages.ubuntu.com/manpages/focal/en/man7/symlink.7.html",
+        "document": ""
+    },
+    {
+        "link": "https://askubuntu.com/questions/1206322/how-to-make-a-symbolic-link-to-a-folder-at-first-logon",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://manpages.ubuntu.com/manpages/focal/man7/symlink.7.html",
+        "document": ""
+    },
+    {
+        "link": "https://madeeshafernando.medium.com/how-to-create-symlink-in-linux-4ab65ccbc3dc",
+        "document": "A symbolic link, also termed a soft link, is much like a shortcut in Windows. It simply points to another entry somewhere in the file system. Therefore it will not duplicate the data in the system. Following image shows symlink for the ‘sample’ folder inside the test folder.\n\nTo create a new symlink (will fail if symlink exists already) use following command as follows :\n\nTo create or update symlink you can use the following command :\n\nRemember, If you delete the original file or move it to a different location, your symbolic file will not function properly."
+    },
+    {
+        "link": "https://unix.stackexchange.com/questions/700864/script-to-create-symbolic-link",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://labex.io/tutorials/linux-how-to-manage-symlinks-in-linux-391586",
+        "document": "Symbolic links, commonly known as symlinks, are special file types in Linux that serve as references or pointers to other files or directories. These lightweight file system objects enable flexible file management and create dynamic connections between different locations in the file system.\n\nSymlinks act as bridges between files, allowing users to create shortcuts or alternative access paths without duplicating actual file content. They provide a powerful mechanism for organizing and referencing files across different directories.\n\nConsider a scenario where you want to create a symlink from a project configuration file:\n\nIn this example, becomes a symbolic link pointing to the original , allowing easy access and management without file duplication.\n\nBy understanding symlinks, developers can implement more efficient file system strategies and create more flexible software architectures."
+    },
+    {
+        "link": "https://labex.io/tutorials/linux-how-to-manage-file-links-in-linux-efficiently-392873",
+        "document": "Symbolic links are powerful file system tools in Linux that provide flexible references to files and directories. This comprehensive guide explores the fundamentals of symlinks, demonstrating how to create, use, and understand these essential shortcuts that enhance system organization and file management efficiency.\n\n%%%%{init: {'theme':'neutral'}}%%%% flowchart RL linux((\"Linux\")) -.-> linux/BasicFileOperationsGroup([\"Basic File Operations\"]) linux((\"Linux\")) -.-> linux/FileandDirectoryManagementGroup([\"File and Directory Management\"]) linux/BasicFileOperationsGroup -.-> linux/ls(\"Content Listing\") linux/BasicFileOperationsGroup -.-> linux/rm(\"File Removing\") linux/BasicFileOperationsGroup -.-> linux/ln(\"Link Creating\") linux/BasicFileOperationsGroup -.-> linux/chown(\"Ownership Changing\") linux/BasicFileOperationsGroup -.-> linux/chmod(\"Permission Modifying\") linux/FileandDirectoryManagementGroup -.-> linux/cd(\"Directory Changing\") linux/FileandDirectoryManagementGroup -.-> linux/pwd(\"Directory Displaying\") linux/FileandDirectoryManagementGroup -.-> linux/mkdir(\"Directory Creating\") subgraph Lab Skills linux/ls -.-> lab-392873{{\"How to Manage File Links in Linux Efficiently\"}} linux/rm -.-> lab-392873{{\"How to Manage File Links in Linux Efficiently\"}} linux/ln -.-> lab-392873{{\"How to Manage File Links in Linux Efficiently\"}} linux/chown -.-> lab-392873{{\"How to Manage File Links in Linux Efficiently\"}} linux/chmod -.-> lab-392873{{\"How to Manage File Links in Linux Efficiently\"}} linux/cd -.-> lab-392873{{\"How to Manage File Links in Linux Efficiently\"}} linux/pwd -.-> lab-392873{{\"How to Manage File Links in Linux Efficiently\"}} linux/mkdir -.-> lab-392873{{\"How to Manage File Links in Linux Efficiently\"}} end"
+    },
+    {
+        "link": "https://reddit.com/r/linuxquestions/comments/bdxtq6/how_to_organize_symbolic_links",
+        "document": "I have been looking into start using symbolic links more. I like the idea of having some very important symbolic links available globally (so I can be in any folder and can access the symbolic link similiar to how I can run scripts in my scripts folder if the scripts folder is in $PATH).\n\nSo my question is 1) Is this possible?\n\nand 2) If it is possible, is this an advisable way to use system links?\n\nCurrently I have aliases for common folders in my .bashrc, but I like the idea of using a symbolic link better.\n\nI am asking this because I saw someone having thousands of symbolic links in their home directory, but I like keeping folder organized, and that doesn't sound like something I'd like to do."
+    },
+    {
+        "link": "https://ceos3c.com/linux/understanding-linux-symbolic-links-a-beginners-guide",
+        "document": "Symbolic links (symlinks) are one of the most powerful yet underutilized features in Linux. Whether you’re a developer, system administrator, or Linux enthusiast, understanding symlinks can significantly improve your workflow and system organization. Let’s dive into what symlinks are, why they matter, and how to use them effectively.\n\nSymbolic links are special files that point to other files or directories, similar to shortcuts in Windows. However, they’re much more powerful and integrated into the Linux filesystem.\n• Save disk space by linking to files instead of copying them\n\nThe basic syntax for creating a symbolic link is:\n\nLet’s look at some practical examples:\n\nUse the command with the option to view symbolic links:\n\nThe output will show something like:\n\nThe at the start indicates it’s a symbolic link, and the arrow ( ) shows where it points.\n\nSymlinks are excellent for managing different versions of applications:\n• Always use absolute paths for critical system links\n• Back up important links before modifying them\n\nEnsure you have proper permissions both for creating the link and accessing the target:\n\nSymbolic links can pose security risks if not managed properly:\n• Always verify the target before creating links\n• Be cautious with links in shared directories\n• Understand the implications of following symlinks in scripts\n\nSymbolic links are particularly useful in development environments:\n\nSymbolic links are a fundamental part of the Linux filesystem, offering flexibility and power in file management. By understanding and properly utilizing symlinks, you can create more efficient and maintainable systems. Remember to follow best practices, regularly check for broken links, and maintain proper documentation of your symbolic link structure.\n\nWhether you’re organizing configuration files, managing multiple versions of applications, or streamlining your development workflow, symbolic links are an invaluable tool in your Linux toolkit. Start small, experiment in a safe environment, and gradually incorporate symlinks into your daily work for improved efficiency and organization."
+    },
+    {
+        "link": "https://reddit.com/r/linuxquestions/comments/sn3ins/what_are_the_real_world_applications_of_using",
+        "document": "What are the real world applications of using symbolic and hard links?\n\nSorry, this post was deleted by the person who originally posted it.\n\nArchived post. New comments cannot be posted and votes cannot be cast."
+    }
+]

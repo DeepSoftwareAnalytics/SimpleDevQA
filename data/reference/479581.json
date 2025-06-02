@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://answers.microsoft.com/en-us/windows/forum/all/show-local-taskbar-in-avdremote-desktop-fullscreen/c03a4ced-586e-4876-b388-90887a833cd5",
+        "document": ""
+    },
+    {
+        "link": "https://superuser.com/questions/1243000/local-taskbar-visible-during-remote-desktop-fullscreen",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://forum.devolutions.net/topics/2107/show-rdp-session-fullscreen--local-taskbar",
+        "document": ""
+    },
+    {
+        "link": "https://community.spiceworks.com/t/remote-desktop-connection-full-screen-viewable-within-a-window/819284",
+        "document": "Hello. Is there a way for me to set up Remote Desktop Connection so that I can see the entire desktop of the computer I am remoted into but scaled within a window? In other words, want to see the entire desktop, including toolbars, when not in full screen mode?\n\nSure you can. Follow this: 3. Drag the slider under Display configuration from Large (Full Screen) to one tick down. **Other solutions ? windows 7 - Maximize Remote desktop but not to full screen - Super User **\n\nThank you for the reply, I appreciate it, but that still does not get me to where I want to get to. I want to be able to see the full remote desktop within the window without having to scroll. In other words, view the full remote desktop scaled to the window size. With your suggestion I still have to scroll in order to see the taskbar.\n\nIn order to do what you ask your resolution would have to be higher than that of the window. Using my example So my monitor is 2560x1440\n\n Set the RDC connection to 1920x1200 (next tick down)\n\n I can see the full window of the RDC without needing to scroll\n\n Pretty much what the above Spicers have said\n\nTo answer the question you very clearly asked - no there is no way in a Microsoft remote desktop protocol viewer. RDP does not scale, it is pixel for pixel - so if you select 1280x1024 - that is what it will use on your screen - so if your screen is in a higher resolution then the remote screen appears windowed and you can see it all, but if the the remote end is in a higher Resolution that yours you end up having to scroll. It is fine for general admin, but if you do a lot of end user remote control it is painful if they have large screens etc. Other remote viewers do scale - team viewer, splash top to name 2."
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/answers/questions/698270/rdcman-win11-full-screen-local-taskbar-visible",
+        "document": "A Microsoft app that connects remotely to computers and to virtual apps and desktops."
+    },
+    {
+        "link": "https://learn.microsoft.com/en-gb/answers/questions/1803260/show-remote-desktop-windows-in-full-screen-when-in",
+        "document": "\n• Ensure the remote desktop is in full screen mode before starting your screen share in Teams."
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/answers/questions/1803260/show-remote-desktop-windows-in-full-screen-when-in",
+        "document": "\n• Ensure the remote desktop is in full screen mode before starting your screen share in Teams."
+    },
+    {
+        "link": "https://community.spiceworks.com/t/remote-desktop-connection-full-screen-viewable-within-a-window/819284",
+        "document": "Hello. Is there a way for me to set up Remote Desktop Connection so that I can see the entire desktop of the computer I am remoted into but scaled within a window? In other words, want to see the entire desktop, including toolbars, when not in full screen mode?\n\nSure you can. Follow this: 3. Drag the slider under Display configuration from Large (Full Screen) to one tick down. **Other solutions ? windows 7 - Maximize Remote desktop but not to full screen - Super User **\n\nThank you for the reply, I appreciate it, but that still does not get me to where I want to get to. I want to be able to see the full remote desktop within the window without having to scroll. In other words, view the full remote desktop scaled to the window size. With your suggestion I still have to scroll in order to see the taskbar.\n\nIn order to do what you ask your resolution would have to be higher than that of the window. Using my example So my monitor is 2560x1440\n\n Set the RDC connection to 1920x1200 (next tick down)\n\n I can see the full window of the RDC without needing to scroll\n\n Pretty much what the above Spicers have said\n\nTo answer the question you very clearly asked - no there is no way in a Microsoft remote desktop protocol viewer. RDP does not scale, it is pixel for pixel - so if you select 1280x1024 - that is what it will use on your screen - so if your screen is in a higher resolution then the remote screen appears windowed and you can see it all, but if the the remote end is in a higher Resolution that yours you end up having to scroll. It is fine for general admin, but if you do a lot of end user remote control it is painful if they have large screens etc. Other remote viewers do scale - team viewer, splash top to name 2."
+    },
+    {
+        "link": "https://reddit.com/r/WindowsHelp/comments/1b1vkg7/how_do_i_maximise_a_remote_desktop_connection",
+        "document": "For my current work, I nedd to switch back and forth frequently between a RDC instance and a document on the host computer.\n\nInitially, the RDC display configuration is set to the default fullscreen. While in this state, Alt + Tabs are captured by the remote computer. To switch to the document, I need to exit from fullscreen so that Alt + Tab is captured by the host computer instead.\n\nThe alternative is to change the RDC display configuration to not fullscreen. This is an imperfect solution: if I click the maximise window button, it automatically goes back into fullscreen and Alt + Tab is captured by the remote computer again. I don't want that. My current workaround is to maximise the RDC window to half screen (split screen mode), then extend the window by dragging with my mouse to cover the rest of the screen.\n\nThe above solutions are very inefficient imo, requiring at least 2 steps for every single time I start a RDC session, easily 3+ times daily. Is there a way to configure RDC to, you know, behave like every other window in Windows? I want to either start maximised but still in windowed mode, or at least not enter fullscreen when I click the upper right maximise button."
+    },
+    {
+        "link": "https://superuser.com/questions/94620/remote-desktop-doesnt-maximize-to-fullscreen",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    }
+]

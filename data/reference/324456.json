@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://httpd.apache.org/docs/2.4/mod/mod_deflate.html",
+        "document": ""
+    },
+    {
+        "link": "https://httpd.apache.org/docs/2.4/en/mod/mod_deflate.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/12367858/how-can-i-get-apache-gzip-compression-to-work",
+        "document": ""
+    },
+    {
+        "link": "https://serverfault.com/questions/137823/how-to-enable-either-gzip-or-deflate-compression-via-htaccess",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/30570870/how-to-enable-simple-compression-with-mod-deflate-gzip-on-apache-within-htacces",
+        "document": ""
+    },
+    {
+        "link": "https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html",
+        "document": ""
+    },
+    {
+        "link": "https://httpd.apache.org/docs/2.4/rewrite/remapping.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/20563772/reference-mod-rewrite-url-rewriting-and-pretty-links-explained",
+        "document": ""
+    },
+    {
+        "link": "https://serverfault.com/questions/1044973/htaccess-to-url-rewrite-and-force-https",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/76143435/apache-2-4-url-rewrite-server-server-servername-to-server-servername",
+        "document": ""
+    }
+]

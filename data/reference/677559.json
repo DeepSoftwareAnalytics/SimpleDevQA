@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://jfrog.com/help/r/jfrog-rest-apis/artifactory-rest-apis",
+        "document": ""
+    },
+    {
+        "link": "https://jfrog.com/help/r/jfrog-rest-apis",
+        "document": ""
+    },
+    {
+        "link": "https://jfrog.com/help/r/jfrog-rest-apis/artifactory-rest-api-v2",
+        "document": ""
+    },
+    {
+        "link": "https://jfrog.com/help/r/jfrog-rest-apis/introduction-to-the-artifactory-rest-apis",
+        "document": ""
+    },
+    {
+        "link": "https://jfrog.com/help/r/jfrog-rest-apis/introduction-to-the-jfrog-platform-rest-apis",
+        "document": ""
+    },
+    {
+        "link": "https://jfrog.com/help/r/jfrog-rest-apis/introduction-to-the-artifactory-rest-apis",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/73533419/how-to-download-files-from-jfrog-repository-using-curl-command",
+        "document": "I have a repository called maven-local, and uploaded an ear file called test.ear under the path com/test/jfrog.\n\nWe can use the below command directly to download the file:"
+    },
+    {
+        "link": "https://stackoverflow.com/questions/34328785/deployment-to-artifactory-server-using-curl",
+        "document": "Using the below command to push the Artifact to the JFrog Artifactory Server\n\nThe thing is that it looks the Artifactory Server been set to use the Secure Password. I used the Encrypted Password and placed in the above command and ran it.\n\nEven after using the secure password, I am getting the error message as below\n\nWhat am I missing? Any Idea?"
+    },
+    {
+        "link": "https://jfrog.com/help/r/jfrog-rest-apis/artifactory-rest-apis",
+        "document": ""
+    },
+    {
+        "link": "https://jfrog.com/help/r/how-to-troubleshoot-npm-problems/using-curl",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/111600-lumos",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/124380-mcmatlab",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/124380-mcmatlab?s_tid=LandingPageTabfx",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/matlab/comments/1ghx13y/light_distribution_modeling_in_matlab",
+        "document": "I (Engineering and math background) am designing a photobioreactor. I am looking for a simple (does not have to have very high resolution) way to quickly calculate light density inside a space from multiple light sources.\n\nI only need a 2D graph/visualization of light distribution in say for example a 1 meter by 1 meter square, with about 12-16 light sources, all with known angles and irradiance. The goal is to be able to change variables like the light positioning and quantity of lights, or the attenuation due to media (air vs water vs algae filled water, etc.) in the model easily to make comparisons. Does anyone know a method to do this in Matlab? I've done something similar before for 2D temperature gradient in a solid, but those models are a bit easier because you only have a single equation of diffusion for adjacent particles/packets. In my case I need a given packet/space to be able to take information from multiple sources, corresponding to their distance.\n\nI don't have any expensive physics modeling software right now. I've done these calculations before for a single design by hand, but do not want to do it 100 times...Thank you!"
+    },
+    {
+        "link": "https://opg.optica.org/optcon/abstract.cfm?URI=osac-2-3-957",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/585872-how-to-create-randomly-placed-points-within-a-3d-rectangle",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/309657-generating-random-3d-vectors",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/80356-generate-gaussian-random-points-in-3d-space-with-a-given-mean-position",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/1635590-how-to-generate-random-points-in-a-3d-line-if-two-end-points-are-known",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/1738495-how-to-generate-random-points-in-3d-coordinate-on-the-surface-of-cube",
+        "document": ""
+    }
+]

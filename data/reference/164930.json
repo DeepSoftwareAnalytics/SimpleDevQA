@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://backtrader.com/docu/quickstart/quickstart",
+        "document": ""
+    },
+    {
+        "link": "https://backtrader.com/docu/strategy",
+        "document": ""
+    },
+    {
+        "link": "https://backtrader.com/docu/order-creation-execution/bracket/bracket",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/mementum/backtrader/blob/master/samples/order-close/close-daily.py",
+        "document": "# This program is free software: you can redistribute it and/or modify\n\n# it under the terms of the GNU General Public License as published by\n\n# the Free Software Foundation, either version 3 of the License, or\n\n# This program is distributed in the hope that it will be useful,\n\n# but WITHOUT ANY WARRANTY; without even the implied warranty of\n\n# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the\n\n# You should have received a copy of the GNU General Public License\n\n# along with this program. If not, see <http://www.gnu.org/licenses/>.\n\n'''This data filter simply adds the time given in param ``endtime`` to the\n\nIt is intended for daily bars which come from sources with no time\n\nindication and can be used to signal the bar is passed the end of the\n\nThe default value for ``endtime`` is 1 second before midnight 23:59:59\n\n- False (always) because this filter does not remove bars from the\n\n'be the end of the session' ))"
+    },
+    {
+        "link": "https://backtrader.com/docu/order",
+        "document": ""
+    },
+    {
+        "link": "https://backtrader.com/docu/order",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/algotrading/comments/fehggl/how_to_cancel_pending_orders_in_backtrader",
+        "document": "This might not be the best place to ask, but I'm unable to post on the backtrader community forum and I figured some of you may have some experience in backtrader.\n\nAnyways, I can't seem to figure out how to cancel a stop loss order that was created alongside a short entry. I wan't to cancel the stop order when my target is hit(I cannot use bracket orders since the short target is not a price target but an RSI level target). I'm still very new to OOP + coding in general and can't find anything online or even the backtrader docs.\n\nThis is my code so far, I'm getting this error \"AttributeError: 'int' object has no attribute 'ref' \"\n\nI gave up on figuring it out by myself, so any help would be very appreciated."
+    },
+    {
+        "link": "https://backtrader.com/docu/order-creation-execution/order-creation-execution",
+        "document": ""
+    },
+    {
+        "link": "https://backtrader.com/docu/strategy",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/algotrading/comments/18ke5kw/backtrader_order_execution_rebalancing",
+        "document": "I have a Problem with the logic of backtrader. My strategy uses daily close prices to trade. At time t the Signals are generated, the orders shall be executed at the close t+1. So far so good.\n\nThe Problem is that if my allocation to assets change, backtrader executes the sell order at time t+1 but cannot execute the buy order at the same time because it doesnt has enough Cash. Margin call!\n\nI have read that the logic of backtrader is that the order is not executed before the next Bar. So a rebalance at the same time is not possible? Is there a way to circumvent this Problem?\n\nMy next try is to execute sell orders at the open and the buy orders at the close at t+1.\n\nAny other ideas? Thank you\n\nEdit: Logic of my nextr try"
+    }
+]

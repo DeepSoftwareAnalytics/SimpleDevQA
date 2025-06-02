@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/1858003-the-convolution-function-i-wrote-doesn-t-work-for-the-big-arrays",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/42722738/matlab-convolution-regarding-the-conv-function-and-length-size-function",
+        "document": "I'm kind've new to Matlab and stack overflow to begin with, so if I do something wrong outside of the guidelines, please don't hesitate to point it out. Thanks!\n\nI have been trying to do convolution between two functions and I have been having a hard time trying to get it to work.\n\nI commented my issues with the code. I don't understand the difference of and in this case and how it would make a difference.\n\nFor the second comment, should have an amplitude of . While should have an amplitude of . When plotted, it only shows nothing in the locations specified but looks jumbled up at . I'm assuming that's the reason why the convoluted plot won't be displayed.\n\nThe original problem statement is given if it helps to understand what I was thinking throughout.\n\nConsider an input signal x(t) that consists of two delta functions at t = 1 and t = 4 with amplitudes A1 = 5 and A2 = 2, respectively, to a linear system with impulse response h that is an exponential pulse (h(t) = e ^−t ). Plot x(t), h(t) and the output of the linear system y(t) for t in the range of 0 to 10 using increments of 0.01. Use the MATLAB built-in function conv."
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/697720-problem-when-indexing-large-integer-arrays",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/46779928/indexing-issue-for-output-matrix-in-conv2input-filter",
+        "document": "I am looking for a way to declare center of my kernel/filter so that the output of my 2D convolution is in accordance with the following figure\n\nI have looked into conv2(input,filter) but found that this inbuilt function assumes that for an MxN filter, its center is always located at (M,N) location in filter matrix. I saw the following image at https://www.mathworks.com/help/vision/ref/2dconvolution.html . In this case the result of double sum will be located at (2,2) instead of (1,1) in output matrix"
+    },
+    {
+        "link": "https://edaboard.com/threads/how-to-use-negative-indexing-in-matlab.99056",
+        "document": "tell me waht seems u undefined i will post code for subfuctions of the code like sigshift and sigfold if u like tell me what is undefined i want this code to work at any cost i will give u the code for sigashift and sigfoldfunction [y,n]=sigfold(x,n)y=fliplr(x);n=-fliplrcode for signal fioldingfunction [y,n]=sigshift(x,m,no)n=m+no;y=x;stem(n,y);code for signal shifting u can paste them in command window in matlb u can check it they r working absolutely fine save it both as.m filae than my convolution code as convu.m and then pass the parameere nothing is undefined we have to do x1*x2 with x1 icontains n element with n1 indexing same it is x2 we are doing x1*x2 for e.g check it now my ans is nt coming i have this code myself but my answer is not coming according the bookx1=[3 11 7 0 -1 4 2],n1=-3:3,x2(n2)=[2 3 0 -5 2 1] , n2=-1:4x1*x2 should cocme out to bey=[6 31 47 6 -51 -5 41 18 -22 -3 8 2] it is correct theoretically is true correct it plz it has it my whole blood"
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ref/butter.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/38584-butterworth-filters",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ug/apply-lowpass-filter-to-input-signal.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/1902165-how-to-apply-butterworth-filter-to-an-inertial-signal-metrics",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/2138536-help-with-matlab-butterworth-filter-with-signal-processing",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/ref/subplot.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/creating_plots/combine-multiple-plots.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/64158-multiple-plots-on-a-subplot",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/33793590/plotting-multiple-datasets-in-matlab",
+        "document": "I have voltage and current signals from multiple days. The time vector is in seconds of the day (SOD), and the voltage and current vectors are in volts and amps respectively. However, the vector data from each day is different lengths. For example Mondays data might be 1x100000 for both time and voltage/current, and Tuesdays might be 1x50000 for both time and voltage/current. I was asked to plot the different days of data on the same figure for comparison purposes. I have tried using the method but that obviously didn't work due to different vector lengths. I tried interpolating to the larger data set, but then realized that I will get all on the result since there is no overlap in time. I ran out of ideas and am desperately in need of help.\n\nEDIT: I guess I forgot to mention that somehow I would like to overlay them one on top of the other in the same figure and not using a subplot."
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/811975-multiple-y-and-x-axes-in-multiple-subplots",
+        "document": ""
+    }
+]

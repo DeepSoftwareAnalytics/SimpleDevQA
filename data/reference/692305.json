@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/help/signal/ref/findpeaks.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ug/find-peaks-in-data.html",
+        "document": ""
+    },
+    {
+        "link": "https://fr.mathworks.com/help/signal/ref/findpeaks.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ug/peak-analysis.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/2153300-finding-peaks-in-a-very-noisy-signal",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/smoothing-and-denoising.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/746317-find-peaks-from-noisy-data",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/curvefit/smoothing-data.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/436492-smooth-the-data-and-find-major-peaks",
+        "document": ""
+    },
+    {
+        "link": "https://matlabsolutions.com/resources/find-peaks-valleys-of-a-noisy-signal.php",
+        "document": "It is just a two column data and I plot the 2nd column wrt 1st one. I would prefer to measure valleys and I would actually need both.\n\nI have this signal which is noisy as well as it has too much data samples. When I try to find the peaks or valleys, it gives multiple peaks/valleys around the same point probably because the data is noisy and has too many samples. I did use the 'MinPeakDistance' and also tried using the 'MinPeakHeight' and also the 'Threshold' but all time I get many peaks's around a given time instant. In other words, I would want only one peak at the peak of the signal and one valley at the trough of the signal. I have the data attached to the post too. Thanks in advance.\n\nTo address your challenge of finding a single peak and valley in a noisy signal, you can try using a smoothing technique to reduce noise before detecting peaks and valleys. Here's an approach using Python and the SciPy library:\n• Smooth the Data: Use a moving average or a Savitzky-Golay filter to smooth the noisy signal.\n• Find Peaks and Valleys: Use the function from the module with appropriate parameters.\n\nHere's an example of how to do this:\n\nYou can adjust the , , and parameters to better suit your data. The should be chosen based on the width of features in your signal, and should be set to avoid detecting multiple peaks/valleys around the same point.\n\nNot satisfied with the answer ?? ASK NOW"
+    }
+]

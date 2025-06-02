@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://blog.csdn.net/2201_75506341/article/details/139427690",
+        "document": ""
+    },
+    {
+        "link": "https://support.microsoft.com/zh-cn/topic/access-%E6%9C%AF%E8%AF%AD%E8%A1%A8-29ab26b7-1f36-4da4-9e75-479f8e6e3c35",
+        "document": "在 Access 项目中，存储 1 或 0 值的数据类型。 接受除 1 或 0 以外的整数值，但它们始终被解释为 1。\n\n在 Access 项目中，近似数值数据类型的精度为 15 位。 float 数据类型可以保存大约 2.23E - 308 到 1.79E + 308 的正值，大约 -2.23E - 308 到 -1.79E + 308 的负值，或零。\n\n在 Access 项目中，具有七位数精度的近似数值数据类型。 它可以保留大约 1.18E - 38 到 3.40E + 38 的正值，大约 -1.18E - 38 到 -3.40E + 38 的负值，或零。"
+    },
+    {
+        "link": "https://cloud.google.com/spanner/docs/monitoring-console?hl=zh-cn",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md",
+        "document": ""
+    },
+    {
+        "link": "https://metabase.net.cn/learn/grow-your-data-skills/learn-sql/working-with-sql/sql-best-practices",
+        "document": ""
+    },
+    {
+        "link": "https://blog.csdn.net/xuanyuanhan_/article/details/137745588",
+        "document": ""
+    },
+    {
+        "link": "https://zhuanlan.zhihu.com/p/686158155",
+        "document": ""
+    },
+    {
+        "link": "https://nuvei.com/zh/posts/what-is-a-secure-payment-system?818a72c6_page=7",
+        "document": ""
+    },
+    {
+        "link": "https://stripe.com/zh-us/resources/more/micropayments-101-a-guide-to-get-businesses-started",
+        "document": ""
+    },
+    {
+        "link": "https://support.warframe.com/hc/zh-cn/articles/360028551411--Warframe-%E5%8F%8C%E9%87%8D%E9%AA%8C%E8%AF%81%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98",
+        "document": ""
+    }
+]

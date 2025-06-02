@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://jsdelivr.com/package/npm/milkdown-plugin-image-picker",
+        "document": "Get a badge for your package"
+    },
+    {
+        "link": "https://github.com/Milkdown/examples/blob/main/README.md",
+        "document": "A simple example of using milkdown with vanilla typescript.\n\nA simple example of using milkdown with React.\n\nA simple example of using crepe with React.\n\nA simple example of using milkdown with Vue.\n\nA simple example of using crepe with Vue.\n\nA simple example of using milkdown with Svelte.\n\nA simple example of using milkdown with Solid.\n\nA simple example of using milkdown with Next.\n\nA simple example of using milkdown with Nuxt.\n\nExample for creating different kinds of plugins.\n\nA simple example for adding shiki highlight for milkdown.\n\nA custom iframe syntax example of using milkdown with vanilla typescript.\n\nA example for using milkdown with yjs to build a collaborative editor.\n\nA example for using openAI to build a copilot for milkdown editor.\n\nA example for using react to render milkdown component.\n\nA example for using vue to render milkdown component.\n\nA example for using react to render tooltip plugin.\n\nA example for using vue to render tooltip plugin.\n\nA example for vanilla typescript to render slash plugin.\n\nA example for using react to render slash plugin.\n\nA example for using vue to render slash plugin.\n\nA example for using react to render block plugin.\n\nA example for using vue to render block plugin.\n\nA example for using link tooltip component in milkdown.\n\nA example for using image block component in milkdown.\n\nA example for using image inline component in milkdown.\n\nA example for using code block component in milkdown.\n\nA example for using list item block component in milkdown.\n\nA example for using table block component in milkdown.\n\nA example for using crepe editor, which is a markdown editor based on Milkdown."
+    },
+    {
+        "link": "https://trailhead.salesforce.com/trailblazer-community/feed/0D54S00000A8SYHSA3",
+        "document": ""
+    },
+    {
+        "link": "https://milkdown.dev/docs/guide/getting-started",
+        "document": ""
+    },
+    {
+        "link": "https://jsdelivr.com/package/npm/@milkdown/core",
+        "document": "Get a badge for your package"
+    },
+    {
+        "link": "https://github.com/orgs/Milkdown/discussions/1560",
+        "document": "To see all available qualifiers, see our documentation .\n\nSaved searches Use saved searches to filter your results more quickly\n\nWe read every piece of feedback, and take your input very seriously.\n\nYou signed in with another tab or window. Reload to refresh your session.\n\nYou signed out in another tab or window. Reload to refresh your session.\n\nYou switched accounts on another tab or window. Reload to refresh your session."
+    },
+    {
+        "link": "https://milkdown.dev",
+        "document": "Everything in Milkdown are plugins. Extend your editor with different types of plugins: syntax, theme, UI, etc.\n\nWith the support of Y.js, Milkdown can be used in real-time collaborative editing which can support multiple users editing on the same documentation.\n\nMilkdown is headless and comes without any CSS. You can easily customize the editor to fit the style of your application.\n\nMilkdown is built on top of some great libraries, such as ProseMirror, Y.js, and Remark, which means you can use their community and eco system to get help."
+    },
+    {
+        "link": "https://milkdown.dev/docs/plugin/using-plugins",
+        "document": ""
+    },
+    {
+        "link": "https://milkdown.dev/docs/plugin/plugins-101",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/Milkdown/milkdown",
+        "document": "A plugin-driven WYSIWYG markdown Editor, inspired by Typora, built on top of prosemirror and remark.\n\nThe website is designed by Meo and Mirone. Powered by Theme Nord and Material Design.\n\nFor more information, please check our official documentation website.\n\nYou can check our Milkdown TODO project page to know what's on the plan.\n\nYou can also check milestones to know what's being worked on.\n\nWelcome to join our Discord community.\n\nFollow our contribution guide to learn how to contribute to milkdown.\n\nSpecial thanks to @Meo for her work in design.\n\nIf you like this project, please consider fund me to help the maintenance.\n\nThanks to the following projects and companies for their support to milkdown and the open source community."
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://valhalla.altium.com/Learning-Guides/TR0114%20VHDL%20Language%20Reference.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://faculty-web.msoe.edu/johnsontimoj/EE3921/files3921/Book_FreeRangeVHDL.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://cse.usf.edu/~haozheng/teach/cda4253/slides/vhdl-1.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://vhdl-manual.narod.ru/books/programming_by_example.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://to.infn.it/~pacher/teaching/FPGA/phd/slides/vhdl_intro.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://fpgakey.com/tutorial/section897?srsltid=AfmBOopVTHSgejf8U3IQe2wAhurDdhu_zLAjIxZyVD9eO3NywTzDpSE_",
+        "document": "If we start with a simple unsigned multiplier, then this can be implemented very simply using VHDL. The important aspect to consider with this multiplier is how many bits will be on the inputs and how many on the output. If the number of bits are the same across all three, then we need to consider the possibility of overflow and how this can be handled by the multiplier.\n\nIn this basic model, we will define the output number of bits as being the sum of the two input word lengths, and deal with overflow externally to the multiplier.\n\nIf we use the basic accumulator and addition function of the simple binary addition method described previously, we can implement a basic VHDL multiplier as shown below:\n\n28 for all : add_beh use entity work.add_beh;\n\n55 for i in 0 to top loop\n\nThis model is perhaps more complex than it really needs to be, but it does have some nice features from a learning point of view.\n\nFirstly, rather than a “super efficient” shifting model which is difficult to read, the shift and add function in process p1 is laid out in detail so each stage of the multiplication can be followed through. Also, notice the use of the signal finished which is used to show when the calculation is completed. This is useful when designing a controller to show that the calculation has been completed."
+    },
+    {
+        "link": "https://docs.amd.com/r/en-US/ug901-vivado-synthesis/Unsigned-16x16-Bit-Multiplier-Coding-VHDL-Example",
+        "document": ""
+    },
+    {
+        "link": "https://ww1.microchip.com/downloads/aemdocuments/documents/fpga/ApplicationNotes/ApplicationNotes/multipliers_actel_an.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://intel.com/content/www/us/en/support/programmable/support-resources/design-examples/horizontal/vhd-unsigned-multiplier.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/53329810/vhdl-4-bit-multiplier-based-on-4-bit-adder",
+        "document": "\"I am stuck on the port map\" isn't a specific problem statement.\n\nWith named association members of formal ports in maps could be associated individually as well as in whole as long as all members of the formal are associated - IEEE Std 1076-2008 6.5.7 Association lists:\n\nA formal interface object shall be either an explicitly declared interface object or member (see 5.1) of such an interface object. In the former case, such a formal is said to be associated in whole. In the latter cases, named association shall be used to associate the formal and actual; the subelements of such a formal are said to be associated individually. Furthermore, every scalar subelement of the explicitly declared interface object shall be associated exactly once with an actual (or subelement thereof) in the same association list, and all such associations shall appear in a contiguous sequence within that association list. Each association element that associates a slice or subelement (or slice thereof) of an interface object shall identify the formal with a locally static name.\n\nNote you have too many carry elements (only need two), don't need andgate(0), don't need sumout(0), sumout(4) or sumout(11 downo 8), there's an extraneous character in the multy architecture, you're missing context clauses and have unused use clauses.\n\nThe to_string function is included for pre -2008 simulators. Context clauses were added to FA and Ripple_Adder."
+    }
+]

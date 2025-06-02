@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://en.cppreference.com/w/cpp/io",
+        "document": ""
+    },
+    {
+        "link": "https://en.cppreference.com/w/cpp/standard_library",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/basic-input-output-c",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/cpp/standard-library/cpp-standard-library-reference?view=msvc-170",
+        "document": ""
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library",
+        "document": ""
+    },
+    {
+        "link": "https://labex.io/tutorials/cpp-how-to-improve-prime-number-efficiency-420857",
+        "document": ""
+    },
+    {
+        "link": "https://linkedin.com/pulse/optimized-prime-number-algorithm-surya-satish-vegisetti",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/8302267/optimizing-prime-numbers-code",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/50930926/how-to-check-if-a-number-is-prime-in-a-more-efficient-manner",
+        "document": ""
+    },
+    {
+        "link": "https://nitishhsinghhh.medium.com/optimizing-the-isprime-function-efficiency-through-odd-factors-fe7ecf30e7fb",
+        "document": ""
+    }
+]

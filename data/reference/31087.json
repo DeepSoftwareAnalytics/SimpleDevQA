@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://pyserial.readthedocs.io/en/latest/pyserial_api.html",
+        "document": ""
+    },
+    {
+        "link": "https://media.readthedocs.org/pdf/pyserial/latest/pyserial.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://forums.raspberrypi.com/viewtopic.php?t=204305",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/pyserial/pyserial/blob/master/serial/rs485.py",
+        "document": ""
+    },
+    {
+        "link": "https://forums.raspberrypi.com/viewtopic.php?t=234122",
+        "document": ""
+    },
+    {
+        "link": "https://docs.python.org/3/library/sqlite3.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.python.org/3.9/library/sqlite3.html",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/python-sqlite",
+        "document": ""
+    },
+    {
+        "link": "https://docs.python.org/tr/3.9/library/sqlite3.html",
+        "document": ""
+    },
+    {
+        "link": "https://sqlite-utils.datasette.io/en/3.10/python-api.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.python.org/3/library/struct.html",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/struct-module-python",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/16165488/packing-and-unpacking-binary-float-in-python",
+        "document": ""
+    },
+    {
+        "link": "https://docs.python.org/es/3.7/library/struct.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/46410429/how-to-convert-a-float-into-binary-using-struct-unpack",
+        "document": ""
+    }
+]

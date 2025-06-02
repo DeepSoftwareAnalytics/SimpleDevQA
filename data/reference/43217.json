@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://documentation.sas.com/doc/en/mcrolref/9.4/n0pfmkjlc3e719n1lks4go8ke61r.htm",
+        "document": ""
+    },
+    {
+        "link": "https://documentation.sas.com/doc/en/mcrolref/9.4/titlepage.htm",
+        "document": ""
+    },
+    {
+        "link": "https://documentation.sas.com/doc/en/mcrolref/9.4/p1gjh9paxeeq2hn17l8f0irr6d8i.htm",
+        "document": ""
+    },
+    {
+        "link": "https://documentation.sas.com/api/docsets/mcrolref/9.4/content/mcrolref.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://documentation.sas.com/doc/en/pgmsascdc/v_006/mcrolref/n02xowj8yuqfo4n0zzi98shu8qup.htm",
+        "document": ""
+    },
+    {
+        "link": "https://documentation.sas.com/doc/en/ds2pg/3.2/n09slu1tsftvlqn14un8v7cbufig.htm",
+        "document": ""
+    },
+    {
+        "link": "https://documentation.sas.com/doc/en/ds2pg/latest/n09slu1tsftvlqn14un8v7cbufig.htm",
+        "document": ""
+    },
+    {
+        "link": "https://documentation.sas.com/api/docsets/lefunctionsref/9.4/content/lefunctionsref.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://libguides.library.kent.edu/SAS/DatesTime",
+        "document": "Before reading this tutorial, you may wish to review SAS Date Formats and Informats and SAS Date, Time, and Datetime Values.\n\nDates, times, and date-times are commonly used variable types in research. In SAS, dates and times are considered numeric variables, but they have several special properties to be aware of.\n\nRegardless of how the researcher records dates or times in their dataset, SAS \"internally\" records datetime variables as integers. This helps to simplify the computations when computing the differences between dates.\n• SAS time values are stored internally as the number of seconds between midnight of the current day and another time value.\n• SAS datetime values stored internally as the number of seconds between midnight, January 1, 1960, and the specified date and time.\n• SAS date values are the stored internally as the number of days between January 1, 1960, and a specified date. Dates after January 1, 1960, are stored as positive numbers; dates before January 1, 1960, are stored as negative numbers.\n\nBy default, SAS date and time variables are printed using the SAS internal values, rather than a \"human-readable\" date format. However, dates can be displayed using any chosen format by setting the format in a data step or proc step. (For a full listing of date-time formats, see About SAS Date, Time, and Datetime Values.)\n\nIn this tutorial, we show how to compute new variables from dates and times using two major types of date functions: extraction-type functions and computation-type functions.\n\nDate extraction functions are used to extract a portion of a date from a date variable.\n• YEAR - Given a number or a variable representing a date or datetime, returns the year.\n• QTR - Given a number or a variable representing a date or datetime, returns the quarter.\n• MONTH - Given a number or a variable representing a date or datetime, returns the month.\n• DAY - Given a number or a variable representing a date or datetime, returns the day (as a number from 1-31).\n• WEEKDAY - Given a number or a variable representing a date or datetime, returns the day of the week (as a coded number from 1-7).\n\nDate creation functions construct new date or datetime variables based on their inputs.\n• MDY - Given numbers or numeric variables representing the month, day-of-the-month, and year, creates a new date variable.\n• INPUT - Given a character variable or value and an appropriate SAS date/date-time informat, convert a character variable to a date variable.\n• INTNX - Given a time interval and a starting date, create a new date variable by adding or subtracting the time interval from the starting date.\n\nDate computation (or \"date difference\") functions carry out arithmetic operations on dates; for example, computing the elapsed time between two dates.\n• DATDIF - Given two SAS dates or datetimes, computes the difference between the dates in days.\n• YRDIF - Given two SAS dates or datetimes, computes the difference between the dates in years.\n\nLastly, we also touch on date constants, which are useful if you want to subset a dataset based on date values, or calculate a date variable based on a reference date."
+    },
+    {
+        "link": "https://lexjansen.com/pharmasug/2020/AP/PharmaSUG-2020-AP-090.pdf",
+        "document": ""
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "link": "https://developer.android.com/guide/topics/resources/animation-resource",
+        "document": "Stay organized with collections Save and categorize content based on your preferences.\n\nAn animation resource can define one of two types of animations:\n\nAn animation defined in XML that modifies properties of the target object, such as background color or alpha value, over a set amount of time.\n\nThe view animation framework supports both tween and frame-by-frame animations, which are both declared in XML. The following sections describe how to use both methods.\n\nAn animation defined in XML that performs transitions on a graphic such as rotating, fading, moving, and stretching.\n\nAn interpolator is an animation modifier defined in XML that affects the rate of change in an animation. This lets your existing animation effects be accelerated, decelerated, repeated, bounced, etc.\n\nAn interpolator is applied to an animation element with the attribute, the value of which is a reference to an interpolator resource.\n\nAll interpolators available in Android are subclasses of the class. For each interpolator class, Android includes a public resource you can reference to apply the interpolator to an animation using the attribute. The following table specifies the resource to use for each interpolator:\n\nHere's how you can apply one of these with the attribute:\n\nIf you're not satisfied with the interpolators provided by the platform, you can create a custom interpolator resource with modified attributes. For example, you can adjust the rate of acceleration for the or adjust the number of cycles for the . To do so, you create your own interpolator resource in an XML file.\n\nAn animation defined in XML that shows a sequence of images in order, like a film."
+    },
+    {
+        "link": "https://developer.android.com/reference/android/animation/AnimatorInflater",
+        "document": "Creates and returns a copy of this object. Indicates whether some other object is \"equal to\" this one. Called by the garbage collector on an object when garbage collection determines that there are no more references to the object. Returns the runtime class of this . Returns a hash code value for the object. Wakes up a single thread that is waiting on this object's monitor. Wakes up all threads that are waiting on this object's monitor. Causes the current thread to wait until it is awakened, typically by being notified or interrupted, or until a certain amount of real time has elapsed. Causes the current thread to wait until it is awakened, typically by being notified or interrupted, or until a certain amount of real time has elapsed. Causes the current thread to wait until it is awakened, typically by being notified or interrupted."
+    },
+    {
+        "link": "https://android.googlesource.com/platform/frameworks/base/+/8cfb58b/core/java/android/animation/AnimatorInflater.java",
+        "document": ""
+    },
+    {
+        "link": "https://developer.android.com/guide/topics/resources/available-resources",
+        "document": "Save and categorize content based on your preferences.\n\nStay organized with collections Save and categorize content based on your preferences.\n\nEach page in this section describes the usage, format, and syntax for a certain type of app resource that you can provide in your project resources directory ( ).\n\nHere's a brief summary of each page:"
+    },
+    {
+        "link": "https://spot.pcc.edu/~mgoodman/developer.android.com/reference/android/animation/AnimatorInflater.html",
+        "document": "From class java.lang.Object Creates and returns a copy of this . Compares this instance with the speci fied object and indicates if they are equal. Invoked when the garbage collector has detected that this instance is no longer reachable. Returns the unique instance of that represents this object's class. Returns an integer hash code for this object. Causes a thread which is waiting on this object's monitor (by means of calling one of the methods) to be woken up. Causes all threads which are waiting on this object's monitor (by means of calling one of the methods) to be woken up. Returns a string containing a concise, human-readable description of this object. Causes the calling thread to wait until another thread calls the or method of this object. Causes the calling thread to wait until another thread calls the or method of this object or until the specified timeout expires. Causes the calling thread to wait until another thread calls the or method of this object or until the specified timeout expires."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/6993863/fragmenttransation-setcustomanimations-not-working",
+        "document": "I trying to use the new android compatibility package to include fragments into my project. I am trying to include a transition animation when I add a new fragment. The thing is only one of my animation work. The In animation works but the Out animation doesn't work. I read somewhere that it is a bug in the compatibility package. But I also read that the bug was fixed in the 3rd revision of the compatibility package. Can anyone help me with this issue\n\nThis is the code I use to add fragments"
+    },
+    {
+        "link": "https://stackoverflow.com/questions/10854940/android-using-objectanimator-to-translate-a-view-with-fractional-values-of-the",
+        "document": "It appears that the old view animations ( , , and so on) are no longer accepted by the , at least as of ICS. I read its code in 4.0.4, and it explicitly expects only the XML elements , , .\n\nEven though the documentation at http://developer.android.com/guide/topics/resources/animation-resource.html continues to include the view animations, they appear to be deprecated. Trying to use them results in, for instance, the error .\n\nAs such, it becomes necessary to use Android's . However, it does not accept fractional values of the associated dimension of itself or its parent (width for , for example) as the old view animations did in the form .\n\nConstructing the manually at runtime, by programmatically fetching the size of the Fragment, isn't feasible because the only accepts declarative animations specified by a resid.\n\nMy goal is to translate offscreen a Fragment that is filling up an entire Activity (I'm basically doing a shift transition between two fragments). This is the existing implementation ( , which along with its counterpart is for some reason not exposed in , and I therefore have to duplicate them in my codebase):\n\nMy API level is set to 14."
+    },
+    {
+        "link": "https://panmyelophthisis25.rssing.com/chan-13566173/all_p4.html",
+        "document": ""
+    }
+]

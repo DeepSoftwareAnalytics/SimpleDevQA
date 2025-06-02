@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://helpch.at/docs/1.12.2",
+        "document": ""
+    },
+    {
+        "link": "https://spigotmc.org/wiki/spigot-plugin-development",
+        "document": ""
+    },
+    {
+        "link": "https://spigotmc.org/threads/creation-of-a-structure-generation-plugin.587736",
+        "document": ""
+    },
+    {
+        "link": "https://helpch.at/docs/1.12.2/index.html?overview-summary.html",
+        "document": ""
+    },
+    {
+        "link": "https://dev.bukkit.org/projects/pluginconstructorapi",
+        "document": "Unless you are a developer or use one of my plugins, this plugin is useless to you. If you are interested in one of my plugins, you can find them here:\n\nThis plugin is an API for my other plugins. This will help reduce the amount of repeated classes, and as such, reduce the amount of memory used by each plugin. Also, since this will act as an API for other plugins to use, other developers can use or contribute to this plugin.\n• Unifies all of my plugins\n• Provides an API that other developers can use\n\nThis plugin checks for updates and will download updates. This is to make sure all of my resources will work if you happen to download one of them. If you do not want this plugin to automatically update, all you need to do is edit one line in the \"plugins\\AUpdater\\global.yml\" file. Just change the one variable in there to false (or, if you run into any problems, copy the code below)\n• Drop this plugin into you plugins folder\n• Find/Create a plugin that will allow you get to your world"
+    },
+    {
+        "link": "https://spigotmc.org/wiki/creating-a-gui-inventory",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/MinusKube/SmartInvs",
+        "document": "Tested Minecraft versions: 1.7, 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14\n\n You can use this as a Plugin, or use it as a library (see the docs)\n• Allows to prevent the player from closing its inventory\n• Custom listeners for the event related to the inventory\n• Actions when player clicks on an item\n• Update methods to edit the content of the inventory every tick\n\nClick here to read the docs on Gitbook\n\nTo use the SmartInvs API, either:\n• Put it in the folder of your server, add it to your dependencies in your plugin.yml (e.g. ) and add it to the dependencies in your IDE.\n• Put it inside your plugin jar, initialize an in your plugin (don't forget to call the method), and add a to your SmartInventory Builders.\n\nYou can download the latest version on the Releases page on Github.\n\nYou can also use a build system:\n\nIf you have a problem with the API, or you want to request a feature, make an issue here."
+    },
+    {
+        "link": "https://bukkit.org/threads/tutorial-create-a-inventory-menu.173571",
+        "document": "\n• None // The first parameter, is the inventory owner. I make it null to let everyone use it.\n• None //The second parameter, is the slots in a inventory. Must be a multiple of 9. Can be up to 54.\n• None //The third parameter, is the inventory name. This will accept chat colors.\n• None //The first parameter, is the slot that is assigned to. Starts counting at 0\n• None Player player Player event. // The player that clicked the item\n• None ItemStack clicked event. // The item that was clicked\n• None Inventory inventory event. // The inventory that was clicked in\n• None Player player Player event. // The player that clicked the item\n• None ItemStack clicked event. // The item that was clicked\n• None Inventory inventory event. // The inventory that was clicked in\n• None Player player Player event. // The player that clicked the item\n• None ItemStack clicked event. // The item that was clicked\n• None Inventory inventory event. // The inventory that was clicked in\n• None inventory. . myInventory. // The inventory is our custom Inventory\n• None clicked. Material. // The item that the player clicked it dirt\n• None event. // Make it so the dirt is back in its original spot"
+    },
+    {
+        "link": "https://spigotmc.org/threads/understanding-and-working-with-inventoryholders.626493",
+        "document": ""
+    },
+    {
+        "link": "https://dev.bukkit.org/projects/inventory",
+        "document": "Easily give a player any items for retrieval at their convenience. Editing by admins and withdrawal by players both use the chest inventory in-game interface. The default /give command requires a player to be present and their inventory having space to receive items, this plugin allows you to give players items without them being present or concerned about their inventory space.\n\nAdmins can edit a \"Delivery\" inventory for specific players and fill them with any items available to the admin's inventory, just like filling up a chest. Players can then right click in the air while holding a chest to open their boxes and withdraw the items (or even use the /withdraw command if you'd prefer.) Players can not place any items into a Delivery inventory or even replace the items they have taken out. It's not designed to be a storage mechanism for the player, just a pull based interface for when they are ready to receive the items.\n\nThe Inventory plugin is a convenient distribution mechanism that does not break default game mechanics (players do not have any additional inventory to store their items after they are retrieved) and keeps the interactions intuitive with how the game already works (chest inventories are a familiar interaction with players instead of typing /commands and learning parameters).\n\nThe Inventory plugin also supports defining a collection of items referred to as a \"Kit\" and then sending kits with the /kit command. This helps automate supplying players with commonly given items in a single command.\n\n[ All item storage fully supports standard Bukkit item metadata. This means enchantments, books, custom names, lore, etc, are all able to be stored and delivered. ]\n\n\n\n Open your specific pull based inventory\n\n permission, default allows everyone to open their own) \n\n permission allows players to simply right click in the air with a chest to do the same as this command, and by default everyone can do this also)\n\n\n\n Create (use a new name), edit, or delete (remove all items)\n\n\n\n\n\n Delete a kit without opening the chest interface for it\n\n\n\n\n\n Copy the item currently held, and optionally send it to the designated player\n\n\n\n\n\n Move the item currently held to the designated player"
+    }
+]

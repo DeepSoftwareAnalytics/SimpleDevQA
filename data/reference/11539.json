@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/help/symbolic/sym.jacobian.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help//releases/R2021a/symbolic/examples.html?s_cid=doc_ftr",
+        "document": "No results found for category . Showing all results for Symbolic Math Toolbox."
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/52073-using-symbolic-toolbox-for-optimization-solvers",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help//releases/R2021a/symbolic/sym.jacobian.html",
+        "document": "The Jacobian of a vector function is a matrix of the partial derivatives of that function. Compute the Jacobian matrix of with respect to . Now, compute the Jacobian of with respect to . The Jacobian matrix is invariant to the orientation of the vector in the second input position.\n\nThe Jacobian of a scalar function is the transpose of its gradient. Compute the Jacobian of with respect to . Now, compute the gradient of the same expression.\n\nThe Jacobian of a function with respect to a scalar is the first derivative of that function. For a vector function, the Jacobian with respect to a scalar is a vector of the first derivatives. Compute the Jacobian of with respect to ."
+    },
+    {
+        "link": "http://cda.psych.uiuc.edu/matlab_pdf/symbolic_tb.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/symbolic/sym.subs.html",
+        "document": ""
+    },
+    {
+        "link": "https://it.mathworks.com/matlabcentral/answers/466626-symbolic-expression-with-matrix-input-and-output",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/40209505/matlab-can-not-simplify-a-symbolic-scalar-function-use-subs-in-a-simple-case",
+        "document": "The Symbolic Toolbox operates from the standpoint that Symbolic Variables are scalars and any operation or expression in which they are present uses element-wise semantics. As states in the documentation:\n\nIf is a scalar, and is a vector or matrix, then replaces all instances of in with , performing all operations elementwise. All constant terms in are replaced with the constant times a vector or matrix of all 1s.\n\nSo the expression undergoing substitution needs to play nice with element-wise application and expansion upon substitution. However, when the new arrays being substituted do no match size in every dimension (as is the case here with the coefficient matrix being rectangular versus the column vector), a dimension mismatch will more than likely occur in the engine. Even direct specification of the substitution with cell arrays throws the error:\n\nWhile fully conforming dimensional substitutions will work just fine:\n\nAnd all of this derives from the Symbolic Variables themselves being treated as scalars. The Symbolic work-around being to declare the variables as Symbolic Arrays to generate the individual elements of the arrays and allow for a one-to-one substitution:\n\nOf course, the best course of action, if you can do so, is to avoid the Symbolic Toolbox entirely or as much as possible.\n\nThe above discussion is a very, very large reason as to why I leave Linear Algebra to the MATLAB run-time proper, aside from all of the performance increases associated with it. The Symbolic Toolbox, in my opinion, is best left to analysis of functions in one or more variables (I use it to create Taylor Series, Jacobians, and Hessians often enough) or high precision analysis of a small dimensional problem for investigative purposes."
+    },
+    {
+        "link": "https://la.mathworks.com/help/symbolic/sym.subs.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/484903-how-to-substitute-multiple-array-syms-easily",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://discussions.unity.com/t/new-assembly-generates-error-the-type-or-namespace-name-could-not-be-found/925690",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/33256896/the-type-or-namespace-name-system-could-not-be-found",
+        "document": "I have the following errors (and more) in all my views (*.cshtml) when opening my project in Visual Studio 2015 Professional. Error CS0246 The type or namespace name 'System' could not be found (are you missing a using directive or an assembly reference?) Severity Code Description Project File Line Error CS0518 Predefined type 'System.Object' is not defined or imported Severity Code Description Project File Line Error CS0518 Predefined type 'System.String' is not defined or imported I found some solutions saying that a mscorlib wasn't referenced.. but when I tried to add it it sayd that it's already there (even though I don't see it on the csproj file). Managed the issue.. I had the build path set to a \"c:...\\bin\" instead of \"\\bin\". I believe this happened because I don't have any web.config in the root of the project, so VS didn't identify my project as a web project."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/32864461/importing-dll-into-unity-type-or-namespace-could-not-be-found",
+        "document": "I'm working on a project using a USB interface device (see here), and trying to use the DLL provided in the SDK pack within my Unity application. The end goal is to allow Unity to access inputs and outputs from the hardware - functionality for this is provided by the DLL.\n\nI added the DLL to the project, and tried to access it from a script.\n\nUnity threw me an error. The error was:\n\nThe DLL is definitely within the project's folder, and named 'k8055d.dll', what could be the cause of this and what can I do to get the DLL working with any games I happen to make for my hardware device?\n\nI feel like this may have something to do with the .NET version that Unity is using but I'm not sure what I can do if that's the issue."
+    },
+    {
+        "link": "https://discussions.unity.com/t/999-errors-all-of-them-are-my-scripts-that-got-messed-up/888023",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/the-type-or-namespace-name-unitywebrequest-could-not-be-found-version-5-5-2p2/183811",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/how-to-script-an-inventory-system/922301",
+        "document": ""
+    },
+    {
+        "link": "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/index.html",
+        "document": "Welcome to the Unity Scripting Reference!\n\nThis section of the documentation contains details of the scripting API that Unity provides. To use this information, you should be familiar with the basic theory and practice of scripting in Unity which is explained in the Scripting section of our manual.\n\nThe scripting reference is organised according to the classes available to scripts which are described along with their methods, properties and any other information relevant to their use.\n\nThe pages are extensively furnished with example code (\"examples\"); notwithstanding anything in the Terms of Service to the contrary, Unity grants you a non-exclusive, non-transferable, non-sublicensable, royalty-free license to access, to use, to modify, and to distribute the examples without crediting Unity.\n\nAPI are grouped by namespaces they belong to, and can be selected from the sidebar to the left. For most users, the UnityEngine section will be the main port of call."
+    },
+    {
+        "link": "https://discussions.unity.com/t/release-8-0-0a-inventory-and-weapon-modding-icwm/658394?page=28",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/an-inventory-script-help/473542",
+        "document": ""
+    },
+    {
+        "link": "https://docs.unity3d.com/6000.0/Documentation/Manual/upm-api.html",
+        "document": "You can use the Package Manager scripting API to interact with the Package Manager using C# scriptsA piece of code that allows you to create your own Components, trigger game events, modify Component properties over time and respond to user input in any way you like. More info\n\nSee in Glossary. For example, you might want to install a specific package or version depending on the platform of the target machine.\n\nThe system relies heavily on the PackageManager.Client class, which you can use to find packages, browse the list of packages, and install and uninstall packages through scripting.\n\nAnother important class is PackageManager.PackageInfo, which contains the state of a package, including metadata obtained from the package manifestEach package has a manifest, which provides information about the package to the Package Manager. The manifest contains information such as the name of the package, its version, a description for users, dependencies on other packages (if any), and other details. More info\n\nSee in Glossary and the registry. For example, you can get a list of versions available for the package, or the list of any errors that might occur while locating or installing the package.\n\nThis example demonstrates how to use the Client class to install or add a package to the project.\n\nYou can use Client.Add to add a package. When you call the method, you can specify just the package name, or the name with a specific version. For example, using installs (or updates to) the latest version of the TextMesh Pro package; using installs version 1.3.0 of the TextMesh Pro package.\n\nThe method returns an AddRequest instance, which you can use to get the status, any errors, or a Request response that contains the PackageInfo information for the newly added package.\n\nBrowsing the list of packages in a project\n\nThis example demonstrates how to use the Client class to iterate over the packages in the project.\n\nThe Client.List method returns a ListRequest instance, which you can use to get the status of the List operation, any errors, or a Request response that contains the PackageCollection which you can iterate.\n\nThis example demonstrates how to use the Client class to embed one of the packages already installed in your project. The main method is the Client.Embed method, which makes a copy of the package and stores it under the folder of your project.\n\nThe Client.Embed method returns an EmbedRequest instance, which you can use to get the status of the Embed operation, any errors, or a Request response that contains the PackageInfo information for the newly embedded packageAn embedded package is a mutable package that you store under the directory at the root of a Unity project. This differs from most packages which you download from a package server and are immutable. More info\n\nSee in Glossary.\n\nThis example also uses the Client.List method to access the collection of packages currently installed in your project and picks out the first one that is neither embedded nor built-in.\n\nThe Client.List method returns a ListRequest instance, which you can use to get the status of the List operation, any errors, or a Request response that contains the PackageCollection which you can iterate.\n\nUse the Events class to register an event handler with the Package Manager. The Events class contains two events you can subscribe to, which the Package Manager raises at these points:\n• Immediately before the Package Manager changes the list of dependencies (registeringPackages)\n• After the Package Manager imports and compiles the changed list of package dependencies (registeredPackages)\n\nThe following examples demonstrate how to use both of these events.\n\nExample of using the registeringPackages event\n\nExample of using the registeredPackages event"
+    }
+]

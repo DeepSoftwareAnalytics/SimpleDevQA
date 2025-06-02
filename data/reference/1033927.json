@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://helpx.adobe.com/after-effects/using/expression-language-reference.html",
+        "document": ""
+    },
+    {
+        "link": "https://helpx.adobe.com/after-effects/using/expression-basics.html",
+        "document": ""
+    },
+    {
+        "link": "https://helpx.adobe.com/after-effects/using/expression-examples.html",
+        "document": ""
+    },
+    {
+        "link": "https://helpx.adobe.com/after-effects/using/expressions-text-properties.html",
+        "document": ""
+    },
+    {
+        "link": "https://creativecow.net/forums/thread/scale-expression-4",
+        "document": "apologies if this is more suited to the beginner board (let me know and i’ll post such things there in future) but…\n\nI’m just trying to get a handle on expressions (thought it’s about time) so want to start with something simple yet useful.\n\nI’d like to scale a layer up and down – but smoothly, like the scaling is sinusoidal.\n\nTHEN, i want to have another layer copy the same scaling motion, but with a slight delay (i’m thinking a percentage of the comps time)\n\nI’ve checked the boards and tuts etc, but my problem is, I don’t really know what I’m looking for – apart from a quick fix 😉\n\ncheers for any help"
+    },
+    {
+        "link": "https://helpx.adobe.com/after-effects/using/expression-examples.html",
+        "document": ""
+    },
+    {
+        "link": "https://community.adobe.com/t5/after-effects/automatically-scale-layer-based-on-proximity-of-other-layer/m-p/7867738",
+        "document": "Yes! Super helpful, thanks so much.\n\nThanks for the tip on the length function - I was glad the Pythagorean way worked, but that hugely simplifies the code haha.\n\nThat code you gave seems to work great for calculating the area within the rectangle - I'm assuming that works only on shape layers with a rectangle path, as opposed to a masked solid? And would it need to be the width and height/2? (i.e. the horizontal/veritcal distance from the center of the layer to the edge of the layer)?\n\nVisually, here's what I'm looking to do. The code I've gotten so far (see above) basically accomplishes this (the red rectangle is the target layer):\n\nAgain, it works fine if/when the target layer was a square or circle. But if the mouse is coming towards the target layer from the top or bottom, the rectangle starts scaling up much sooner than if/when it's coming from the sides.\n\nSo, I'm trying to find a way to make the FadeDist work more like this, where the fade \"boundary\" is even around all the edges of the shape, if that makes sense - and then once the mouse is inside the are of the rectangle itself, the rectangle's scale doesn't change.\n\nGiven we can calculate the distance from the center to the mouse layer (i.e., green dot), is there some way we can calculate the distance from the center to the edge of the rectangle along the length \"line\", and then add a boundary around it?\n\nWould one way to do that be to create a second rectangle and just add a certain amount (i.e. 100px) to the length/width, effectively creating a 100px boundary around the target layer, and then use the expression you wrote to calculate when the mouse is within that second layer, and then use that to affect the scale of the target layer?"
+    },
+    {
+        "link": "https://community.adobe.com/t5/after-effects/change-scale-property-of-a-layer-using-expressions-in-an-expression-control/m-p/8619848",
+        "document": "You need to spend a little time with expression basics. Type expressions in the Search Help field at the top right corner of AE and study up. You will be amazed what a half hour can do for your understanding.\n\nYou have a few options. If you want equal scale values for all parameters you can create a null layer and add an expression slider to the null. Now lock the Expression Control Panel so the effects stay visible.\n\nNow you open one of the layers that you want to control and start an expression by clicking the stopwatch while holding down the Alt/Option key.\n\nNow you type \"s =\" and then drag the slider to the Expression Control Panel and tag the slider and release.\n\nIf you have not renamed anything the expression would look like this so far:\n\nnow just add the array:\n\nNow that the expression is created select the scale property and go to the edit menu and select copy expression only.\n\nNow select all the layers you want to control and paste (Ctrl/Cmnd + v) and you're done."
+    },
+    {
+        "link": "https://community.adobe.com/t5/after-effects/control-scale-with-alpha-mask/td-p/11899980",
+        "document": "You can use Position Proximity where a layer's position is used to affect other layers that are within a set distance. \n\nAnother option is to use the sampleImage Expression Method. This option allows you to use grayscale values from a layer to affect a property. The affected property may be within the same layer or any other layer.\n\n\n\nHere's a proximity tutorial - https://youtu.be/puo9GuGGo-k\n\nand here's the sampleImage Expression Method - https://youtu.be/1UaZNcVobhg\n\n\n\nHTH"
+    },
+    {
+        "link": "https://helpx.adobe.com/after-effects/using/layer-properties.html",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://pybind11.readthedocs.io/en/stable/advanced/classes.html",
+        "document": ""
+    },
+    {
+        "link": "https://pybind11.readthedocs.io",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/pybind/pybind11",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@ahmedfgad/pybind11-tutorial-binding-c-code-to-python-337da23685dc",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/pybind/pybind11/issues/2615",
+        "document": ""
+    },
+    {
+        "link": "https://pybind11.readthedocs.io/en/stable/advanced/pycpp/object.html",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/pybind/pybind11/issues/1201",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/55210375/pybind11-python-to-c-datatype-conversion-not-working",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/56953822/use-c-object-in-python-with-pybind11",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/pybind/pybind11/issues/287",
+        "document": ""
+    }
+]

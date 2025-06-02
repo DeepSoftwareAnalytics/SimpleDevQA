@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://freedesktop.org/software/libqmi/man/latest/qmicli.1.html",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/powerIO-GmbH/qmicli-modem-handler",
+        "document": ""
+    },
+    {
+        "link": "https://manpages.ubuntu.com/manpages/xenial/man1/qmicli.1.html",
+        "document": ""
+    },
+    {
+        "link": "https://freedesktop.org/software/libqmi/man/1.28.0/qmicli.1.html",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/jordy33/sim7600/blob/master/README.md",
+        "document": ""
+    },
+    {
+        "link": "https://cablefree.net/wirelesstechnology/4glte/rsrp-rsrq-measurement-lte",
+        "document": ""
+    },
+    {
+        "link": "https://rangeful.com/what-is-rssi-sinr-rsrp-rsrq-how-does-this-affect-signal-quality?srsltid=AfmBOooh7Ta2Zrfeu7PI_NTEP4zHmFaFv_bUR5KzXLo1lgGtR6TFxzpq",
+        "document": ""
+    },
+    {
+        "link": "https://linkedin.com/pulse/understanding-rssi-rsrp-rsip-rsrq-sinr-navigating-ramirez--bplof",
+        "document": ""
+    },
+    {
+        "link": "https://digi.com/support/knowledge-base/understanding-lte-signal-strength-values",
+        "document": ""
+    },
+    {
+        "link": "https://help.venntelecom.com/support/solutions/articles/44001930601-how-to-interpret-ec-io-sinr-rssi-rscp-rsrp-rsrq-parameters-in-2g-3g-lte-routers",
+        "document": ""
+    }
+]

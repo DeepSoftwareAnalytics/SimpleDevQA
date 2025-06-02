@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/WebCamTexture.html",
+        "document": ""
+    },
+    {
+        "link": "https://developers.meta.com/horizon/documentation/unity/unity-pca-documentation",
+        "document": ""
+    },
+    {
+        "link": "https://docs.unity3d.com/2020.1/Documentation/ScriptReference/WebCamTexture.html",
+        "document": "Did you find this page useful? Please give it a rating:\n\nIs something described here not working as you expect it to? It might be a Known Issue . Please check with the Issue Tracker at\n\nWhat kind of problem would you like to report?\n\nThanks for letting us know! This page has been marked for review based on your feedback. If you have time, you can provide more information to help us fix the problem faster. Provide more information\n\nYou've told us this page needs code samples. If you'd like to help us further, you could provide a code sample, or tell us about what kind of code sample you'd like to see:\n\nYou've told us there are code samples on this page which don't work. If you know how to fix it, or have something better we could use instead, please let us know:\n\nYou've told us there is information missing from this page. Please tell us more about what's missing:\n\nYou've told us there is incorrect information on this page. If you know what we should change to make it correct, please tell us:\n\nYou've told us this page has unclear or confusing information. Please tell us more about what you found unclear or confusing, or let us know how we could make it clearer:\n\nYou've told us there is a spelling or grammar error on this page. Please tell us what's wrong:\n\nYou've told us this page has a problem. Please tell us more about what's wrong:"
+    },
+    {
+        "link": "https://docs.unity.cn/ScriptReference/WebCamTexture.html",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/webcam-capture-and-use-it-as-texture/651399",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/13576333/qr-decode-exceptions-using-zxing-net-in-unity",
+        "document": "I'm currently trying to make an application in Unity (for iOS) that allows a user to scan a QR code. I am using the ZXing.NET library which has been optimized for Unity.\n\nThis is the current decode thread I am using\n\nThe execution reaches the \"Start Decode!\" print statement, but fails to reach the \"Got past decode!\" statement.\n\nThis is because the Decode() method is generating an unknown exception every time, even when the camera is looking at a very clear QR code.\n\nFor reference: c is of type Color32[] and is generated using WebCamTexture.GetPixels32() W, H are integers representing the width and height of the camera texture.\n\nFor some reason, I cannot catch a generic Exception within the catch clause, meaning I cannot determine what kind of exception the Decode() method is generating.\n\nEDIT: The code I have used is adapted from the Unity demo available from the ZXing.NET project. I am using the current version of ZXing.NET. I should also mention that I am currently testing this on an iMac, not on an iOS device or the simulator. I have tried running the Unity demo from scratch and I obtain the same result.\n\nThis is how the c variable (Color32[]) is updated:\n\nEDIT 2: I have separated the decode stage into two bits, firstly generating the result object then retrieving the text property of the result as shown:\n\nIt is when the text value of the result is being retrieved that is causing the error. I still do not know how to fix it though.\n\nCan someone please advise me?"
+    },
+    {
+        "link": "https://github.com/micjahn/ZXing.Net/issues/390",
+        "document": "However, the qrcode recognition is not very good.\n\n For example, in the basic application camera, QR is recognized, but if Zxing.unity.dll is used in Unity, QR is not recognized. The closer you get to it, the more it will be recognized.\n\n Do you know how to increase the recognition rate by any chance?\n\nHere's how I came up with it.\n\nAll of these methods were useless.\n\nHow can I increase the recognition rate?"
+    },
+    {
+        "link": "https://stackoverflow.com/questions/53431781/read-qr-code-in-unity-with-arkit-and-zxing",
+        "document": "I'm trying to read a QR code with the following libraries:\n\nHowever it doesn't seem to go well. After several hours I still don't manage to read out a decent QR code. When debugging i apply the texture to see my result. It looks red because of the Texture Y but other than that it shows the QR code. Interpreting the texture doesn't return any data analyzed by ZXing.\n\nThis is the following code i'm using for this:"
+    },
+    {
+        "link": "https://medium.com/c-sharp-programming/create-free-qr-codes-easily-with-c-programming-with-zxing-net-bde5f716215c",
+        "document": "If you need a reliable tool for creating and reading barcodes in .NET applications, ZXing.Net, also called “Zebra Crossing,” is a great option. It’s an open-source library that builds upon the original ZXing project, offering support for various barcode formats. This makes it indispensable for developers working with barcodes in their .NET projects.\n• Cross-Platform Compatibility: The library is designed to work seamlessly across multiple platforms, including .NET Framework, .NET Core, and Xamarin, making it ideal for both desktop and mobile applications.\n• Easy Integration: With its comprehensive API, ZXing.Net is easy to integrate into your existing projects. Whether you need to generate barcodes for inventory management systems or decode QR codes for mobile applications, ZXing.Net has you covered.\n• Open Source: As an open-source project, ZXing.Net encourages community contributions and continuous improvements, ensuring that the library remains up-to-date with the latest barcode standards and technologies."
+    },
+    {
+        "link": "https://github.com/micjahn/ZXing.Net/issues/408",
+        "document": "I am having trouble with decoding the following QR code. The Code has been printed and then scanned again and can then no be read anymore by the ZXing library.\n\n I mostly tried with the and the from the Clients folder. I tried with all kinds of different settings but none seem to work.\n\n\n\nWhat do I need to do to make this work?\n\nThanks for your help."
+    },
+    {
+        "link": "https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-RawImage.html",
+        "document": "The Raw Image control displays a non-interactive image to the user. You can use this for purposes such as decorations or icons, and you can change the image from a script to reflect changes in other controls. The control is similar to the Image control, but offers more options for animating the image and accurately filling the control rectangle. However, the Image control requires its Texture to be a Sprite, while the Raw Image can accept any Texture.\n\nSince the Raw Image does not require a sprite texture, you can use it to display any texture available to the Unity player. For example, you might show an image downloaded from a URL using the WWW class or a texture from an object in a game.\n\nThe UV Rectangle properties allow you to display a small section of a larger image. The X and Y coordinates specify which part of the image is aligned with the bottom left corner of the control. For example, an X coordinate of 0.25 will cut off the leftmost quarter of the image. The W and H (ie, width and height) properties indicate the width and height of the section of image that will be scaled to fit the control rectangle. For example, a width and height of 0.5 will scale a quarter of the image area up to the control rectangle. By changing these properties, you can zoom and scale the image as desired (see also the Scrollbar control)."
+    },
+    {
+        "link": "https://docs.unity3d.com/2018.2/Documentation/ScriptReference/UI.RawImage.html",
+        "document": ""
+    },
+    {
+        "link": "https://learn.unity.com/tutorial/ui-components",
+        "document": "This tutorial covers User Interface (UI) Components available in Unity, including Canvas, Button, Image, Text, Slider, and more."
+    },
+    {
+        "link": "https://docs.unity.cn/550/Documentation/Manual/script-RawImage.html",
+        "document": "The Raw Image control displays a non-interactive image to the user. This can be used for decoration, icons, etc, and the image can also be changed from a script to reflect changes in other controls. The control is similar to the Image control but does not have the same set of options for animating the image and accurately filing the control rectangle. However, the Raw Image can display any texture whilst the Image can only show a Sprite texture.\n\nSince the Raw Image does not require a sprite texture, you can use it to display any texture available to the Unity player. For example, you might show an image downloaded from a URL using the WWW class or a texture from an object in a game.\n\nThe UV Rectangle properties allow you to display a small section of a larger image. The X and Y coordinates specify which part of the image is aligned with the bottom left corner of the control. For example, an X coordinate of 0.25 will cut off the leftmost quarter of the image. The W and H (ie, width and height) properties indicate the width and height of the section of image that will be scaled to fit the control rectangle. For example, a width and height of 0.5 will scale a quarter of the image area up to the control rectangle. By changing these properties, you can zoom and scale the image as desired (see also the Scrollbar control)."
+    },
+    {
+        "link": "https://discussions.unity.com/t/downsides-to-using-rawimage-over-image/728856",
+        "document": ""
+    }
+]

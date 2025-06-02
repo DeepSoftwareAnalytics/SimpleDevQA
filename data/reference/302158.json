@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/365782/how-do-i-best-handle-dynamic-multi-dimensional-arrays-in-c-c",
+        "document": ""
+    },
+    {
+        "link": "https://thephysicsmill.com/2024/08/30/multi-dimensional-dynamically-sized-arrays-in-c-and-c-the-right-way",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/cpp_questions/comments/122zh0v/memory_best_practices",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/42451704/dynamic-multidimensional-array-in-c",
+        "document": ""
+    },
+    {
+        "link": "https://cplusoop.com/programming-cplus/module4/dynamic-multidimensional-arrays.php",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/cpp/standard-library/cpp-standard-library-reference?view=msvc-170",
+        "document": ""
+    },
+    {
+        "link": "https://en.cppreference.com/w/cpp/standard_library",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/34967756/where-is-the-official-c-documentation",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-api-list",
+        "document": ""
+    },
+    {
+        "link": "https://alfps.wordpress.com/2011/11/22/unicode-part-1-windows-console-io-approaches",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/1283302/user-input-of-integers-error-handling",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-cpp?view=msvc-170",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/how-to-validate-user-input-in-cpp",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/69735621/the-best-way-to-capture-user-input-int-with-error-handling-loop",
+        "document": ""
+    },
+    {
+        "link": "https://cplusplus.com/forum/beginner/46849",
+        "document": ""
+    }
+]

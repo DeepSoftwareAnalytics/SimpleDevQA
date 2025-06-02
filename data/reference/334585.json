@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://geeksforgeeks.org/introduction-to-programming-languages",
+        "document": ""
+    },
+    {
+        "link": "https://britannica.com/technology/computer-programming-language",
+        "document": ""
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/Computer_programming",
+        "document": ""
+    },
+    {
+        "link": "https://techtarget.com/searchsoftwarequality/definition/program",
+        "document": ""
+    },
+    {
+        "link": "https://unstop.com/blog/what-is-programming-language",
+        "document": ""
+    },
+    {
+        "link": "https://linkedin.com/pulse/from-theoretical-machines-modern-code-how-computation-muhammad-kamran-5dirf",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@alexandrawilll/understanding-how-code-is-executed-464c95e24b0b",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/AskComputerScience/comments/m9c3e2/why_is_theory_of_computation_concerned_with",
+        "document": ""
+    },
+    {
+        "link": "https://cis.upenn.edu/~jean/gbooks/toc.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/cprogramming/comments/18vd057/how_do_computers_understand_what_we_write_in_c_or",
+        "document": "I have a basic understanding that what we write gets compiled into machine code, etc. However, compilers are also written in some language. Who compiled the compiler? I know it may sound naive, but could someone please explain this process from the beginning?"
+    }
+]

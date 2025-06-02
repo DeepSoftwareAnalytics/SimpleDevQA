@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://pytorch.org/docs/stable/generated/torch.cat.html",
+        "document": ""
+    },
+    {
+        "link": "https://pytorch.org/docs/master/generated/torch.cat.html",
+        "document": ""
+    },
+    {
+        "link": "https://pytorch.org/docs/stable/torch.html",
+        "document": ""
+    },
+    {
+        "link": "https://codecademy.com/resources/docs/pytorch/tensors/cat",
+        "document": ""
+    },
+    {
+        "link": "https://pytorch.org/docs/stable/tensors.html",
+        "document": ""
+    },
+    {
+        "link": "https://pytorch.org/docs/stable/generated/torch.nn.functional.pad.html",
+        "document": ""
+    },
+    {
+        "link": "https://discuss.pytorch.org/t/visual-explanation-of-torch-pad/96999",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/48686945/reshaping-a-tensor-with-padding-in-pytorch",
+        "document": ""
+    },
+    {
+        "link": "https://educba.com/pytorch-pad",
+        "document": ""
+    },
+    {
+        "link": "https://pytorch.org/docs/stable/generated/torch.nn.ZeroPad2d.html",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://helpch.at/docs/1.12.2",
+        "document": ""
+    },
+    {
+        "link": "https://helpch.at/docs/1.12.2/index.html?org/bukkit/configuration/file/FileConfiguration.html",
+        "document": ""
+    },
+    {
+        "link": "https://hub.spigotmc.org/javadocs/spigot",
+        "document": "The documentation is for developing plugins and is split into the respective packages for each subject matter. This documentation does not cover running a server, contributing code back to the project, or setting up a workspace. Working knowledge of the Java language is a prerequisite for developing plugins.\n\nFor basic plugin development, see the . It covers the basic requirements of a plugin jar.\n\nFor handling events and triggered code, see the .\n\nNote: While the Bukkit API makes every effort to ensure stability, this is not guaranteed, especially across major versions. In particular the following is a (incomplete) list of things that are not API.\n• Implementing interfaces or extending classes. The Bukkit API is designed to only be implemented by server software. Unless a class/interface is obviously designed for extension (eg ), or explicitly marked as such, it should not be implemented or extended by plugins. Although this can sometimes work, it is not guaranteed to do so and resulting bugs will be disregarded.\n• Constructing inbuilt events. Although backwards compatibility is attempted where possible, it is sometimes not possible to add new fields to events without breaking existing constructors. To ensure that the API continues to evolve, event constructors are therefore not plugin API.\n• Implementation classes. Concrete implementation classes packaged with Bukkit (eg those beginning with Simple) are not API. You should access them via their interfaces instead.\n• The \"enumness\" of enums which implement . Such enums are liable to conversion to regular classes and therefore usages deriving from their status as an enum (including, but not limited to, use in switch statements and classes such as ) should be avoided."
+    },
+    {
+        "link": "https://hub.spigotmc.org/javadocs/spigot/index.html?overview-summary.html",
+        "document": "The documentation is for developing plugins and is split into the respective packages for each subject matter. This documentation does not cover running a server, contributing code back to the project, or setting up a workspace. Working knowledge of the Java language is a prerequisite for developing plugins.\n\nFor basic plugin development, see the . It covers the basic requirements of a plugin jar.\n\nFor handling events and triggered code, see the .\n\nNote: While the Bukkit API makes every effort to ensure stability, this is not guaranteed, especially across major versions. In particular the following is a (incomplete) list of things that are not API.\n• Implementing interfaces or extending classes. The Bukkit API is designed to only be implemented by server software. Unless a class/interface is obviously designed for extension (eg ), or explicitly marked as such, it should not be implemented or extended by plugins. Although this can sometimes work, it is not guaranteed to do so and resulting bugs will be disregarded.\n• Constructing inbuilt events. Although backwards compatibility is attempted where possible, it is sometimes not possible to add new fields to events without breaking existing constructors. To ensure that the API continues to evolve, event constructors are therefore not plugin API.\n• Implementation classes. Concrete implementation classes packaged with Bukkit (eg those beginning with Simple) are not API. You should access them via their interfaces instead.\n• The \"enumness\" of enums which implement . Such enums are liable to conversion to regular classes and therefore usages deriving from their status as an enum (including, but not limited to, use in switch statements and classes such as ) should be avoided."
+    },
+    {
+        "link": "https://javadocs.olziedev.com/spigot/1.12.2/index.html?org/bukkit/configuration/Configuration.html",
+        "document": ""
+    },
+    {
+        "link": "https://spigotmc.org/threads/tutorial-calculating-damage-taken-by-a-player-manually.424680",
+        "document": ""
+    },
+    {
+        "link": "https://spigotmc.org/threads/how-to-damage-entity.267804",
+        "document": ""
+    },
+    {
+        "link": "https://forums.papermc.io/threads/how-to-ensure-player-loss-at-least-1-health.813",
+        "document": "In , there isand. But even though there is, there is noor any similar method.I want to make damaged entity, in this case , loss at least 1 health. I can't do that withbecause that damage can be less than 1 after damage reduction calculation, which makes the player don't loss any health at all, just making damage tilt and damage sound only.Here is current code of modifying damage that player takes.With this code, player can make himself don't take any damage from the 'event' with strong armor or potion effects. I don't want it. I want to make the player always loss 1 health from the 'damage'.First thing I though about using was using another EntityDamageEvent to check the final damage is less than 1, then hurt the player.Adding this code makes server to shutdown. Maybe it is because of those two methods creates infinite loop, but I can't tell if it is the reason or not. Server crashes even after setting second method's priority toAlso, even though that code works, that creates another problem. If the player dies from the damage, the death message would be, rather than showing the reason of why he died.can't set the reason of the death.can't solve this because this can't resolve 'death from block'.Player can take damage from various sources. Even though I dig into NMS which can utilize, this thing might take too much code for analyzing the damage and process it. It should be considered that maintaining code which uses NMS is hard too.In this case, how to make sure player to loss at least 1 health?For clarification, I'm not talking about 'set damage to 1' thing. Player must loss at least 1 health, from every damage events even though they have strong armor or potion effects."
+    },
+    {
+        "link": "https://reddit.com/r/MinecraftCommands/comments/e86g75/best_way_to_create_a_custom_health_damage_system",
+        "document": "A place for all things about commands, command blocks and data-packs in vanilla Minecraft; to share, to question, to discuss, and more! Please read the pinned post before posting."
+    },
+    {
+        "link": "https://bukkit.org/threads/how-to-calculate-damage-if-the-entity-is-wearing-armor.476466",
+        "document": "And then what if the armor had protection or thorns?"
+    }
+]

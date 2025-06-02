@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/jsref/jsref_object_values.asp",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/chrisburgin/javascript-converting-an-object-to-an-array-94b030a1604c",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/38824349/how-to-convert-an-object-to-an-array-of-key-value-pairs-in-javascript",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/how-to-convert-an-object-into-array-of-objects-in-javascript",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/25217706/converting-object-to-array-using-es6-features",
+        "document": ""
+    }
+]

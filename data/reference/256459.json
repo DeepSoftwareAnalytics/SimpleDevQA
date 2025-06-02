@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://registry.khronos.org/OpenGL/specs/es/3.2/es_spec_3.2.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://khronos.org/developers/linkto/opengl-es-3.2-reference-guide",
+        "document": ""
+    },
+    {
+        "link": "https://developer.nvidia.com/docs/drive/drive-os/archives/6.0.3/linux/sdk/api_reference/es_spec_3.2.withchanges.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://docs.nvidia.com/drive/drive_os_5.1.6.1L/nvvib_docs/DRIVE_OS_Linux_SDK_Development_Guide/baggage/es_spec_3.2.withchanges.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/48479125/opengl-es-floating-point-supported-blend-modes",
+        "document": "Is there any way to detect if a driver supports blending for floating point targets in OpenGL ES 2 / WebGL? On some mobile devices, glDrawElements throws GL_INVALID_OPERATION for floating point textures with blending enabled.\n\nAs no extension guarantees floating point frame buffer support, I check for it like this:\n\nThis does not seem to guarantee blending support though. I could draw something and check the error state with blending enabled but am wondering if there's a more elegant way."
+    },
+    {
+        "link": "https://graphics.stanford.edu/courses/cs148-10-summer/docs/FreeImage3131.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://mirrors.dotsrc.org/exherbo/FreeImage3170.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/16680844/freeimage-include-in-c",
+        "document": "Is there any way to include http://freeimage.sourceforge.net/index.html in my c test program without first installing the library? It fails to compile because of some memset..\n\nHere is my C code. Is there any way to make it work? Please try compiling it and tell me how to do it if it works?"
+    },
+    {
+        "link": "https://freeimage.sourceforge.io/faq.html",
+        "document": "How do I draw a FreeImage image to the screen in Windows ? How do I convert a FreeImage image to a HBITMAP ? How do I convert a HBITMAP to a FreeImage image ? HBITMAP hbmp;\n\n // ...\n\n // the following code assumes that you have a valid HBITMAP loaded into the memory\n\n FIBITMAP *dib = NULL;\n\n if(hbmp) { BITMAP bm;\n\n GetObject(hbmp, sizeof(BITMAP), (LPSTR) &bm);\n\n dib = FreeImage_Allocate(bm.bmWidth, bm.bmHeight, bm.bmBitsPixel);\n\n // The GetDIBits function clears the biClrUsed and biClrImportant BITMAPINFO members (dont't know why) \n\n // So we save these infos below. This is needed for palettized images only. \n\n int nColors = FreeImage_GetColorsUsed(dib);\n\n HDC dc = GetDC(NULL);\n\n int Success = GetDIBits(dc, hbmp, 0, FreeImage_GetHeight(dib), \n\n FreeImage_GetBits(dib), FreeImage_GetInfo(dib), DIB_RGB_COLORS);\n\n ReleaseDC(NULL, dc);\n\n // restore BITMAPINFO members\n\n FreeImage_GetInfoHeader(dib)->biClrUsed = nColors;\n\n FreeImage_GetInfoHeader(dib)->biClrImportant = nColors; }\n\n // ...\n\n // don't forget to call FreeImage_Unload when you no longer need the dib\n\n FreeImage_Unload(dib); How to use FreeImage as a static library instead of as a DLL (Visual C++ 6) ? Using FreeImage as a static library is not so easy, but it's not more complicated than using any other library. Here is a step by step method to do this : 1. Compile the FreeImage library in debug and release modes and close your projects. You won't need to use the FreeImage source code anymore.\n\n Note: Do not compile the FreeImage DLL (project named FreeImage) but the project named FreeImageLib. This should produce a huge file named FreeImage.lib (in release mode) or FreeImaged.lib (in debug mode) in the Dist\\ directory. 2. Copy FreeImage.lib/FreeImaged.lib into your lib\\ directory or in a directory where the linker can find them (e.g. your project directory). You can use \"Menu->Tools->Options->Directories->Library files\" for this. 3. Create a new project and add your code in it.\n\n Add a call to FreeImage_Initialise() at the beginning of you main function and a call to FreeImage_DeInitialise() at the end of this function. 1. tab C/C++ : Category \"Preprocessor\"\n\n * Add FREEIMAGE_LIB to the preprocessor definitions \n\n 2. tab C/C++ : Category \"Code Generation\"\n\n * Use the Multithreaded run-time library (in release mode)\n\n * Use the Debug Multithreaded run-time library (in debug mode) \n\n 1. tab Link : Category Input\n\n * Add FreeImage.lib to the list of object/library modules (release mode)\n\n * Add FreeImaged.lib to the list of object/library modules (debug mode) \n\n 2. tab Link : Category Input\n\n * Add LIBCMT to the Ignore library list (it helps to avoid a warning) \n\n Why can't I save this image as JPEG ? First, make sure to use FreeImage_SetOutputMessage to see what's going on inside the JPEG plugin.\n\n Next, the JPEG specification only allows 8-bit greyscale, 24-bit RGB and 32-bit CMYK images to be saved as JPEG. Thus, you cannot save a 32-bit RGBA image to JPEG, nor a 1- or 4-bit palettized images. As for 8-bit palettized images, if you try to save one of them as JPEG, it will be transparently converted to 24-bit by FreeImage. FreeImage actually doesn't neccessarily use BGR(A) ordering. Section \"Pixel access functions\" in the FreeImage documentation contains the following statement :\n\n\n\n However, the pixel layout used by this model is OS dependant. Using a byte by byte memory order to label the pixel layout, then FreeImage uses a BGR[A] pixel layout under a Little Endian processor (Windows, Linux) and uses a RGB[A] pixel layout under a Big Endian processor (Mac OS X or any Big Endian Linux / Unix). This choice was made to ease the use of FreeImage with graphics API. This subtle difference is however transparent to the user. In order to make pixel access OS independent, FreeImage defines a set of macros used to set or get individual color components in a 24- or 32-bit DIB. \n\n However, these macros will not help you when you want to use FreeImage's raw pixel data as source for OpenGL. OpenGL will accept BGR(A) as well as RGB(A) as image data. And actually, FreeImage's choice, as BGR(A) is most likely the native data format on such platforms, so that using this format represents the most efficient way to transfer image data.\n\n\n\n FreeImage can be built to always load in RGB order independent of the architecture.\n\n Use \n\n\n\n #define FREEIMAGE_COLORORDER=FREEIMAGE_COLORORDER_RGB \n\n\n\n If you're using Android.mk to build FreeImage, add the following line to it: \n\n\n\n LOCAL_CPPFLAGS += -DFREEIMAGE_COLORORDER=FREEIMAGE_COLORORDER_RGB \n\n\n\n Documentation for this can be found in Source/FreeImage.h if you search for FREEIMAGE_COLORORDER: \n\n\n\n Color-Order: The specified order of color components red, green and blue affects 24- and 32-bit images of type FIT_BITMAP as well as the colors that are part of a color palette. All other images always use RGB order. By default, color order is coupled to endianness: little-endian -> BGR big-endian -> RGB \n\n\n\n However, you can always define FREEIMAGE_COLORORDER to any of the known orders FREEIMAGE_COLORORDER_BGR (0) and FREEIMAGE_COLORORDER_RGB (1) to specify your preferred color order."
+    },
+    {
+        "link": "https://igl.ethz.ch/teaching/tau/cg/cg2006/FreeImageExample.cpp",
+        "document": ""
+    }
+]

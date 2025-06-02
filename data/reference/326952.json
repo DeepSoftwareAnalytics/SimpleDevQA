@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/API/FileReader",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded",
+        "document": ""
+    },
+    {
+        "link": "https://digitalocean.com/community/tutorials/js-file-reader",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/34523227/how-to-make-preview-for-each-file-input-with-filereader",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/API/FileReader",
+        "document": ""
+    },
+    {
+        "link": "https://digitalocean.com/community/tutorials/js-file-reader",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL",
+        "document": ""
+    },
+    {
+        "link": "https://javascript.info/file",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/42498717/how-to-read-image-file-using-plain-javascript",
+        "document": ""
+    }
+]

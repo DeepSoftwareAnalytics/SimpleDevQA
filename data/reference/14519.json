@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/help/matlab/ref/fprintf.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/simulink/slref/fprintf.html",
+        "document": ""
+    },
+    {
+        "link": "https://users.cs.utah.edu/~germain/PPS/Topics/Matlab/fprintf.html",
+        "document": "The fprintf function allows you to \"write\" information to the screen for the user to view. This very important when user interaction is involved. The 'f' in printf stands for formatted. This means you can \"format\" how the data is printed in such a manner as to make it easy to read.\n\nThe fprintf function is used for printing information to the screen. The fprintf function prints an array of characters to the screen:\n\nWe often use the fprintf statement to show the user information stored in our variables. To \"place\" a number into this string of printed characters we use several formatting options, but they all start with a % sign. It should noted that when used in this way, the % is not the comment character.\n\nBelow are several examples of printing information from variables using fprintf. Notice the use of %s to print a string, and %d to print an integer, and %f to print a number with a decimal (a floating point number). The Value of each variable is \"plugged into\" the appropriate format string at the appropriate location as marked by the % sign in the string\n\nAgain, the '%' notation in this case is not a comment, but is the \"formating\" of the string.\n\nWhen using the % signs to print out the data stored in variables, we must use the same number of % signs as the number of variables.\n• - print a new line (go to the next line to continue printing)\n\nAbove, the example \"%.2f\" is given. By putting a decimal point and a number in the format command, you are telling the program to print only two decimal places. This is perfect for printing dollar amounts, where we don't care about 1/1000 ths of a cent.\n\nFor more information, try \"doc fprintf\"\n\nThe following ways to \"print\" information are also available in Matlab, but are \"frowned\" upon, except for rapid debugging of a program.\n• \n• disp is a function that will display a value\n• prefer to use fprintf as we control theFormatting\n• Simply removing the ';' semicolon from the variable assignment:\n• Do not use this option, except for quick debugging\n\nAgain, please note: fprintf is the preferred method\n\nAny time you print information, you should make sure it is of interest to the user of the program every time the code is run.. For example a function that compute pi should never use fprintf. Instead, such a function should return the value of pi for use by other parts of the program. If this approximated value of pi is of interest to the user, then the main program can print the result.\n\nProper use of fprintf to display the result of a function\n\nImproper use of fprintf to display the result of a function\n\nNotice how the second example prints \"the sum is XX\" every time the add function is called. In a program that adds millions of numbers, this would become quite annoying very quickly.\n\nIt is very important NOT to use fprintf in a function when the reason for using the function is to compute a value for the computer to use. It is very annoying to have miscellaneous printouts from un-related functions, when trying to compute a final value."
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/342604-sprintf-fprintf-help",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/242144-how-to-use-fprintf-function",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/ref/disp.html",
+        "document": ""
+    },
+    {
+        "link": "https://ww2.mathworks.cn/help/matlab/ref/disp.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help//releases/R2021a/matlab/ref/disp.html",
+        "document": "Here are three ways to display multiple variable values on the same line in the Command Window.\n\nConcatenate multiple character vectors together using the operator. Convert any numeric values to characters using the function. Use to display the result.\n\nUse to create text, and then display it with .\n\nUse to directly display the text without creating a variable. However, to terminate the display properly, you must end the text with the newline ( ) metacharacter."
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/537787-continue-displaying-output-using-disp-function",
+        "document": ""
+    },
+    {
+        "link": "http://ece.northwestern.edu/local-apps/matlabhelp/techdoc/ref/disp.html",
+        "document": ""
+    }
+]

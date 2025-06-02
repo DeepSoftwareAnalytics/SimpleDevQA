@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/65019805/how-to-open-openfiledialog-by-button-click",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.filedialog.fileok?view=windowsdesktop-9.0",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/6189638/c-sharp-handle-a-dialogs-button-click-in-another-form",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.openfiledialog?view=windowsdesktop-9.0",
+        "document": ""
+    },
+    {
+        "link": "https://docs.telerik.com/devtools/winforms/controls/file-dialogs/getting-started",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/troubleshoot/developer/visualstudio/csharp/language-compilers/read-write-text-file",
+        "document": ""
+    },
+    {
+        "link": "https://csharp.com/UploadFile/ff0d0f/streamreader-and-streamwriter-in-C-Sharp-net",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/csharp/comments/pwlfvq/question_about_file_streamreader_and_streamwriter",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/42163248/using-streamreader-writer-on-same-textfile",
+        "document": ""
+    },
+    {
+        "link": "https://tutorialspoint.com/csharp/csharp_text_files.htm",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/217902/reading-writing-an-ini-file",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/74000169/read-and-write-ini-file-without-sections",
+        "document": ""
+    },
+    {
+        "link": "https://learn-tech-tips.blogspot.com/2015/06/how-to-read-write-ini-file-in-C-Sharp.html",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/troubleshoot/developer/visualstudio/csharp/language-compilers/store-custom-information-config-file",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/Unity3D/comments/1v5bax/c_ini_file_parser_updated_sections_and_better_ini",
+        "document": ""
+    }
+]

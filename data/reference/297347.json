@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://learn.microsoft.com/en-us/office/vba/api/excel.range(object)",
+        "document": ""
+    },
+    {
+        "link": "https://answers.microsoft.com/en-us/msoffice/forum/all/vba-macro-for-selecting-a-dynamic-range-in-excel/ca931d2e-401d-43ea-964b-9b4ed4d532e5",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/65882328/how-to-dynamically-select-a-range-vba",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/how-to-create-dynamic-range-based-on-cell-value-in-excel-vba",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/37817289/how-do-i-specifiy-a-dynamic-range-for-a-macro-in-excel",
+        "document": ""
+    },
+    {
+        "link": "https://mrexcel.com/board/threads/vba-last-non-empty-row.820229",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/4872512/last-not-empty-cell-column-in-the-given-row-excel-vba",
+        "document": ""
+    },
+    {
+        "link": "https://exceltip.com/cells-ranges-rows-and-columns-in-vba/3-best-ways-to-find-last-non-blank-row-and-column-using-vba.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/57268281/finding-the-value-containing-in-the-last-non-empty-cell-even-if-there-is-blank-c",
+        "document": ""
+    },
+    {
+        "link": "https://launchexcel.com/excel-vba-find-the-last-cell-row-or-column-on-an-excel-worksheet",
+        "document": ""
+    }
+]

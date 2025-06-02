@@ -1,0 +1,14 @@
+[
+    {
+        "link": "https://klinecharts.com/en-US/guide/v9-to-v10",
+        "document": "🔔 v9 will be maintained until March 2025. It is recommended to migrate to the new version as soon as possible.\n\nThis document will help you upgrade from klinecharts version 9.x to klinecharts version 10.x. If you are using version 8.x or older, please refer to v8 to v9 to upgrade to 9.x first.\n• Remove , , and . Please use the properties in the window configuration instead. For details, see the chart API init(dcs, options), instance API createIndicator(value, isStack, paneOptions) and setPaneOptions(options) .\n• Remove , , , , , , , please use instead.\n• , in sub-item changed to , in changed to , changed to object , changed to .\n• Remove , please use instead.\n• Remove , and , please use instead.\n• Remove , please use instead.\n• Remove , please use instead.\n• Remove in and , use and in indicators instead.\n• The indicator method return value changed to , changed to .\n• Remove the built-in basic graphic , please use instead."
+    },
+    {
+        "link": "https://npmjs.com/package/klinecharts",
+        "document": "\n• 📦 Out of the box: Simple and fast integration, basically zero cost to get started.\n• 🚀 Lightweight and smooth: Zero dependencies, only 40k under gzip compression.\n• 🎨 Highly scalable: With rich style configuration and API, the function can be extended as you like.\n\nComparison of time consumption from initialization to full rendering:\n\nAfter successful startup, open in the browser http://localhost:8888 .\n\nThe generated files are in the dist folder.\n\nKLineChart is available under the Apache License V2."
+    },
+    {
+        "link": "https://klinecharts.com/en-US",
+        "document": "Out of the box\n\nSimple and fast integration, zero cost to get started, displaying a chart in just 3 lines of code, allowing users to focus on data integration."
+    }
+]

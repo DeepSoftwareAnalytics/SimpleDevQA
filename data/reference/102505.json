@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://github.com/sudoguy/yandex-checkout-sdk-python/blob/master/README.en.md",
+        "document": "This product is used for managing payments under The Yandex.Checkout API For usage by those who implemented Yandex.Checkout using the API method.\n• In the console, run the following command:\n• In the console, run the following command:\n• In the console, run the following command:\n• Call the required API method. More details in our documentation for the Yandex.Chechout API"
+    },
+    {
+        "link": "https://pypi.org/project/yandex-checkout",
+        "document": "A required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings. Please check your connection, disable any ad blockers, or try using a different browser."
+    },
+    {
+        "link": "https://github.com/alekseyl1992/yandex-checkout-sdk-python/blob/master/setup.py",
+        "document": "This product is used for managing payments under [The Yandex.Checkout API](https://kassa.yandex.ru/docs/checkout-api/)\n\nFor usage by those who implemented Yandex.Checkout using the API method.\n\n2. In the console, run the following command:\n\n2. In the console, run the following command:\n\n1. In the console, run the following command:\n\nIf you agree to participate in the development of the SDK, you can submit data about your framework, cms or module:"
+    },
+    {
+        "link": "https://yandex.cloud/en/docs/functions/lang/python/sdk",
+        "document": ""
+    },
+    {
+        "link": "https://yandex.cloud/en/docs/query/SDK/SDK",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/yandex-cloud/python-sdk",
+        "document": "Need to automate your infrastructure or use services provided by Yandex.Cloud? We've got you covered.\n\nThere are several options for authorization your requests - OAuth Token, Metadata Service (if you're executing your code inside VMs or Cloud Functions running in Yandex.Cloud), Service Account Keys, and externally created IAM tokens.\n\nDon't forget to assign Service Account for your Instance or Function and grant required roles.\n\nNotice: if both overrides are used for same endpoint, override by client has priority\n\nIf you want to retry SDK requests, build SDK with field using class:\n\nIt's strongly recommended to use default settings of RetryPolicy to avoid retry amplification:\n\nWe use uv to manage dependencies and run commands in Makefile. Install it with official standalone installer:\n\nUse command to install library, its production and development dependencies.\n\nUse to autoformat code with black tool.\n• to run only linters for current python version\n• to run all checks (tests + code style checks + linters + format check) for current python version\n• to run all checks for all supported (installed in your system) python versions\n• to run all checks for all supported python versions in docker container\n\nIf pull request consists of several meaningful commits, that should be preserved, then use \"Rebase and merge\" option. Otherwise use \"Squash and merge\".\n\nNew release (changelog, tag and pypi upload) will be automatically created on each push to master via Github Actions workflow."
+    },
+    {
+        "link": "https://pypi.org/project/yandex-checkout",
+        "document": "A required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings. Please check your connection, disable any ad blockers, or try using a different browser."
+    },
+    {
+        "link": "https://github.com/morpher-ru/Yandex.Checkout.V3/blob/master/README.en.md",
+        "document": "The library supports async / await (via the AsyncClient class) as well as the classical synchronous model (via the Client class).\n\nIn order to take payments your website has to be able to accept notifications from Yandex.Checkout. The URL for notifications must be set on your shop settings page.\n\nMost API calls are done using the Client class. It takes your shopId and secretKey in the constructor:\n\nIn order to use async/await, create an AsyncClient:\n\nAsyncClient contains the same methods as Client, with the \"Async\" suffix. The following example uses Client.\n\nThe sample code below implements taking a payment as detailed in the Quick Start guide:\n\nFor the full code, see the ASP.NET WebForms sample project.\n\nThe Nuget package contains versions for three platforms:\n• .NET 4.0: no async / await and hence no class AsyncClient.\n• .NET Standard 2.0: This version will fit most modern project types.\n\nThe required version is chosen automatically for you when you install the Nuget package. Installation instructions can be found on the nuget.org page.\n\nThe package will be created in the folder.\n\nThe package version is set by the <Version> tag in Yandex.Checkout.V3.csproj and follows SemVer.\n\n\"Authentication failed because the remote party has closed the transport stream.\"\n\nIf you get this error while trying to create a new payment, it may mean that you are using a security protocol that YC does not support. Currently (July 2018) it supports TLS 1.2 but that may change in the future. Add this code before the create payment request:\n\nOr, if you are targeting .NET 4.0 or lower:\n\nPost your question, suggestion or issue here\n\nIf you would like to work on one of the open issues, please indicate this first by commenting on the issue. This is to avoid duplicating efforts."
+    },
+    {
+        "link": "http://sphinxsearch.com/docs/current.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/43545540/swagger-ui-no-mapping-found-for-http-request",
+        "document": "I'm trying to document and existing Rest API a Spring MVC project (NOT spring boot!).\n\nMy application is called api so http://localhost:9090/api would be the root endpoint. Because I'm using spring-data-rest, on that URL I can see the json of all my exposed repositories. So far so good.\n\nI can also access the swagger JSON http://localhost:9090/api/v2/api-docs\n\nI can't access the swagger-UI component on http://localhost:9090/api/swagger-ui.html . It gives me\n\nChecking the spring logs when starting tomcat I can see something weird\n\nThat seems to indicate the for some reason swaggerController is not associated to any URL, hence the 404 error.\n\nThese are the version I'm working with\n\nThis is my Java conf. Worth pointing out that the method addResourceHandlers NEVER GETS executed\n\nAny suggestions? In short, swagger-ui does not work."
+    }
+]

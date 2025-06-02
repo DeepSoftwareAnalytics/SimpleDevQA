@@ -1,0 +1,34 @@
+[
+    {
+        "link": "https://learn.microsoft.com/en-us/dotnet/api/system.runtime.interopservices?view=net-9.0",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/34222215/how-to-query-interface-of-a-com-object-in-c-dynamically",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/14098958/c-sharp-dynamic-com-objects",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/dotnet/standard/native-interop/cominterop",
+        "document": ""
+    },
+    {
+        "link": "https://codeproject.com/Articles/990/Understanding-Classic-COM-Interoperability-With-NE",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/2721455/implementing-few-methods-of-a-interface-class-c",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/csharp/comments/vwkp3o/using_interface_methods_best_practices_when",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/dotnet/desktop/winforms/input-keyboard/overview?view=netdesktop-9.0",
+        "document": ""
+    }
+]

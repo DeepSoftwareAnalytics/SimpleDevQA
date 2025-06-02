@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://enable-cors.org/server_nginx.html",
+        "document": ""
+    },
+    {
+        "link": "https://gist.github.com/Stanback/7145487",
+        "document": ""
+    },
+    {
+        "link": "https://serverfault.com/questions/162429/how-do-i-add-access-control-allow-origin-in-nginx",
+        "document": ""
+    },
+    {
+        "link": "https://runcloud.io/docs/cors-on-nginx",
+        "document": ""
+    },
+    {
+        "link": "https://cloud.google.com/endpoints/docs/openapi/custom-cors-nginx",
+        "document": ""
+    },
+    {
+        "link": "https://baeldung.com/linux/nginx-cross-origin-policy-headers",
+        "document": ""
+    },
+    {
+        "link": "https://serverfault.com/questions/162429/how-do-i-add-access-control-allow-origin-in-nginx",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/54313216/nginx-config-to-enable-cors-with-origin-matching",
+        "document": ""
+    },
+    {
+        "link": "https://juannicolas.eu/how-to-set-up-nginx-cors-multiple-origins",
+        "document": ""
+    },
+    {
+        "link": "https://enable-cors.org/server_nginx.html",
+        "document": ""
+    }
+]

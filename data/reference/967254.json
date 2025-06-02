@@ -1,0 +1,22 @@
+[
+    {
+        "link": "https://maven.fabricmc.net/docs/fabric-api-0.83.0+1.20.1/allclasses-index.html",
+        "document": "Deprecated, for removal: This API element is subject to removal in a future version."
+    },
+    {
+        "link": "https://maven.fabricmc.net/docs/fabric-api-0.83.0+1.20.1/help-doc.html",
+        "document": "Starting from the All Classes and Interfaces You can search for definitions of modules, packages, types, fields, methods, system properties and other terms defined in the API. These items can be searched using part or all of the name, optionally using \"camelCase\" abbreviations, or multiple search terms separated by whitespace. Some examples: Refer to the Javadoc Search Specification for a full description of search features. Starting from the Overview page, you can browse the documentation using the links in each page, and in the navigation bar at the top of each page. The Index and Search box allow you to navigate to specific declarations and summary pages, including: All Packages\n\nThe following sections describe the different kinds of pages in this collection. The Overview page is the front page of this API document and provides a list of all packages with a summary for each. This page can also contain an overall description of the set of packages. Each package has a page that contains a list of its classes and interfaces, with a summary for each. These pages may contain the following categories: Each class, interface, nested class and nested interface has its own separate page. Each of these pages has three sections consisting of a declaration and description, member summary tables, and detailed member descriptions. Entries in each of these sections are omitted if they are empty or not applicable. \n\n \n\n Note: Annotation interfaces have required and optional elements, but not methods. Only enum classes have enum constants. The components of a record class are displayed as part of the declaration of the record class. Properties are a feature of JavaFX. The summary entries are alphabetical, while the detailed descriptions are in the order they appear in the source code. This preserves the logical groupings established by the programmer. Packages and modules may contain pages with additional information related to the declarations nearby. There is a Class Hierarchy page for all packages, plus a hierarchy for each package. Each hierarchy page contains a list of classes and a list of interfaces. Classes are organized by inheritance structure starting with . Interfaces do not inherit from .\n• When viewing the Overview page, clicking on TREE displays the hierarchy for all packages.\n• When viewing a particular package, class or interface page, clicking on TREE displays the hierarchy for only that package. The Deprecated API page lists all of the API that have been deprecated. A deprecated API is not recommended for use, generally due to shortcomings, and a replacement API is usually given. Deprecated APIs may be removed in future implementations. The Constant Field Values page lists the static final fields and their values. Each serializable or externalizable class has a description of its serialization fields and methods. This information is of interest to those who implement rather than use the API. While there is no link in the navigation bar, you can get to this information by going to any serialized class and clicking \"Serialized Form\" in the \"See Also\" section of the class description. The All Packages page contains an alphabetic index of all packages contained in the documentation. The All Classes and Interfaces page contains an alphabetic index of all classes and interfaces contained in the documentation, including annotation interfaces, enum classes, and record classes. The Index contains an alphabetic index of all classes, interfaces, constructors, methods, and fields in the documentation, as well as summary pages such as All Packages, All Classes and Interfaces. The following sections describe the different kinds of pages in this collection."
+    },
+    {
+        "link": "https://curseforge.com/minecraft/mc-mods/fabric-api/files",
+        "document": ""
+    },
+    {
+        "link": "https://modrinth.com/mod/fabric-api/version/0.92.2+1.20.1",
+        "document": "Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain."
+    },
+    {
+        "link": "https://docs.fabfile.org/en/1.14",
+        "document": ""
+    }
+]

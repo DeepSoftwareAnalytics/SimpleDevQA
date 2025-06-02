@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://w3schools.com/sql/sql_case.asp",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/13842335/conditional-case-statement-syntax",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/sql-case-statement",
+        "document": ""
+    },
+    {
+        "link": "https://simplilearn.com/tutorials/sql-tutorial/sql-case-statement",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/case-transact-sql?view=sql-server-ver16",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@brianmochtyak/pulling-financial-data-and-storing-it-in-a-sql-database-ec45c9799c1a",
+        "document": ""
+    },
+    {
+        "link": "https://thoughtspot.com/data-trends/data-modeling/optimizing-sql-queries",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/how-do-financial-analysts-use-sql",
+        "document": ""
+    },
+    {
+        "link": "https://quora.com/How-do-databases-and-SQL-work-and-what-are-some-of-the-best-practices-for-designing-and-querying-relational-databases",
+        "document": ""
+    },
+    {
+        "link": "https://sqlservercentral.com/forums/topic/best-practices-financial-reporting-database",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/help/matlab/ref/xlsread.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/import_export/ways-to-import-spreadsheets.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/367607-read-excel-file-with-matlab",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/import_export/select-spreadsheet-data-interactively.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/discovery/matlab-excel.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/ref/xlsread.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/358102-import-an-excel-file",
+        "document": ""
+    },
+    {
+        "link": "https://ww2.mathworks.cn/help/matlab/ref/xlsread.html",
+        "document": ""
+    },
+    {
+        "link": "https://eng.libretexts.org/Courses/Oxnard_College/Matlab_and_Octave_Programming_for_STEM_Applications_(Smith)/15%3A_Formatted_Input_and_Output/15.03%3A_Reading_from_an_Excel_file_in_MATLAB_and_Octave",
+        "document": "MATLAB can read data from Excel files using the xlsread() command.\n\nIt helps if your are familiar with Excel's addressing of cells by columns (letters) and rows (numbers).\n\nThe xlswrite() command can be used to write to an excel file.\n\nThe attached Excel file, NBA_stats2016raw.xls, has statistics for the 30 NBA basketball teams. This Matlab program reads this file and processes some of the data: %% NBA_Excel_read.m\n\n clear all; close all; clc; format compact\n\n % Read the .xls file of NBA statistics\n\n [nums,chars,raw] = xlsread('NBA_stats2016raw.xlsx'); % 3 matricies are returned.\n\n % nums is a 31x26 matrix of just the numerical data. Since the first row has column headers, it is not part of the nums matrix. % chars is a matrix of just the character data. % raw is a matrix all of the data % Extract the column of points for the 30 teams.\n\n points_tot = nums(1:30, 25);\n\n % Column 25 has the total points in the season\n\n % The last row (row 31) has averages of the data,\n\n % so it is not extracted. % Compute the min, median, and max values of points_tot\n\n points_min = min(points_tot)\n\n points_median = median(points_tot)\n\n points_max = max(points_tot)\n\nMATLAB can also write to files in the Excel format using the xlsopen() and xlswrite() functions. However, that is not discussed here."
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/2073691-import-xlsx-in-matlab-using-input-and-xlsread",
+        "document": ""
+    }
+]

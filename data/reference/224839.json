@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/help/signal/ug/frequency-response.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/products/symbolic.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/symbolic/index.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/ident/ref/dynamicsystem.bode.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/310042-how-to-convert-symbolic-expressions-to-transfer-functions",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ug/frequency-response.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/control/ref/dynamicsystem.evalfr.html",
+        "document": ""
+    },
+    {
+        "link": "https://dsp.stackexchange.com/questions/26086/matlab-plotting-magnitude-and-phase-response",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/588133-magnitude-and-phase-response-of-a-lowpass-filter",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/90780-how-i-can-plot-the-magnitude-and-phase-response-oh-the-function",
+        "document": ""
+    }
+]

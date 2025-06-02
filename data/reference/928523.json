@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://tex.stackexchange.com/questions/471371/pdf-not-created-after-compilation",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://tex.stackexchange.com/questions/709180/latex-horrible-issues-with-generating-pdf-file-unsolved-issue-and-no-answers",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://tex.stackexchange.com/questions/665530/error-with-overleaf-no-pdf",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://tex.stackexchange.com/questions/155756/error-pdf-file-not-found-after-compiling",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://tex.stackexchange.com/questions/343769/what-to-do-when-the-pdf-file-is-not-produced",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://tex.stackexchange.com/questions/645238/most-common-command-to-compile-a-latex-document",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://guides.lib.wayne.edu/latex/compile",
+        "document": "A LaTeX document, saved as a file, must be compiled in order to turn it into a readable document. A compiled file will output either a , (PostScript), or document. Most TeX distributions' default output is , but or documents are relatively easy to produce as well.\n\nThere two general ways to compile a LaTeX document:\n\nA LaTeX editor such as TeXmaker or TeXworks includes the functionality to compile a LaTeX document with the push of a button. The specific editor being used should include information on how this is done, so it is best to refer directly to the website of the chosen editor for information on its operation.\n\nThe commands listed below should work equally well in a Windows, Unix/Linux, or Mac environment.\n\nIn the command line or terminal, first navigate to the location where your file is saved. The following commands can then be used:\n• will compile and output the file\n• will compile and output the file\n\nYou can also use the command line/terminal to convert between different file types. For example:"
+    },
+    {
+        "link": "https://tex.stackexchange.com/questions/220091/conditional-compilation-of-documents-using-command-line-options-for-pdflatex",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://linux.die.net/man/1/pdflatex",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/61875918/create-multiple-pdf-files-from-same-tex-file",
+        "document": "Latex can't generate multiple files by itself using , however, you can write a simple script (let's use Bash) that does this for you.\n\nI will use as the placeholder name.\n\nSo first the Bash script, it's very basic. I define an array of strings: \"Bob\" and \"Alice\" (classic).\n\nThen I loop over the array (so two times in total), I will execute the command. I will use the to set a different file output name, which is the name from the array. Meaning the script should generate as well as a file.\n\nWe will leverage the option to define the command. is again the name we will use in your Latex document. And finally we will see this placeholder with (so will be set to Bob, and later to ):\n\nBe sure to save the above script to a file: for example. And give it execution rights: .\n\nIn your Latex document itself, we could add a fallback value:\n\nAnd later in your document let's use the :\n\nAnd now call the Bash script:\n\nNote: Some people say to avoid completely, since can overwrite predefined macros and create all kind of errors without you knowing it. Just be aware of that!"
+    }
+]

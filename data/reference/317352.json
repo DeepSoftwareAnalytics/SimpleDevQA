@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc",
+        "document": ""
+    },
+    {
+        "link": "https://design-reuse.com/articles/25090/dynamic-memory-allocation-fragmentation-c.html",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/partition-allocation-methods-in-memory-management",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/722922/best-way-to-handle-memory-allocation-in-c",
+        "document": ""
+    },
+    {
+        "link": "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/program-for-round-robin-scheduling-for-the-same-arrival-time",
+        "document": ""
+    },
+    {
+        "link": "https://scaler.com/topics/round-robin-scheduling-program-in-c",
+        "document": ""
+    },
+    {
+        "link": "https://sanfoundry.com/c-program-round-robin-scheduling",
+        "document": ""
+    },
+    {
+        "link": "https://ccbp.in/blog/articles/round-robin-program-in-c",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/SaraAnwar97/Round-robin",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.fivem.net/docs/scripting-reference/runtimes/lua/functions/vector3",
+        "document": ""
+    },
+    {
+        "link": "https://docs.fivem.net/docs/scripting-manual/runtimes/lua",
+        "document": ""
+    },
+    {
+        "link": "https://forum.cfx.re/t/help-how-to-place-coordinates-in-value-using-lua-scripting/840646",
+        "document": ""
+    },
+    {
+        "link": "https://docs.fivem.net/docs/scripting-manual/introduction/creating-your-first-script",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/DonHulieo/duff",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/31730923/check-if-point-lies-in-polygon-lua",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/processing/comments/t9861p/point_in_polygon_detection_demo_code_included",
+        "document": ""
+    },
+    {
+        "link": "https://forum.cfx.re/t/help-how-to-place-coordinates-in-value-using-lua-scripting/840646",
+        "document": ""
+    },
+    {
+        "link": "https://love2d.org/forums/viewtopic.php?t=84954",
+        "document": ""
+    },
+    {
+        "link": "https://hiveworkshop.com/threads/polygons.331648",
+        "document": ""
+    }
+]

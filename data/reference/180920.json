@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/help/signal/ref/butter.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/dsp/ref/butter.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/46226-butterworth-filter-design",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ug/practical-introduction-to-digital-filter-design.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/filter-design.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ref/bandpass.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ref/highpass.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/472669-butterworth-filter-high-pass-and-band-pass",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/481753-low-high-and-band-pass-filter",
+        "document": ""
+    },
+    {
+        "link": "https://e2e.ti.com/support/microcontrollers/c2000-microcontrollers-group/c2000/f/c2000-microcontrollers-forum/596995/compiler-tms320f28335-how-to-use-low-pass-high-pass-and-band-pass-filters-block-in-matlab-for-dsp-code-conversion",
+        "document": "I've not used DSP blocks for TI MCUs so far but you can fix this problem by changing the solver of your model. go to Simulation > Model Configuration....> Solver then change the \"Solver options\" to \"Fixed-step\" and \"Solver\" to \"discrete (no continuous state)\".\n\nThen in your model, the sample time for each block must be a discrete value or \"-1\".\n\nIf my post answered your question, please click on \"Verified answer\" button."
+    }
+]

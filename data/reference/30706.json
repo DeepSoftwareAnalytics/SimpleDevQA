@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://element.eleme.io",
+        "document": ""
+    },
+    {
+        "link": "https://element-plus.org/en-US/component/carousel",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/ElemeFE/element/blob/dev/types/element-ui.d.ts",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/element-plus/element-plus/blob/dev/docs/en-US/component/carousel.md",
+        "document": ""
+    },
+    {
+        "link": "https://htmlelements.com/docs/carousel",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/56094656/how-can-we-show-multiple-items-with-bootstrap-vue-carousel",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/48141156/vuetify-use-carousel-to-display-components",
+        "document": ""
+    },
+    {
+        "link": "https://dev.to/laurxn/how-to-build-a-carousel-from-scratch-using-vue-js-4ki0",
+        "document": ""
+    },
+    {
+        "link": "https://hackmd.io/@yASz88tXTRiMDyPKCSqV7g/Sy4AqGc3j",
+        "document": ""
+    },
+    {
+        "link": "https://bomberbot.com/javascript/building-a-feature-rich-carousel-in-vuejs-a-comprehensive-guide",
+        "document": ""
+    },
+    {
+        "link": "https://vuejs.org/guide/essentials/list",
+        "document": ""
+    },
+    {
+        "link": "https://vuejs.org/v2/guide/list.html%23Mapping-an-Array-to-Elements-with-v-for",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_rendering_lists",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/vue-js-list-rendering-v-for-on-a-template",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/vue/vue_v-for.php",
+        "document": ""
+    }
+]

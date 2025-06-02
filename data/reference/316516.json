@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://geeksforgeeks.org/memory-layout-of-c-program",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/722922/best-way-to-handle-memory-allocation-in-c",
+        "document": ""
+    },
+    {
+        "link": "https://educatedguesswork.org/posts/memory-management-1",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/13442375/best-practice-for-allocating-memory-for-use-by-a-function-malloc-inside-or-out",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/memory-management-in-operating-system",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/linked-list-data-structure",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/first-fit-algorithm-in-memory-management-using-linked-list",
+        "document": ""
+    },
+    {
+        "link": "https://learn-c.org/en/Linked_lists",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/dsa/dsa_theory_linkedlists_memory.php",
+        "document": ""
+    },
+    {
+        "link": "https://news.ycombinator.com/item?id=33473875",
+        "document": ""
+    }
+]

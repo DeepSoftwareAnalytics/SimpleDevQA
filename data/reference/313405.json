@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html",
+        "document": ""
+    },
+    {
+        "link": "https://scikit-learn.org/stable/api/index.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/74453434/how-to-make-a-custom-class-which-inherits-from-sklearns-randomforestregressor",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/69326639/sklearn-warning-valid-feature-names-in-version-1-0",
+        "document": ""
+    },
+    {
+        "link": "https://scikit-learn.sourceforge.net/dev/modules/generated/sklearn.ensemble.RandomForestRegressor.html",
+        "document": ""
+    },
+    {
+        "link": "https://scikit-learn.org/stable/modules/grid_search.html",
+        "document": ""
+    },
+    {
+        "link": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html",
+        "document": ""
+    },
+    {
+        "link": "https://analyticsvidhya.com/blog/2021/06/tune-hyperparameters-with-gridsearchcv",
+        "document": ""
+    },
+    {
+        "link": "https://mygreatlearning.com/blog/gridsearchcv",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/dvt-engineering/hyper-parameter-tuning-for-scikit-learn-ml-models-860747bc3d72",
+        "document": ""
+    }
+]

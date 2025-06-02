@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://onlineplcsupport.com/structured-text-rslogix-5000-constructs",
+        "document": ""
+    },
+    {
+        "link": "https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/1756-pm007_-en-p.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://literature.rockwellautomation.com/idc/groups/literature/documents/rm/2080-rm001_-en-e.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/PLC/comments/s5hx2f/when_do_you_use_structured_text",
+        "document": "I've noticed that our newer packaging machines are including more Structured Text. Most of them are \"Initialize\" routines that are setting values on S:FS. I also found several that are like ReadMe files and Error Code descriptions. I looked over our Processing systems and couldn't find any Structured text in that code. What are some other general areas that Structured Text is used and how?\n\nEdit: Our company uses Allen-Bradley in 99% of our machines/systems. So, this is the only environment I've seen Structured Text."
+    },
+    {
+        "link": "https://solisplc.com/tutorials/micro800-plc-programming-getting-started",
+        "document": "In WinCC Unified, an effective screen layout is the foundation of any well-designed user interface, and it should be carefully planned from the start of the engineering process using \"Screen Windows.\" This tutorial will guide you through designing a screen layout with multiple \"Screen Windows,\" implementing a navigation system between them, and configuring pop-up windows to enhance the overall user experience and interface functionality."
+    },
+    {
+        "link": "https://solisplc.com/tutorials/plc-programming-tutorial-allen-bradley-training-in-rslogix-5000-ladder-logic-basics-for-beginners",
+        "document": "In WinCC Unified, an effective screen layout is the foundation of any well-designed user interface, and it should be carefully planned from the start of the engineering process using \"Screen Windows.\" This tutorial will guide you through designing a screen layout with multiple \"Screen Windows,\" implementing a navigation system between them, and configuring pop-up windows to enhance the overall user experience and interface functionality."
+    },
+    {
+        "link": "https://plctalk.net/threads/testing-a-program.120239",
+        "document": "It all depends on what kind of \"testing\" you want to do.It is possible to disable all the I/O modules in the PLC program so that that they do not scan. Thus when you download your program, you are free to write values to the I/O registers without affecting the actual equipment, and without the actual equipment overwriting whatever values you want set.You can get fancy and automate your simulation: when the motor output is ON, drive the Input from the Aux contact:This sort of simulation logic looks \"wrong\" -- outputs driving inputs instead of the other way around -- but it's perfectly valid.Analog signals can also be simulated: If valve XYZ is open, increase the Input signal by 1; if valve ZYX is open, decrease the value by 1. You can get as fancy as you want with this sort of thing, adding timers, proportional control, etc.Put all this simulation code in it's own routine, so you can disable it easily.I've simulated large processes with this technique, running dozens of batches and watching them on the HMI, long before the actual equipment is functional. You find lots of bugs this way, but keep in mind that your simulation will only be as good as your model: the laws of physics have the last say. And you have to be careful to recognize if the problem you see is with the regular code or the simulation logic.But it's great not having to wait for an hour to get a tank up to temperature."
+    },
+    {
+        "link": "https://reddit.com/r/PLC/comments/nfjag8/cheapest_way_to_practice_ab_plc_at_home",
+        "document": "This sub is dedicated to discussion and questions about Programmable Logic Controllers (PLCs): \"an industrial digital computer that has been ruggedized and adapted for the control of manufacturing processes, such as assembly lines, robotic devices, or any activity that requires high reliability, ease of programming, and process fault diagnosis.\""
+    },
+    {
+        "link": "https://reddit.com/r/PLC/comments/f6riy6/in_rslogix_5000_how_do_i_simulate_a_previously",
+        "document": "At school we started programming in RSlogix 5000 this semester after we had unity pro last semester, which had very easy simulation. I know how to make a program with an simulation PLC and program with that, but I made a program for our PLC at school, which i am trying to work on at home. But I dont know how to actually simulate it since i cannot go online. Do i need to change the PLC to the simulated one when i want to simulate and then change it back somehow when i get back to the lab?"
+    },
+    {
+        "link": "https://literature.rockwellautomation.com/idc/groups/literature/documents/wp/9324-wp007_-en-p.pdf",
+        "document": ""
+    }
+]

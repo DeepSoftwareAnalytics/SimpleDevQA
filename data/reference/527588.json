@@ -1,0 +1,42 @@
+[
+    {
+        "link": "http://spirepair.com/pdf/tech_data/testcenter/Spirent%20TestCenter%20System%20and%20Application%20Overview.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://support.spirent.com/s/article/FAQ15881",
+        "document": ""
+    },
+    {
+        "link": "https://assets.ctfassets.net/wcxs9ap8i19s/4YZY53eIQkAJa3TLcbHMNS/f7bc44e399dae7c6dbc86313226a99b7/ds-spirent-fX2-dual-speed-test-module_RevK.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://support.spirent.com/s/article/FAQ19826",
+        "document": ""
+    },
+    {
+        "link": "https://tmgtestequipment.com.au/assets/pdf/SPRT_BPK-1001A_Spec.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://kbase-ic-dev.spirent.com/resources/sites/SPIRENT/content/live/FAQS/13000/FAQ13350/en_US/STC_C1-Appliance_Datasheet.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://spirent.com/products/testcenter-platforms-protocols",
+        "document": "Complete set of Access protocols for both IPv4 and IPv6."
+    },
+    {
+        "link": "https://assets.ctfassets.net/wcxs9ap8i19s/7kiLBMGwLYGhpvKlqswnaB/cae20ceffbbac78dca938a15805f16fa/DS-Spirent-Automotive-C1_RevI.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://community.spiceworks.com/t/testing-connectivity-best-practice-good-techniques/709239/2",
+        "document": "The is no one rule for testing, it fully depends upon what you are testing and what you hope to achieve.\n\nI would want latency figures and also CPU figures of the device you’re testing from, interface stats if wired to look for CRC errors etc., if wireless do you get the same results when you ping the gateway?\n\nCan you ping your ISP, the next hop from you, that you are connected to? What are those results?\n\nAs it’s a VPN and therefor has additional overheads, I’d be Wiresharking and looking to a Type 3 Code 4 (Do not fragment) response as it’s possible that your ISP may restrict MTU sizes (although this is unlikely, I’ve seen it lots of times).\n\nYou can test the MTU size by pinging from a windows CMD prompt ping 8.8.8.8 -f -l 1492\n\nThe -f is don’t fragment and and -l 1492 (it’s an L) sets the MTU size to be 1492, you can change the MTU size until the pings fails, that’s the biggest packet you can send. Some VPNs are really sensitivity to this and it may be your ISP, or another carrier your ISP is using that affects this"
+    },
+    {
+        "link": "https://spirent.com/blogs/strategies-for-optimal-network-scale-testing",
+        "document": ""
+    }
+]

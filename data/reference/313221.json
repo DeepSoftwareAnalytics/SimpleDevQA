@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://learn.microsoft.com/en-us/sql/relational-databases/tables/create-foreign-key-relationships?view=sql-server-ver16",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/sql/t-sql/statements/create-table-transact-sql?view=sql-server-ver16",
+        "document": ""
+    },
+    {
+        "link": "https://sqlshack.com/delete-cascade-and-update-cascade-in-sql-server-foreign-key",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/17127351/introducing-foreign-key-constraint-may-cause-cycles-or-multiple-cascade-paths",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/6260688/how-do-i-use-cascade-delete-with-sql-server",
+        "document": ""
+    },
+    {
+        "link": "https://red-gate.com/simple-talk/databases/sql-server/database-administration-sql-server/sql-server-triggers-good-scary",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/899825/log-changes-to-database-table-with-trigger",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/sql/t-sql/statements/create-trigger-transact-sql?view=sql-server-ver16",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/1962398/creating-audit-triggers-in-sql-server",
+        "document": ""
+    },
+    {
+        "link": "https://sqlshack.com/understanding-change-tracking-in-sql-server-using-triggers",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/49872399/how-to-remove-empty-and-null-strings-from-qstringlist",
+        "document": ""
+    },
+    {
+        "link": "https://doc.qt.io/qt-6/qstringlist.html",
+        "document": ""
+    },
+    {
+        "link": "https://doc.qt.io/qt-5/qlist.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/6777884/qstringlist-remove-spaces-from-strings",
+        "document": ""
+    },
+    {
+        "link": "https://felgo.com/doc/qt/qstringlist",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/vector-erase-in-cpp-stl",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/34624223/how-to-erase-elements-from-a-vector-based-on-a-specific-condition-in-c11",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/1525535/delete-all-items-from-a-c-stdvector",
+        "document": ""
+    },
+    {
+        "link": "https://codecademy.com/resources/docs/cpp/vectors/erase",
+        "document": ""
+    },
+    {
+        "link": "https://en.cppreference.com/w/cpp/container/vector/erase2",
+        "document": ""
+    }
+]

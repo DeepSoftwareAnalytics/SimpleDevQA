@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.djangoproject.com/en/5.1/topics/db/queries",
+        "document": ""
+    },
+    {
+        "link": "https://docs.djangoproject.com/en/5.1/topics/db/examples/many_to_one",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/63565791/how-to-correctly-query-to-a-foreign-key-in-django",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/1981524/django-filtering-on-foreign-key-properties",
+        "document": ""
+    },
+    {
+        "link": "https://django.readthedocs.io/en/stable/topics/db/queries.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/2642613/what-is-related-name-used-for",
+        "document": ""
+    },
+    {
+        "link": "https://sentry.io/answers/what-is-related-name-used-for",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/44160983/what-does-related-name-do",
+        "document": ""
+    },
+    {
+        "link": "https://mrprabhatmishra.medium.com/how-to-use-related-name-attribute-in-django-model-db6c7d8d20cf",
+        "document": ""
+    },
+    {
+        "link": "https://djangocentral.com/understanding-related-name-in-django-models",
+        "document": ""
+    }
+]

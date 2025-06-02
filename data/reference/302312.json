@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mxnet.apache.org/api/python/docs/tutorials/packages/gluon/data/datasets.html",
+        "document": ""
+    },
+    {
+        "link": "https://mxnet.apache.org/api/python/docs/api/gluon/data/index.html",
+        "document": ""
+    },
+    {
+        "link": "https://mxnet.apache.org/versions/1.6/api/python/docs/api/gluon/data/index.html",
+        "document": ""
+    },
+    {
+        "link": "http://d2p0dj726sqh0a.cloudfront.net/api/gluon/_autogen/mxnet.gluon.data.DataLoader.html",
+        "document": ""
+    },
+    {
+        "link": "https://mxnet.apache.org/versions/1.4.1/tutorials/gluon/datasets.html",
+        "document": ""
+    },
+    {
+        "link": "https://mxnet.apache.org/versions/1.6/api/python/docs/tutorials/packages/optimizer/index.html",
+        "document": ""
+    },
+    {
+        "link": "https://mxnet.apache.org/api/python/docs/tutorials/packages/optimizer/index.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/61587501/mxnet-adamw-optimizer",
+        "document": ""
+    },
+    {
+        "link": "https://ts.gluon.ai/v0.11.x/_modules/gluonts/mx/trainer/_base.html",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/apache/incubator-mxnet/blob/master/python/mxnet/gluon/trainer.py",
+        "document": ""
+    }
+]

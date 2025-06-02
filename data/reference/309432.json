@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/js/js_arrow_function.asp",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/es6-arrow-function",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/arrow-functions-in-javascript",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/js/js_es6.asp",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_escape",
+        "document": ""
+    },
+    {
+        "link": "https://library.fridoverweij.com/docs/jstutorial/unicode_and_escape_sequences.html",
+        "document": ""
+    },
+    {
+        "link": "https://exploringjs.com/es6/ch_unicode.html",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@mysteryweevil/unraveling-the-magic-of-unicode-in-javascript-a-beginners-guide-to-character-encoding-a270b78c372d",
+        "document": ""
+    },
+    {
+        "link": "https://goteleport.com/resources/tools/unicode-escape-unescape",
+        "document": ""
+    }
+]

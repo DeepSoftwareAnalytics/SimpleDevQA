@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.oracle.com/javase/tutorial/uiswing/index.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.oracle.com/javase/tutorial/uiswing/examples/components",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/822899/how-to-create-a-custom-swing-component",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/introduction-to-java-swing",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/8434787/how-to-create-custom-components-in-javafx-2-0-using-fxml",
+        "document": ""
+    },
+    {
+        "link": "https://docs.oracle.com/javase/8/docs/api/java/awt/Graphics2D.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.oracle.com/javase/7/docs/api/java/awt/Graphics2D.html",
+        "document": ""
+    },
+    {
+        "link": "https://download.java.net/java/early_access/loom/docs/api/java.desktop/java/awt/Graphics2D.html",
+        "document": ""
+    },
+    {
+        "link": "https://help.intrexx.com/apidocs/jdk16/api/java.desktop/java/awt/Graphics2D.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/25547131/confusion-with-graphics2d-canvas-and-shapes",
+        "document": ""
+    }
+]

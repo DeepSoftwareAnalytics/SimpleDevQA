@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/11344965/how-to-include-static-library-in-makefile",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/60590641/makefile-to-compile-all-src-and-generate-static-library",
+        "document": ""
+    },
+    {
+        "link": "https://gnu.org/s/make/manual/make.html",
+        "document": ""
+    },
+    {
+        "link": "https://avrfreaks.net/s/topic/a5C3l000000UBl3EAG/t058995",
+        "document": ""
+    },
+    {
+        "link": "https://gnu.org/s/make/manual/make.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://makefiletutorial.com",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/66958400/proper-way-to-create-a-makefile-for-a-standard-c-project",
+        "document": ""
+    },
+    {
+        "link": "https://avikdas.com/2019/12/16/makefiles-for-c-cpp-projects.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/48791883/best-practice-for-building-a-make-file",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/C_Programming/comments/asoa52/question_on_make_makefiles_c_c_and_moving_away",
+        "document": ""
+    }
+]

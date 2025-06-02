@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/6775048/convert-pdf-to-jpeg-using-a-free-c-sharp-solution",
+        "document": "I need to convert a pdf file into a jpeg using C#. And the solution (library) has to be free.\n\nI have searched a lot of information but seems that I don't get anything clear.\n\nI already tried itextsharp and pdfbox (but this, the pdf2image is only for java, I think) with no success.\n\nI tried to extract the images from the pdf individually, but I have an error of invalid parameters when I try to extract the images... Seems that they have a strange encoding.\n\nAnyone can recommend me any library to save a pdf into a jpeg? Examples will be very appreciated too."
+    },
+    {
+        "link": "https://pdfium.patagames.com",
+        "document": "Pdfium.Net SDK Library allows developers to create PDF documents easily in C#. This example shows that a PDF document can be dynamically created using page objects. You can create multiple page objects and place them anywhere on the page. There are several types of page objects: paths, forms, images and text objects.\n\nUsing C# PDF Library, you can not only merge multiple PDF files into a single file, but also select specific pages from the source files and combine them in one PDF document. The code above shows how it can be done using ImportPages operation.\n\nIn this example we are create a bitmap of each page, so we calculate the required width and height of the bitmap in pixels converted from the dimensions of the PDF page in Points. Each Point is 1/72 of an inch, so we basically take the vertical or horizontal DPI of the image (96 in our example), multiply it to corresponding dimension and divide by 72. Next we are create a new PdfBitmap using the dimensions we just computed. The last parameter of the constructor tells to use the true color mode. Then we fill the entire bitmap with white and render the page to it. Thats all!"
+    },
+    {
+        "link": "https://github.com/libvips/pyvips/issues/261",
+        "document": "There is any way to convert pdf all pages into images with speed and less memory.\n\nCurrently i am using this code."
+    },
+    {
+        "link": "https://reddit.com/r/Unity3D/comments/r82fva/convert_pdf_file_to_image_in_unity_c",
+        "document": "A subreddit for News, Help, Resources, and Conversation regarding Unity, the game engine. Do NOT use your phone to take screenshots. Video and photos of computer screens taken by phones are NOT allowed. All screenshots must be grabbed from the computer itself."
+    },
+    {
+        "link": "https://helpx.adobe.com/acrobat/using/pdf-to-jpg.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/34869412/convert-image-into-pdf-using-itextsharp-in-c-sharp",
+        "document": "I want to use itextsharp to convert a page that contain the image and gridview into pdf form. Below is my code\n\ni managed to convert the gridview into pdf but unable to convert the image. The image is place inside the div call divText. Does anyone can help me in this?"
+    },
+    {
+        "link": "https://stackoverflow.com/questions/30456317/is-it-possible-to-convert-pdf-page-to-image-using-itextsharp",
+        "document": "Hi I have been using itextSharp for all pdf related projects in dot.net. I came across a requirement where I need to convert PDF pages to images. I could not find any sample of such a thing. I found that another tool ghostscript is able to do it the problem with that is I am on a shared hosting & I don't think ghostscript will run on server as in my local machine I had to manually copy ghost script dlls to system32 folder which is not possible in a shared hosting."
+    },
+    {
+        "link": "https://discussions.unity.com/t/create-pdf-in-runtime-on-android-and-ios/894984",
+        "document": ""
+    },
+    {
+        "link": "https://sautinsoft.com/products/pdf-focus/product-comparisons/convert-pdf-to-image-itextsharp.php",
+        "document": "PDF Focus .NET is a powerful software development kit (SDK) that allows developers to work with PDF files in their .NET applications. It provides a wide range of capabilities for creating, editing, manipulating, converting, and extracting data from PDF documents.\n\nFurthermore, PDF Focus .NET supports digital signatures, allowing developers to sign PDF documents with digital certificates for security and authentication purposes."
+    },
+    {
+        "link": "https://adamprescott.net/2011/09/29/convert-images-to-a-pdf-with-itextsharp",
+        "document": "I just finished working on a project that required multiple images to be combined into a single PDF document. I used iTextSharp to create the PDF, and I’m pretty happy with the solution that I came up with. There were only two functions required: one that converts an image to a smaller size & lesser quality and one that combines the images into PDF."
+    },
+    {
+        "link": "https://reddit.com/r/Unity3D/comments/c7zi3y/using_thirdparty_libraries",
+        "document": "I'm trying to build up a project where I'll be sharing some data structures and some logic between a Unity project and another C# application. There's also some third-party libraries I'd be referencing from there.\n\nI'm very confused as to how exactly I should go about this.\n\nAn example: I'd like to use LibNetLib as part of my Unity project. That project specifically states to use it as source in order to have it compile with the right preprocessor definitions. How do people usually go about that? I'd like to have it as a git submodule (so I could track changes, push back upstream, etc). But then I run into the following problems:\n• The submodule will see all the .meta files created for the files\n• I have to create AssemblyDefinitions to resolve compiler errors relating to AssemblyAttribute(s)\n• git now sees the AssemblyDefinition files and thinks they're local changes to the submodule\n\nI could just bring in the source, but now I lose tracking, plus my repo becomes fatter with the additional files it's tracking.\n\nSimilar, but in this case I've got my own code (and its dependencies) I'd like to share between a csharp project and Unity. In particular this makes use of MessagePack for networking data structures, so it's important that they line up properly, and obviously I don't want to have them duplicated. In addition to the options/problems above, I have the option here to explicitly build this as a plugin that then both Unity and the C# application can reference (Well. Sort of, since I still need to copy in the plugin to the right directory for Unity).\n\nBut is this usually done? While I can set up pdb's such that I can still debug into it, I now have to manage having a pre-Unity-build step, not to mention having to build it whenever the source changes.\n\nI'd really appreciate any tips you all could offer, because I really feel like I'm missing something or maybe I'm over-complicating something else."
+    },
+    {
+        "link": "https://discussions.unity.com/t/best-practices-for-maintaining-a-unity-package-between-multiple-developers/1509727",
+        "document": ""
+    },
+    {
+        "link": "https://unity.com/how-to/organizing-your-project",
+        "document": ""
+    },
+    {
+        "link": "https://docs.unity3d.com/6000.0/Documentation/Manual/dotnet-third-party-libraries.html",
+        "document": "You should only use third-party .NET libraries that have been extensively tested on a wide range of Unity configurations and platforms.\n\nThe performance characteristics of just-in-time (JIT) and ahead-of-time (AOT) code paths in third-party libraries might be significantly different. AOT generally reduces startup times and is suited to larger applications for this reason but increases the binary file size to accommodate the compiled code. AOT also takes longer to build during development.\n\nJIT adjusts at runtime based on the platform it’s running on, which can increase running performance at the cost of a potentially longer application startup time. As such, you should profile your application in both the Editor, and on your target platform. For more information, see Profiler overview.\n\nYou should profile the usage of your .NET system libraries on all target platforms because their performance characteristics might vary depending on the scripting backendsA framework that powers scripting in Unity. Unity supports three different scripting backends depending on target platform: Mono, .NET and IL2CPP. Universal Windows Platform, however, supports only two: .NET and IL2CPP. More info\n\nSee in Glossary, .NET versions, and profiles you use.\n\nWhen you review a third-party library, consider the following areas:\n• Compatibility: Third-party libraries might not be compatible with some Unity platforms and scripting backends.\n• Performance: Third-party libraries might have vastly different performance characteristics in Unity compared to other .NET runtimes.\n• AOT binary size: Third-party libraries might increase AOT binary size significantly because of the number of dependencies the library uses."
+    },
+    {
+        "link": "https://docs.unity3d.com/6000.0/Documentation/Manual/plug-ins.html",
+        "document": "In Unity, you normally use scriptsA piece of code that allows you to create your own Components, trigger game events, modify Component properties over time and respond to user input in any way you like. More info\n\nSee in Glossary to create functionality, but you can also include code created outside Unity in the form of a plug-in. You can use two different kinds of plug-in in Unity:\n• Managed plug-ins: managed .NET assemblies you can create with tools like Visual Studio. They only contain .NET code, which means they can’t access any features that the .NET libraries do not support. For more information, refer to Microsoft’s documentation of managed code.\n• Native plug-ins: platform-specific native code libraries. They can access features like operating system calls and third-party code libraries that would otherwise be unavailable to Unity.\n\nManaged code is accessible to the standard .NET tools that Unity uses to compile scripts. The only difference between managed plug-in code and Unity script code is that the plug-ins are compiled outside of Unity and so Unity might not be able to access the source. When using native plug-ins, Unity’s tools can’t access third-party code libraries in the same way that they can access the managed libraries. For example, if you forget to add a managed plug-in file to the project, you will get standard compiler error messages. Whereas, if you forget to add a native plug-in file to the project, you will only get an error report when you try to run the project.\n\nThe following pages explain how to create and use plug-ins in your Unity Projects:"
+    }
+]

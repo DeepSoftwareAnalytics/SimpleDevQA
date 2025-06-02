@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/55667-the-whale-optimization-algorithm",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/55670-whale-optimization-algorithm-toolbox",
+        "document": ""
+    },
+    {
+        "link": "https://seyedalimirjalili.com/woa",
+        "document": "What is this algorithm? The Whale Optimization Algorithm (WOA) is a new optimization technique for solving optimization problems. This algorithm includes three operators to simulate the search for prey, encircling prey, and bubble-net foraging behavior of humpback whales.\n\nWOA has been designed to solve single-objective optimization problems. This algorithm has been implemented in a wide range of programming languages. You can download the source code at the bottom of this page.\n\nOne of the best improvements of WOA called E-WOA (Credits to Dr. Mohammad H. Nadimi-Shahraki).\n\nOne of the best improvements of WOA surveys (Credits to Dr. Mohammad H. Nadimi-Shahraki)."
+    },
+    {
+        "link": "https://se.mathworks.com/matlabcentral/fileexchange/55667-the-whale-optimization-algorithm",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/112830-beluga-whale-optimization-bwo",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/optim/index.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/products/optimization.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/69108-optimization-techniques",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/optimization.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/index.html",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/products/deep-learning.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/deeplearning/index.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/discovery/rnn.html",
+        "document": ""
+    },
+    {
+        "link": "https://in.mathworks.com/help/deeplearning",
+        "document": ""
+    },
+    {
+        "link": "https://ge0mlib.com/papers/Books/04_Deep_Learning_Toolbox_Users_Guide.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/deeplearning/ug/long-short-term-memory-networks.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/deeplearning/ref/nnet.cnn.layer.lstmlayer.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/deeplearning/ug/sequence-to-one-regression-using-deep-learning.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/discovery/lstm.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/2168058-building-an-lstm-regression-model-with-sliding-windows",
+        "document": ""
+    }
+]

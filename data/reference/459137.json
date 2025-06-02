@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/help/images/histogram-equalization.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/images/ref/histeq.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/vision/ref/histogramequalization.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/hdlcoder/ug/image-enhancement-by-histogram-equalization.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/2036771-how-does-histogram-equalization-work",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/ref/rgb2gray.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/images/ref/histeq.html",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/matlab-display-histogram-of-a-grayscale-image",
+        "document": ""
+    },
+    {
+        "link": "https://tutorialspoint.com/how-to-perform-contrast-enhancement-using-histogram-equalization-in-matlab",
+        "document": "How to Perform Contrast Enhancement Using Histogram Equalization in MATLAB?\n\nIn digital image processing, the process of improving visual quality and clarity of a digital image by changing the color intensities is referred to as \"contrast enhancement\".\n\nContrast enhancement is an important image processing task in various fields such as photography, remote imaging, medical imaging, etc. We can use various tools to perform contrast enhancement of an image. In this tutorial, I will explain the process of performing contrast enhancement using histogram equalization in MATLAB.\n\nIn digital image processing, contrast enhancement is a basic image processing task performed to improve visual quality of an image to make it more visually appealing.\n• None Contrast enhancement of a digital image is performed by changing the pixel intensities of different color channel of the image. It makes an image clearer and more detailed.\n• None Contrast enhancement is one of the vital processes in various fields like medical imaging, photography, microscopic imaging, computer vision, and more.\n• None We can perform contrast enhancement of an image using MATLAB. MATLAB provides various efficient techniques to perform contrast enhancement, such as histogram equalization, contrast stretching, contrast limited adaptive histogram equalization, adaptive contrast enhancement, etc.\n\nIn this tutorial, we will learn to perform contrast enhancement of an image using histogram equalization method in MATLAB.\n\nHistogram equalization is one of the most commonly used method to alter the intensity values of pixels in an image to improve the visual quality. We can use histogram equalization to enhance the contrast of an image.\n\nIn MATLAB, the contrast enhancement is performed by using a built-in function named, \"histeq\".\n\nHere is the step-by-step process to perform the contrast enhancement using the histogram equalization method in MATLAB.\n• None Step (1) Read the input image using the \"imread\" function.\n• None Step (2) Convert the input image to grayscale to apply histogram equalization. For this, use the \"rgb2gray\" function.\n• None Step (3) Perform contrast enhancement of gray image using the \"histeq\" function.\n• None Step (4) Display the enhanced image using the \"imshow\" function.\n\nIn MATLAB, contrast enhancement using the histogram equalization is a four-step process.\n\nLet us now take an example to understand the code implementation in MATLAB to perform contrast enhancement using histogram equalization.\n\nWhen you run this code, it will produce the following output\n\nIn this example, we start by reading the input image using the \"imread\" function. Then, we convert the input image from RGB color format to grayscale using the \"rgb2gray\" function. Next, we use the \"histeq\" function to perform contrast enhancement of the image. Finally, we display the grayscale version of the input image and the enhanced image using the \"imshow\" function.\n\nIn conclusion, contrast enhancement is a way of improving the visual quality of an image by manipulating the pixel intensity values in the image. We can use MATLAB to perform contrast enhancement of an image. MATLAB provides several methods to accomplish this task, the most commonly used method is histogram equalization.\n\nIn this tutorial, I explained the step-by-step process of contrast enhancement of an image using the histogram equalization in MATLAB."
+    },
+    {
+        "link": "https://nl.mathworks.com/matlabcentral/answers/1574793-how-to-read-and-process-multiple-images-to-calculate-its-pixels-and-tabulate-the-results",
+        "document": ""
+    }
+]

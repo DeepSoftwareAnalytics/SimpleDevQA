@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://libzip.org/documentation/zip_discard.html",
+        "document": "A C library for reading, creating, and modifying zip archives."
+    },
+    {
+        "link": "https://libzip.org/documentation",
+        "document": "\n• zip_add — add file to zip archive or replace file in zip archive (obsolete interface)\n• zip_encryption_method_supported — return if an encryption method is supported\n• zip_error_get — get error codes for archive or file (obsolete interface)\n• zip_error_to_data — convert zip_error to return value suitable for ZIP_SOURCE_ERROR\n• zip_file_add — add file to zip archive or replace file in zip archive\n• zip_file_error_get — get error codes for archive or file (obsolete interface)\n• zip_file_extra_field_get — get extra field for file in zip\n• zip_file_extra_field_get_by_id — get extra field for file in zip\n• zip_file_get_comment — get comment for file in zip\n• zip_file_get_external_attributes — get external attributes for file in zip\n• zip_file_replace — add file to zip archive or replace file in zip archive\n• zip_file_set_dostime — set last modification time (mtime) for file in zip\n• zip_file_set_mtime — set last modification time (mtime) for file in zip\n• zip_get_file_comment — get comment for file in zip (obsolete interface)\n• zip_get_name — get name of file by index\n• zip_get_num_entries — get number of entries in archive\n• zip_get_num_files — get number of files in archive (obsolete interface)\n• zip_name_locate — get index of file by name\n• zip_replace — add file to zip archive or replace file in zip archive (obsolete interface)\n• zip_source_close — close zip_source (which was open for reading)\n• zip_unchange — undo changes to file in zip archive\n• zip_unchange_all — undo all changes in a zip archive"
+    },
+    {
+        "link": "https://man.archlinux.org/man/zip_discard.3.en",
+        "document": "The () function closes and frees the memory allocated for it. Any changes to the archive are not written to disk and discarded."
+    },
+    {
+        "link": "https://ndss-symposium.org/wp-content/uploads/2025-816-paper.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/nih-at/libzip/blob/master/lib/zip_libzip_version.c",
+        "document": "Redistribution and use in source and binary forms, with or without\n\nnotice, this list of conditions and the following disclaimer.\n\nnotice, this list of conditions and the following disclaimer in\n\n3. The names of the authors may not be used to endorse or promote\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHORS ``AS IS'' AND ANY EXPRESS\n\nOR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n\nARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY\n\nOTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN\n\nIF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/26034727/libzip-zip-dir-add-from-manual-not-declared-c-c",
+        "document": "I am quite new to C/C++ programming so please take that into account.\n\nWhen using the libzip library, some of the functions descibed on the manual are said to be not declared in the scope when compiling. I read this tutorial (in french sorry) which was written in 2011. It uses different function names (zip_dir_add is zip_add_dir etc..)\n\nI think that might be due to the installation process. Or maybe I forgot to include some files..\n\nHere is what i have done so far :\n\n1)installing the libzip library using ubuntu packages like this :\n\n2) trying it on simple code\n\nThis returns : zip_dir_add was not declared in this scope\n\nAny idea what could cause that ?"
+    },
+    {
+        "link": "https://libzip.org/documentation",
+        "document": "\n• zip_add — add file to zip archive or replace file in zip archive (obsolete interface)\n• zip_encryption_method_supported — return if an encryption method is supported\n• zip_error_get — get error codes for archive or file (obsolete interface)\n• zip_error_to_data — convert zip_error to return value suitable for ZIP_SOURCE_ERROR\n• zip_file_add — add file to zip archive or replace file in zip archive\n• zip_file_error_get — get error codes for archive or file (obsolete interface)\n• zip_file_extra_field_get — get extra field for file in zip\n• zip_file_extra_field_get_by_id — get extra field for file in zip\n• zip_file_get_comment — get comment for file in zip\n• zip_file_get_external_attributes — get external attributes for file in zip\n• zip_file_replace — add file to zip archive or replace file in zip archive\n• zip_file_set_dostime — set last modification time (mtime) for file in zip\n• zip_file_set_mtime — set last modification time (mtime) for file in zip\n• zip_get_file_comment — get comment for file in zip (obsolete interface)\n• zip_get_name — get name of file by index\n• zip_get_num_entries — get number of entries in archive\n• zip_get_num_files — get number of files in archive (obsolete interface)\n• zip_name_locate — get index of file by name\n• zip_replace — add file to zip archive or replace file in zip archive (obsolete interface)\n• zip_source_close — close zip_source (which was open for reading)\n• zip_unchange — undo changes to file in zip archive\n• zip_unchange_all — undo all changes in a zip archive"
+    },
+    {
+        "link": "https://stackoverflow.com/questions/48768181/how-can-libzip-be-used-from-c-to-create-a-zip-file-in-memory",
+        "document": "I am trying to using libzip to create a zip file directly in memory, not to a file on disk. My code is quite basic at the moment as I am getting stuck on creating the necessary zip_t struct from a zip_source_buffer:\n\nthe code compiles and runs, but thows an error:\n\nIt's not clear if the begin_write() is needed, but it doesn't generate an error and I get the same result without it.\n\nWhat am I missing? Thanks"
+    },
+    {
+        "link": "https://libzip.org/documentation/zip_file_add.html",
+        "document": "NOTE: zip_source_free(3) should not be called on a after it was used successfully in a or call.\n\nPlease also note that when using , the target file's extra field information will be deleted since this usually is dependent on the file contents. If you want to keep them, query them beforehand with zip_file_extra_field_get(3) and restore them after with zip_file_extra_field_set(3)."
+    },
+    {
+        "link": "https://github.com/nih-at/libzip/blob/master/src/ziptool.c",
+        "document": ""
+    }
+]

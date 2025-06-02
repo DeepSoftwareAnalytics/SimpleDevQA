@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://w3schools.com/sql/sql_groupby.asp",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/sql/sql_Groupby.asp",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/sql/t-sql/queries/select-group-by-transact-sql?view=sql-server-ver16",
+        "document": ""
+    },
+    {
+        "link": "https://sqlshack.com/an-overview-of-the-sql-group-by-clause",
+        "document": ""
+    },
+    {
+        "link": "https://techonthenet.com/sql_server/group_by.php",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/learning-sql/optimising-group-by-queries-in-sql-server-96a11e7d0cd2",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/best-practices-for-sql-query-optimizations",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/dataengineering/comments/1axd7cy/what_are_your_top_sql_query_optimization_tips",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/learning-sql/12-tips-for-optimizing-sql-queries-for-faster-performance-8c6c092d7af1",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/6939045/how-to-optimize-a-aggregate-sql",
+        "document": ""
+    }
+]

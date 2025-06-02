@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://amd.com/en/product/7666",
+        "document": ""
+    },
+    {
+        "link": "https://techpowerup.com/cpu-specs/ryzen-5-2600.c2015",
+        "document": ""
+    },
+    {
+        "link": "https://cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+2600&id=3243",
+        "document": "Benchmarks for the AMD Ryzen 5 2600 can be found below. Release dates, price and performance comparisons are also listed when available. This is made using thousands of PerformanceTest benchmark results and is updated daily.\n• The first graph shows the relative performance of the CPU compared to the 10 other common (single) CPUs in terms of PassMark CPU Mark.\n• The 2nd graph shows the value for money, in terms of the CPUMark per dollar.\n• The pricing history data shows the price for a single Processor. For multiple Processors, multiply the price shown by the number of CPUs.\n\nIs the AMD Ryzen 5 2600 Good for Gaming?\n\nThis is a fairly old CPU that is no longer competitive with newer CPUs. But this CPU contains 6 Cores and 12 Threads. Paired with a good videocard, is this CPU Good for Gaming? This CPU should be able to play most games, but may be a bottleneck on newer releases. [More ...]"
+    },
+    {
+        "link": "https://nanoreview.net/en/cpu/amd-ryzen-5-2600",
+        "document": "Ryzen 5 2600 - desktop processor produced by Amd for socket AM4 that has 6 cores and 12 threads. The base clock frequency of the CPU is 3400 MHz, but due to Turbo Core technology, it can perform up to 3900 MHz. The size of the L3 cache is 16 MB. Please note that this chip doesn’t have integrated graphics.\n\nThe latest Cinebench tests that have been submitted by users\n\nThe new version of this benchmark emulates common operations often used in real-world apps\n\nShows how much scores you get per each watt of PL1 TDP These are rough calculations, as most CPUs surpass PL1 TDP wattage even in multicore workloads."
+    },
+    {
+        "link": "https://pcpartpicker.com/product/jLF48d/amd-ryzen-5-2600-34ghz-6-core-processor-yd2600bbafbox",
+        "document": ""
+    },
+    {
+        "link": "https://quora.com/Is-the-Nvidia-GeForce-GTX-1660-Super-good-for-gaming",
+        "document": "Something went wrong. Wait a moment and try again."
+    },
+    {
+        "link": "https://reddit.com/r/buildapc/comments/qrvwal/is_an_nvidia_geforce_gtx_1660_super_graphics_card",
+        "document": "Planning on building a computer but need some advice? This is the place to ask! /r/buildapc is a community-driven subreddit dedicated to custom PC assembly. Anyone is welcome to seek the input of our helpful community as they piece together their desktop."
+    },
+    {
+        "link": "https://quora.com/Is-the-GTX-1660-6GB-good-for-gaming",
+        "document": "Something went wrong. Wait a moment and try again."
+    },
+    {
+        "link": "https://reddit.com/r/nvidia/comments/doqex0/gtx_1660_super_review_megathread",
+        "document": "PSA: Do NOT buy from 3rd Party Marketplace Seller on Ebay/Amazon/Newegg (unless you want to pay more). Assume all the 3rd party sellers are scalping. If it's not being sold by the actual retailer (e.g. Amazon selling on Amazon.com or Newegg selling on Newegg.com) then you should treat the product as sold out.\n\nBelow is the compilation of all the reviews that have been posted so far. I will be updating this continuously throughout the day with the conclusion of each publications and any new review links. This will be sorted alphabetically.\n\nAs a result, at current prices the GTX 1660 Super all but makes the other GTX 1660 cards redundant; the Ti isn’t fast enough to justify the price, and the vanilla GTX 1660 isn’t cheap enough to justify the performance hit. Put another way, why have a GTX 1660 Ti at GTX 1660 Ti prices, when you could have it without the TI price premium? In this respect it’s a lot like the launch of the RTX 2070 Super over the summer; it’s not quite as fast as the card above it (RTX 2080), but for a few percent drop in performance, it’s a whole lot cheaper. Ultimately, while NVIDIA’s current 10 card product stack is a bit unwieldy, once you reach the GTX 1660 series, there’s really only one card to consider, and that’s the GTX 1660 Super.\n\nYou know, I have to say that the 'new' SUPER series 1660 is a bit puzzling. Are these graphics cards downgraded 1660 Ti's or upgraded 1660 cards? Well, we'll follow suit with naming and will call it upgraded 1660. However, if you'd take a 1660 Ti PCB and SMT mount a 1660 GPU on there, that's really what we are talking about today. The product obviously is nice for the mainstream market but sits in a very narrow window between the two aforementioned cards. You'll see 1660 performance with let's call it 10% extra performance thanks to the memory type used. Any 1660 non-Ti, however, is clearly positioned against the competitions Radeon RX 590. The reality is also that most consumers have put RTX cards on hold due to the sales price of Raytracing range, which remains to be steep. The GeForce GTX 1660 SUPER addresses the issue of offering a more compelling product.\n\nNVIDIA's GTX 1660 Super reference pricing is $230, which is surprisingly competitive in the current landscape. This puts the card on the same price/performance level as AMD's Radeon RX 580 and RX 590, and dials up the heat on AMD and its board partners. I'm really looking forward to see what their new Radeon RX 5500 \"Navi\" card can bring to this price segment. MSI is asking for another $30 for their Gaming X, which I think is reasonable, you get a much better cooler, more monitor outputs, and a small performance increase for it. NVIDIA's new pricing kind of obsoletes the GTX 1660 Ti, which is currently $275 and doesn't really bring much to the table to justify the extra cost, maybe NVIDIA could lower its price to $250 to clear existing inventory and then end-of-life the card. The next-fastest NVIDIA SKU, the RTX 2060, is $340 now, which leaves quite a big hole in the product stack, maybe we'll see yet another card to fill this void around $300, or AMD could try to capture it with an upcoming Radeon RX 5600. It looks like the $200-$300 market segment is suddenly going to become very interesting."
+    },
+    {
+        "link": "https://techpowerup.com/gpu-specs/geforce-gtx-1660-super.c3458",
+        "document": ""
+    },
+    {
+        "link": "https://msi.com/Motherboard/B450-TOMAHAWK-max/Specification",
+        "document": ""
+    },
+    {
+        "link": "https://us.msi.com/Motherboard/B450-TOMAHAWK-MAX/Specification",
+        "document": ""
+    },
+    {
+        "link": "https://msi.com/Motherboard/B450-TOMAHAWK-MAX/support",
+        "document": ""
+    },
+    {
+        "link": "https://msi.com/Motherboard/B450-TOMAHAWK/Specification",
+        "document": ""
+    },
+    {
+        "link": "https://us.msi.com/Motherboard/B450-TOMAHAWK-MAX/Overview",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://github.com/cheeriojs/cheerio/issues/158",
+        "document": ""
+    },
+    {
+        "link": "https://cheerio.js.org/docs/basics/selecting",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/cheeriojs/cheerio",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/24877398/cheerio-simulate-not",
+        "document": ""
+    },
+    {
+        "link": "https://api.jquery.com/not",
+        "document": ""
+    },
+    {
+        "link": "https://mongoosejs.com/docs/guide.html",
+        "document": ""
+    },
+    {
+        "link": "https://mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/mongoose-schemas-creating-a-model",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
+        "document": ""
+    },
+    {
+        "link": "https://mongoosejs.com/docs/models.html",
+        "document": ""
+    }
+]

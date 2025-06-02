@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://geeksforgeeks.org/cpp-data-types",
+        "document": ""
+    },
+    {
+        "link": "https://en.cppreference.com/w/cpp/language/types",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/difference-between-long-int-and-long-long-int-in-c-cpp",
+        "document": ""
+    },
+    {
+        "link": "https://tutorialspoint.com/cplusplus/cpp_data_types.htm",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-170",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/how-to-handle-large-numbers-in-cpp",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/42774815/working-with-very-large-integers-in-c",
+        "document": ""
+    },
+    {
+        "link": "https://quora.com/In-C++-how-do-you-handle-very-large-numbers",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/124332/c-handling-very-large-integers",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/bigint-big-integers-in-c-with-example",
+        "document": ""
+    }
+]

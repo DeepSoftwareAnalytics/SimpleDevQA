@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/39457645/selenium-chromedriver-ssl-error-handshake-failed",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/65316640/cannot-establish-tls-with-client-when-using-selenium-to-visit-website",
+        "document": ""
+    },
+    {
+        "link": "https://browserstack.com/docs/automate/selenium/troubleshooting/tls-handshake-error",
+        "document": ""
+    },
+    {
+        "link": "https://lambdatest.com/blog/how-to-handle-ssl-certificates-in-selenium-webdriver",
+        "document": ""
+    },
+    {
+        "link": "https://develves.net/blogs/asd/2017-02-20-selenium-and-tls",
+        "document": ""
+    },
+    {
+        "link": "https://toolsqa.com/selenium-webdriver/ssl-certificate-in-selenium",
+        "document": ""
+    },
+    {
+        "link": "https://lambdatest.com/blog/how-to-handle-ssl-certificates-in-selenium-webdriver",
+        "document": ""
+    },
+    {
+        "link": "https://dev.to/lambdatest/how-to-handle-ssl-certificates-in-selenium-webdriver-3p00",
+        "document": ""
+    },
+    {
+        "link": "https://testrig.medium.com/handling-ssl-certificate-errors-with-selenium-webdriver-a-technical-guide-47404e9cdd20",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/24507078/how-to-deal-with-certificates-using-selenium",
+        "document": ""
+    }
+]

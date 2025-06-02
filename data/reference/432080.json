@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Physics2D.OverlapCircleAll.html",
+        "document": "Suggest a change Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable. Close For some reason your suggested change could not be submitted. Please <a>try again</a> in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation. Close\n\nGet a list of all Colliders that fall within a circular area.\n\nThis function is similar to OverlapCircle except that all Colliders that fall within the circle are returned. The Colliders in the returned array are sorted in order of increasing Z coordinate. An empty array is returned if there are no Colliders within the circle.\n\n\n\nNote that this function will allocate memory for the returned Collider2D array. You can use Physics2D.OverlapCircle to avoid this overhead if you need to make the check frequently.\n\n\n\nAdditional resources: OverlapCircle."
+    },
+    {
+        "link": "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Physics2D.OverlapCircle.html",
+        "document": "Suggest a change Thank you for helping us improve the quality of Unity Documentation. Although we cannot accept all submissions, we do read each suggested change from our users and will make updates where applicable. Close For some reason your suggested change could not be submitted. Please <a>try again</a> in a few minutes. And thank you for taking the time to help us improve the quality of Unity Documentation. Close\n\nThe circle is defined by its centre coordinate in world space and by its radius. The optional layerMask allows the test to check only for objects on specific layers.\n\n\n\nAlthough the Z axis is not relevant for rendering or collisions in 2D, you can use the minDepth and maxDepth parameters to filter objects based on their Z coordinate. If more than one Collider falls within the circle then the one returned will be the one with the lowest Z coordinate value. Null is returned if there are no Colliders in the circle. Additional resources: OverlapCircleAll, OverlapCircle.\n\nThis function returns the number of Colliders found and places those Colliders in the array. The results can also be filtered by the . Note that filtering by normal angle is not available for overlap functions.\n\nThe integer return value is the number of results written into the list. The results list will be resized if it doesn't contain enough elements to report all the results. This prevents memory from being allocated for results when the list does not need to be resized, and improves garbage collection performance when the query is performed frequently."
+    },
+    {
+        "link": "https://discussions.unity.com/t/physics2d-overlapcircleall-not-returning-anything/917903",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/65585922/how-do-i-get-all-overlapped-collider2d-on-any-layer-in-layermask-array",
+        "document": "Use the logical OR operator to combine the masks then do one OverlapCircle with that combined mask, and then you can call the override of that will give you multiple results. You'll have to create a to do so:"
+    },
+    {
+        "link": "https://discussions.unity.com/t/solved-physics2d-overlapcircle/112035",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/how-do-i-use-layermasks/481",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/teleportation-mechanic-problem/215602",
+        "document": ""
+    },
+    {
+        "link": "https://suleimanabdullah.medium.com/working-with-layer-masks-on-teleporting-interaction-teleport-interactable-e9792ab71e52",
+        "document": "In the first step select Teleport Interactor <Layer mask ,add only teleport layer to it. We do this by add layer and select nothing then select teleport layer.\n\nSelect Ray Interactable ,then adjust Layer Mask by removing teleport as selection layer. Since we have only default option we will select that but if we have other thing like collectable we will need to make sure we select it.\n\nBut Suleiman what is Interactor ,and Interactable?\n\nInteractor is something Interact with interactable, interactor in our XR origin is our hand or head. Interactable are like the teleport area or chair ,key or anything interact with our hand.\n\nNow select our Interactable, for this article I will select area and one anchor point ,I will add teleport layer mask to them.\n\nLast we need to make sure our left hand do not teleport, do this we need to disable teleport layer to it.\n\nThis is how we use layer mask in teleport Interactor and Interactable. Now we will only able to teleport if we press forward joystick on Right Controller\n\nSee you in the next one."
+    },
+    {
+        "link": "https://medium.com/@joshwatts592/layer-masks-in-unity-59a7df183676",
+        "document": "A layer mask is basically a 32 bit integer, a collection of zeros that when turned into a 1, are activated.\n\nThis helps when we only want certain layers affected rather than other ones. In this challenge we want the middle cube to remain the same color when we click on it but the other two cubes which represent enemies will turn red. This is a useful thing to know in say an fps game where you do not allow friendly fire.\n\nBefore we create a script we first need to add a new layer to our enemies called enemy. Make sure to remember the layer number as you will need to know that later on.\n\nLets than create a script called shoot enemies and attach it to our main camera.\n\nThe only code that we have not seen here before is the code beside the Mathf. Infinity 1<<6 this is the layer mask. What we are saying is turn the 6th layer which by default is a zero into a 1. This is the final result, no matter how much we click on the middle cube it won’t turn red as it is not on the enemy layer."
+    },
+    {
+        "link": "https://reddit.com/r/Unity2D/comments/zsw77n/teleportation",
+        "document": "Hi there, I am using C# (and unity ofc)\n\nI'd like to teleport my character to the opposite side of my cursor ( I've used the vector from \"my\" position to cursor position *2) that works so far, but I'd like to add a collision check just before the teleportation (to avoid getting stuck). I've used OnCollisionStay2D and a timer to reset the position but am not satisfied with that. Also I'd prefer the character to snap to a free position within 0.5 units if it is possible.\n\nMy character has rigidbody 2D and a box collider 2D, while my level has a tilemap & tilemap collider 2D, I'd put the code in my character, level has a tag \"Level Collider\".\n\ntldr: I want to check for collisions without OnCollisionEnter2D n' stuff, maybe even with a radius arount the position to find free spaces\n\nEdit: Sorry, my bad for not adding the code and missing clarity. I am using the position of the cursor (let's call it (0|0) on a 2D plane) and \"mirror\" the player ((-2|3) gets (2|-3), I hope you get the idea.) (My formatting may be bad, pls tell me if it is off) //store \"old\" position previousPosition = transform.position; //get cursor position Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition); //calculate target position (remove z, adjust distance to be at the opposite side from the cursor, vector from position to cursor doubled) Vector3 oppositeSide = (mousePosition.x - transform.position) * Vector3.right * 2 + (mousePosition.y - transform.position) * Vector3.up * 2 + transform.position; //change player position to be the calculated one transform.position = oppositeSide; //reset the time since last teleport teleportTimer = 0; teleportTimer gets increased by Time.deltaTime in Update() and my collision detection uses \"OnCollisionStay2D\" (because \"OnCollisionEnter2D\" did miss some frames when I used a bool instead of the timer)"
+    }
+]

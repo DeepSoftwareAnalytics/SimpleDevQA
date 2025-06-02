@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://simpy.readthedocs.io/en/4.0.2",
+        "document": "Processes in SimPy are defined by Python generator functions and may, for example, be used to model active components like customers, vehicles or agents. SimPy also provides various types of shared resources to model limited capacity congestion points (like servers, checkout counters and tunnels).\n\nSimulations can be performed “as fast as possible”, in real time (wall clock time) or by manually stepping through the events.\n\nThough it is theoretically possible to do continuous simulations with SimPy, it has no features that help you with that. On the other hand, SimPy is overkill for simulations with a fixed step size where your processes don’t interact with each other or with shared resources.\n\nA short example simulating two clocks ticking in different time intervals looks like this:\n\nThe documentation contains a tutorial, several guides explaining key concepts, a number of examples and the API reference.\n\nSimPy is released under the MIT License. Simulation model developers are encouraged to share their SimPy modeling techniques with the SimPy community. Please post a message to the SimPy mailing list.\n\nThere is an introductory talk that explains SimPy’s concepts and provides some examples: watch the video or get the slides.\n\nSimPy has also been reimplemented in other programming languages. See the list of ports for more details."
+    },
+    {
+        "link": "https://simpy.readthedocs.io/en/4.0.2/api_reference",
+        "document": "The API reference provides detailed descriptions of SimPy’s classes and functions. It should be helpful if you plan to extend SimPy with custom components."
+    },
+    {
+        "link": "https://simpy.readthedocs.io",
+        "document": "Processes in SimPy are defined by Python generator functions and may, for example, be used to model active components like customers, vehicles or agents. SimPy also provides various types of shared resources to model limited capacity congestion points (like servers, checkout counters and tunnels).\n\nSimulations can be performed “as fast as possible”, in real time (wall clock time) or by manually stepping through the events.\n\nThough it is theoretically possible to do continuous simulations with SimPy, it has no features that help you with that. On the other hand, SimPy is overkill for simulations with a fixed step size where your processes don’t interact with each other or with shared resources.\n\nA short example simulating two clocks ticking in different time intervals looks like this:\n\nThe documentation contains a tutorial, several guides explaining key concepts, a number of examples and the API reference.\n\nSimPy is released under the MIT License. Simulation model developers are encouraged to share their SimPy modeling techniques with the SimPy community. Please post a message to the SimPy mailing list.\n\nThere is an introductory talk that explains SimPy’s concepts and provides some examples: watch the video or get the slides.\n\nSimPy has also been reimplemented in other programming languages. See the list of ports for more details."
+    },
+    {
+        "link": "https://simpy.readthedocs.io/_/downloads/en/4.0.0/pdf",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/Python/comments/1gz3bgp/i_wrote_a_guide_to_simulation_in_python_with_simpy",
+        "document": "I wrote a guide on discrete-event simulation with SimPy, designed to help you learn how to build simulations using Python. Kind of like the official documentation but on steroids.\n\nI have used SimPy personally in my own career for over a decade, it was central in helping me build a pretty successful engineering career. Discrete-event simulation is useful for modelling real world industrial systems such as factories, mines, railways, etc.\n\nMy latest venture is teaching others all about this.\n\nIf you do get the guide, I’d really appreciate any feedback you have. Feel free to drop your thoughts here in the thread or DM me directly!\n\nHere’s the link to get the guide: https://simulation.teachem.digital/free-simulation-in-python-guide\n\nFor full transparency, why do I ask for your email?\n\nWell I’m working on a full course following on from my previous Udemy course on Python. This new course will be all about real-world modelling and simulation with SimPy, and I’d love to send you keep you in the loop via email. If you found the guide helpful you would might be interested in the course. That said, you’re completely free to hit “unsubscribe” after the guide arrives if you prefer."
+    },
+    {
+        "link": "https://matplotlib.org/3.4.0/tutorials/index.html",
+        "document": ""
+    },
+    {
+        "link": "https://matplotlib.org/3.4.3/tutorials/index.html",
+        "document": ""
+    },
+    {
+        "link": "https://matplotlib.org/3.4.3/users/whats_new.html",
+        "document": "For a list of all of the issues and pull requests since the last revision, see the GitHub Stats."
+    },
+    {
+        "link": "https://matplotlib.org/3.4.0",
+        "document": "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.\n\nTrying to learn how to do a particular kind of plot? Check out the examples gallery or the list of plotting commands .\n\nMatplotlib is a welcoming, inclusive project, and everyone within the community is expected to abide by our code of conduct.\n\nJoin our community at discourse.matplotlib.org to get help, discuss contributing & development, and share your work. If you have questions, be sure to check the FAQ, the API docs. The full text search is a good way to discover the docs including the many examples. Check out the Matplotlib tag on stackoverflow. Short questions may be posted on the gitter channel.\n\nTo keep up to date with what's going on in Matplotlib, see the what's new page or browse the source code. Anything that could require changes to your existing code is logged in the API changes file.\n\nMatplotlib is the brainchild of John Hunter (1968-2012), who, along with its many contributors, have put an immeasurable amount of time and effort into producing a piece of software utilized by thousands of scientists worldwide. If Matplotlib contributes to a project that leads to a scientific publication, please acknowledge this work by citing the project. A ready-made citation entry is available.\n\nMatplotlib is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides Matplotlib with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit numfocus.org for more information. Donations to Matplotlib are managed by NumFOCUS. For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax adviser about your particular tax situation. Please consider donating to the Matplotlib project through the NumFOCUS organization or to the John Hunter Technology Fellowship. The Matplotlib license is based on the Python Software Foundation (PSF) license. There is an active developer community and a long list of people who have made significant contributions."
+    },
+    {
+        "link": "https://matplotlib.org/stable/gallery/index.html",
+        "document": "For an overview of the plotting methods we provide, see Plot types\n\nThis page contains example plots. Click on any image to see the full image and source code.\n\nFor longer tutorials, see our tutorials page. You can also find external resources and a FAQ in our user guide."
+    }
+]

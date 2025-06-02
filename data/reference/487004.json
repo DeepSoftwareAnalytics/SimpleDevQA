@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://blog.51cto.com/u_16213382/11604432",
+        "document": ""
+    },
+    {
+        "link": "https://blog.csdn.net/weixin_58851039/article/details/131972746",
+        "document": ""
+    },
+    {
+        "link": "https://blog.csdn.net/cda2024/article/details/144667460",
+        "document": ""
+    },
+    {
+        "link": "https://blog.51cto.com/u_16213448/12975340",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/HeZhang1994/digital-elevation-model/blob/master/README-cn.md",
+        "document": "如果出现错误： cpl_vsi_error.h: No such file or directory ，请尝试下述步骤。\n\n[1] EPSG 4326 vs EPSG 3857 (projections, datums, coordinate systems, and more!)"
+    },
+    {
+        "link": "https://zhuanlan.zhihu.com/p/585163992",
+        "document": ""
+    },
+    {
+        "link": "https://wenku.csdn.net/column/6wwaojspnm",
+        "document": ""
+    },
+    {
+        "link": "https://blog.csdn.net/qq_32649321/article/details/128538365",
+        "document": ""
+    },
+    {
+        "link": "https://cloud.baidu.com/article/2821120",
+        "document": ""
+    },
+    {
+        "link": "https://developer.aliyun.com/article/385527",
+        "document": ""
+    },
+    {
+        "link": "https://blog.csdn.net/jingxw_hbnu/article/details/134859120",
+        "document": ""
+    },
+    {
+        "link": "https://blog.csdn.net/qq_39506862/article/details/138085071",
+        "document": ""
+    },
+    {
+        "link": "https://cloud.tencent.com/developer/information/Python%20scipy%E6%8F%92%E5%80%BC%E7%BD%91%E6%A0%BC%E6%95%B0%E6%8D%AE-ask",
+        "document": ""
+    },
+    {
+        "link": "https://my.oschina.net/emacs_8659015/blog/16906201",
+        "document": ""
+    },
+    {
+        "link": "https://cnblogs.com/apachecn/p/18271641",
+        "document": "\n• 函数使用 index 指定的标签的对象计算直方图，并使用 labels 数组作为对象标签。如果 index 为 ，则所有具有非零标签值的元素将被视为单个对象。如果 label 为 ，则计算时使用 input 的所有元素。直方图由其最小值 (min)、最大值 (max) 和箱数 (bins) 定义。它们作为 类型的 1-D 数组返回。## 在 C 中扩展\n\n在 C 版本中， 是回调函数，参数 和 的作用与 Python 版本相同，而 和 则提供了 和 的等效值。变量 通过 而不是 传递。最后，C 回调函数返回一个整数状态，成功时为 1，否则为 0。"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://mathworks.com/help/signal/ref/fir1.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ug/fir-filter-design.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/dsp/ug/designing-low-pass-fir-filters.html",
+        "document": ""
+    },
+    {
+        "link": "https://de.mathworks.com/help/signal/ref/fir1.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/dsp/ug/lowpass-filter-design.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ref/freqz.html",
+        "document": ""
+    },
+    {
+        "link": "https://nl.mathworks.com/help/signal/ref/freqz.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/2068556-how-to-use-freqz-function-correctly",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/514720-how-to-use-freqz-to-plot-filter-frequency-response",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/832563-how-to-evaluate-frequency-response-of-a-filter-using-freqz",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ref/hamming.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/dsp/ref/windowfunction.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/signal/ref/sigwin.hamming-class.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/5418951/what-is-the-hamming-window-for",
+        "document": "This is an old question, but I thought the answer could be improved.\n\nImagine the signal you want to fourier transform is a pure sine wave. In the frequency domain, you would expect it to have a sharp spike only at the frequency of the sine. However if you took the fourier transform, your nice sharp spike would be replaced by something like this:\n\nWhy is that? Real sine waves extend to infinity in both directions. Computers can't do computations with an infinite number of data points, so all signals are \"cut off\" at either end. This causes the ripple on either side of the peak that you see. The hamming window reduces this ripple, giving you a more accurate idea of the original signal's frequency spectrum.\n\nMore theory, for the interested: when you cut your signal off at either end, you are implicitly multiplying your signal by a square window. The fourier transform of a square window is the image above, known as a sinc function. Whenever you do a fourier transform on a computer, like it or not, you're always choosing some window. The square window is the implicit default, but not a very good choice. There are a variety of windows that people have come up with, depending on certain characteristics you want to optimize. The hamming window is one of the standard ones."
+    },
+    {
+        "link": "https://sciencedirect.com/topics/engineering/hamming-window-function",
+        "document": ""
+    }
+]

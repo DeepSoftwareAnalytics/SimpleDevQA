@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/55306-monte-carlo-estimation-examples-with-matlab",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/1714055-volume-monte-carlo-method",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/53477-monte-carlo-integration",
+        "document": ""
+    },
+    {
+        "link": "https://scicomp.stackexchange.com/questions/36114/use-monte-carlo-integration-to-compute-the-volume-and-centre-of-mass-in-python",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/7544357/monte-carlo-integration-on-a-r5-hypercube-in-matlab",
+        "document": "I need to write MATLAB code that will integrate over a R^5 hypercube using Monte Carlo. I have a basic algorithm that works when I have a generic function. But the function I need to integrate is:\n\nA is an element of R^5.\n\nIf I had ∫f(x)dA then I think my algorithm would work.\n\nHere is the algorithm:"
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/ref/surf.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/visualize/creating-3-d-plots.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/matlab/ref/fsurf.html",
+        "document": ""
+    },
+    {
+        "link": "https://ww2.mathworks.cn/help/matlab/ref/surf.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/2014106-matlab-function-to-make-3d-plot",
+        "document": ""
+    }
+]

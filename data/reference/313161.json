@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://github.com/kubernetes-client/python/blob/master/kubernetes/docs/V1CronJobSpec.md",
+        "document": ""
+    },
+    {
+        "link": "https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs",
+        "document": ""
+    },
+    {
+        "link": "https://pythian.com/blog/technical-track/how-to-create-kubernetes-jobs-with-python",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@aris.david/how-to-create-a-job-using-kubernetes-python-client-ed00ac2b791d",
+        "document": ""
+    },
+    {
+        "link": "https://kubernetes.io/docs/reference/using-api/client-libraries",
+        "document": ""
+    },
+    {
+        "link": "https://kopf.readthedocs.io",
+        "document": ""
+    },
+    {
+        "link": "https://kopf.readthedocs.io/en/stable/packages/kopf",
+        "document": ""
+    },
+    {
+        "link": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@eliran89c/expanding-your-kubernetes-toolbox-the-power-of-crds-6ac0ae99960c",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/nolar/kopf",
+        "document": ""
+    }
+]

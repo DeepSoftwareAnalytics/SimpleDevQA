@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://cliffsnotes.com/study-notes/21912094",
+        "document": ""
+    },
+    {
+        "link": "https://cs2461-2020.github.io/lectures/assembly3.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://people.cs.georgetown.edu/~squier/Teaching/HardwareFundamentals/LC3-trunk/docs/LC3-AssemblyManualAndExamples.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://acg.cis.upenn.edu/milom/cse240-Fall06/lectures/Ch09.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://docs.google.com/presentation/d/1WrNnvt0GKyU4hORau10Ya_4aBNIwnHbX7vnyOYMLcRU/htmlpresent",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/10077798/lc3-assembly-bitwise-right-shift",
+        "document": "Suppose you set up so that it has just a single bit set. Then, if you do an with another register and branch on the condition, you are testing whether that bit is set. If it is, you want to set the previous bit in your \"result\" register.\n\nIf you then shift your single-bit register over one place and repeat in a loop, you should have what you need.\n\nSo, suppose your input is 01001011. You start with an output of 00000000, an input mask of 00000010, and an output mask of 00000001. You do the AND and find that it is nonzero, so you add your output mask to the output. Then you shift both masks over to get 00000100 and 00000010.\n\nOn the next time through the loop, the AND is zero, so you add nothing, and so forth. The loop terminates when shifting the mask makes it zero."
+    },
+    {
+        "link": "https://cs.auckland.ac.nz/compsci210s1c/tutorials/03/210_4_2011.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://people.cs.georgetown.edu/~squier/Teaching/HardwareFundamentals/LC3-trunk/docs/LC3-AssemblyManualAndExamples.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/34155335/shift-multiplication-in-lc3-assembly",
+        "document": "I can multiply two numbers in binary by doing bitshifting and addition:\n\nFor the steps of the above, result is changed in this order:\n\nI'm having a hard time designing an LC3 assembly algorithm to do the pseudocode above.\n\nHere's my best attempt. I'm not sure what to do to be honest, LC3 instruction set is very limited. I have a decent grasp on how to multiply using an iterator in LC3 but not using bitwise shifting like this."
+    },
+    {
+        "link": "https://cboard.cprogramming.com/tech-board/99423-bitwise-shift-operations.html",
+        "document": "LaserLight:nah, i'm using the LC3 Simulator which is a piece of junk so we learn the fundamentals I guess.I'm stuck trying to write a small program that shifts the bits in one register by 4, into another register after zero'ing it out. So register1 gets shifted to the left by 4 bits, then register0 recieves those bits that were \"shifted out\" of register1. I was going to just use a mask but the bits stored in register0 have to be at the backend, i.e. if I used a mask, I would have to shift them right until they reached the end.Tabstop:ok, that makes sense, so your accumulator is the result, because this way it's always a non floating point number. One question though, Say your next subtraction takes you into the negative with your number, do you still increment your accumulator? So i'm at 2 and my accumulator is at 3, when i subtract (let's say 4) from 2 I go into the negative, would I increase my accumulator to 4, or leave it at 3?"
+    }
+]

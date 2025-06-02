@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://core.telegram.org/bots/api",
+        "document": "All queries to the Telegram Bot API must be served over HTTPS and need to be presented in this form: . Like this for example:\n\nThe boost was obtained by the creation of a Telegram Premium or a Telegram Star giveaway. This boosts the chat 4 times for the duration of the corresponding Telegram Premium subscription for Telegram Premium giveaways and prize_star_count / 500 times for one year for Telegram Star giveaways.\n• Provide Telegram with an HTTP URL for the file to be sent. Telegram will download and send the file. 5 MB max size for photos and 20 MB max for other types of content.\n\nUse this method to get basic information about a file and prepare it for downloading. For the moment, bots can download files of up to 20MB in size. On success, a File object is returned. The file can then be downloaded via the link , where is taken from the response. It is guaranteed that the link will be valid for at least 1 hour. When the link expires, a new one can be requested by calling getFile again.\n\nUse this method to set a new profile photo for the chat. Photos can't be changed for private chats. The bot must be an administrator in the chat for this to work and must have the appropriate administrator rights. Returns True on success."
+    },
+    {
+        "link": "https://core.telegram.org/method/messages.sendMessage",
+        "document": "Groups can be associated to a channel as a discussion group, to allow users to discuss about posts."
+    },
+    {
+        "link": "https://telegram-bot-sdk.readme.io/reference/sendmessage",
+        "document": "Use this method to send text messages. On success, the sent Message is returned.\n\nSee sendMessage official docs for a list of supported parameters and other info.\n\nThe Bot API supports basic formatting for messages. You can use bold and italic text, as well as inline links and pre-formatted code in your bots' messages. Telegram clients will render them accordingly. You can use either markdown-style or HTML-style formatting.\n\nNote that Telegram clients will display an alert to the user before opening an inline link (‘Open this link?’ together with the full URL).\n\nTo use this mode, pass Markdown in the parse_mode field when using sendMessage. Use the following syntax in your message:\n\nTo use this mode, pass HTML in the parse_mode field when using sendMessage. The following tags are currently supported:"
+    },
+    {
+        "link": "https://stackoverflow.com/questions/66238359/documentation-of-telegram-methods-for-bots",
+        "document": "I am trying to send a message and then edit it using a bot in Telegram. I am doing so with Python module . I cannot find the documentation for the methods. I found this, however the documentation for and for seems to be wrong. Below I will illustrate what I mean.\n\nFollowing tutorials (for example this one) I have succeeded in sending, but not yet editing. This is my MWE:\n\nAfter executing this code, this is the output:\n\nand the message is effectively sent by the bot, but not edited.\n\nAccording to the documentation of this should be\n\nwhere was changed by . This, however, does not work. So either the documentation is wrong or I am looking in the wrong place."
+    },
+    {
+        "link": "https://telegram-bot-sdk.readme.io/reference/senddocument",
+        "document": "Use this method to send general files. On success, the sent Message is returned. Bots can currently send files of any type of up to 50 MB in size, this limit may be changed in the future.\n\nSee sendDocument official docs for a list of supported parameters and other info."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/64452196/how-to-send-emoji-in-telegram-bot-with-python",
+        "document": "I'm dealing with a small project, I decided to add emoji to make the visual a little better, but I couldn't send it. I tried Unicodes like \"\\U000203C\" or even tried to copy the emoji and past it but still can't do it. Is there any way that I can send emoji?\n\nThe outputs of the codes I tried are as follows below."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/74437942/how-to-send-custom-emoji-from-bot-in-telegram",
+        "document": "I'm trying to send the custom_emoji through Telegram API using MessageEntity object.\n\nHere is how I've tried to do it:\n\np.s. I'm using Telegraf TS, but it doesn't matter since it's just a basic function"
+    },
+    {
+        "link": "https://github.com/python-telegram-bot/python-telegram-bot/discussions/3960",
+        "document": "To see all available qualifiers, see our documentation .\n\nSaved searches Use saved searches to filter your results more quickly\n\nWe read every piece of feedback, and take your input very seriously.\n\nYou signed in with another tab or window. Reload to refresh your session.\n\nYou signed out in another tab or window. Reload to refresh your session.\n\nYou switched accounts on another tab or window. Reload to refresh your session."
+    },
+    {
+        "link": "https://docs.python-telegram-bot.org/en/v21.9/telegram.message.html",
+        "document": "Objects of this class are comparable in terms of equality. Two objects of this class are considered equal, if their and are equal."
+    },
+    {
+        "link": "https://docs.python-telegram-bot.org/en/stable/examples.html",
+        "document": "In this section we display small examples to show what a bot written with looks like. Some bots focus on one specific aspect of the Telegram Bot API while others focus on one of the mechanics of this library. Except for the rawapibot.py example, they all use the high-level framework this library provides with the submodule.\n\nAll examples are licensed under the CC0 License and are therefore fully dedicated to the public domain. You can use them as the base for your own bots without worrying about copyrights.\n\nDo note that we ignore one pythonic convention. Best practice would dictate, in many handler callbacks function signatures, to replace the argument with an underscore, since is an unused local variable in those callbacks. However, since these are examples and not having a name for that argument confuses beginners, we decided to have it present.\n\nThis bot uses the class to send timed messages. The user sets a timer by using command with a specific time, for example . The bot then sets up a job to send a message to that user after 30 seconds. The user can also cancel the timer by sending . To learn more about the , read this wiki article. Note: To use , you must install PTB via\n\nA common task for a bot is to ask information from the user. In v5.0 of this library, we introduced the for that exact purpose. This example uses it to retrieve user-information in a conversation-like style. To get a better understanding, take a look at the state diagram.\n\nA even more complex example of a bot that uses the nested s. While it’s certainly not that complex that you couldn’t built it without nested s, it gives a good impression on how to work with them. Of course, there is a fancy state diagram for this example, too!\n\nA basic example of how Telegram WebApps can be used. Use in combination with the HTML page. For your convenience, this file is hosted by the PTB team such that you don’t need to host it yourself. Uses the iro.js JavaScript library to showcase a user interface that is hard to achieve with native Telegram functionality."
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://learn.microsoft.com/en-us/dotnet/csharp/advanced-topics/interop/how-to-access-office-interop-objects",
+        "document": ""
+    },
+    {
+        "link": "https://nuget.org/packages/Microsoft.Office.Interop.PowerPoint",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2022",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/58130446/net-core-3-0-and-ms-office-interop",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/dotnet/api/microsoft.office.interop.word.document?view=word-pia",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/37904483/as-of-today-what-is-the-right-way-to-work-with-com-objects",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/dotnet/standard/native-interop/cominterop",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/10537651/proper-disposal-of-com-interop-objects-in-c-sharp-particularly-ms-office-applica",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/dotnet/standard/native-interop/best-practices",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/dotnet/csharp/advanced-topics/interop/how-to-access-office-interop-objects",
+        "document": ""
+    }
+]

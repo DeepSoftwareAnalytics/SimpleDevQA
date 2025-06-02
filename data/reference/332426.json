@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://medium.com/better-programming/7-rules-for-a-maintainable-python-code-base-6c7d0cdeed43",
+        "document": ""
+    },
+    {
+        "link": "https://news.ycombinator.com/item?id=36093141",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/Python/comments/gtiu3f/how_to_manage_a_large_codebase",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/23577229/information-on-managing-large-multi-faceted-enterprise-python-codebases",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/Python/comments/vfhxxn/how_exactly_to_structure_big_projects",
+        "document": ""
+    },
+    {
+        "link": "https://teclado.com/30-days-of-python/python-30-day-21-multiple-files",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/8096614/split-large-files-using-python",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/learnpython/comments/khj8nd/little_confused_on_best_practices_for_splitting",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/32067936/how-to-split-a-very-large-python-file",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/learnpython/comments/hhed0t/best_practices_for_splitting_python_code_into",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://support.huawei.com/enterprise/en/fixed-network-oss/ensp-pid-9017384",
+        "document": ""
+    },
+    {
+        "link": "https://forum.huawei.com/enterprise/en/i-want-to-know-about-eNSP-some-more-docs-basic-about-it-pLS/thread/667229302137176065-667213852955258880",
+        "document": ""
+    },
+    {
+        "link": "https://community.hpe.com/t5/comware-based/fyi-ensp-enterprise-network-simulation-platform/td-p/5813973",
+        "document": ""
+    },
+    {
+        "link": "https://scribd.com/document/510624333/Ensp-Installation",
+        "document": "This document provides instructions for installing the eNSP software on computers by detailing how to setup each required component. It first explains that eNSP is a network simulation platform that helps students and customers learn about Huawei digital communication products. It then lists the software that must be installed first - Wireshark, Winpcap, and VirtualBox. Detailed steps are provided for installing each program correctly."
+    },
+    {
+        "link": "https://coursehero.com/file/216954286/02-eNSP-Usage-GuideV3-1pdf",
+        "document": ""
+    },
+    {
+        "link": "https://entaksi.eu/pdf/docs/doc_services/UM_eNSP_User_manual.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://info.support.huawei.com/hedex/api/pages/EDOC1100406602/YEN11011/02/resources/adm_customize_user_role.html",
+        "document": "User roles control the scopes of permission for users. A super administrator can change the role of a non-super administrator account to adjust the user's scope of permission according to the actual requirements. After a role is assigned to a user, the user has the permission to access or operate the objects specified by the role.\n\nThe super administrator can only modify the role of a user whose Status is Offline.\n\nThe storage system provides typical built-in roles. If the built-in roles cannot meet your requirements, you can create roles.\n• None (Optional) Choose Settings > User and Security > Users and Roles > Roles and manage user-defined roles. details the operations.\n• Click More on the right of the role to be modified and choose Modify from the drop-down list.\n• Modify the parameters as required. Table 2 describes the parameters. Click More on the right of the role to be modified and choose Delete from the drop-down list. Read/write permission of the selected object. The value can be Read-only or Readable and writable.\n• None\n• Click More on the right of the user name to be modified and choose Modify from the drop-down list.\n• Select a desired role from the Role drop-down list. You can select a built-in or user-defined role based on your actual requirements."
+    },
+    {
+        "link": "https://info.support.huawei.com/hedex/api/pages/EDOC1100331202/FEM1012J/08/resources/en-us_topic_0192363309.html",
+        "document": "In addition to user groups, accounts can be managed based on user roles. An account can belong to only one user group but can be attached to multiple roles. Accounts and roles are mapped in a one-to-many manner. Roles can be created manually by an administrator or created automatically during AD/LDAP account synchronization (applicable only to the scenarios where synchronization mode 3 is configured). Roles are mainly used for authentication and authorization."
+    },
+    {
+        "link": "https://techdocs.broadcom.com/us/en/vmware-cis/aria/aria-suite-lifecycle/8-16/vmware-aria-suite-lifecycle-installation-upgrade-and-management-8-16/configuring-vmware-aria-suite-lifecycle/working-with-the-identity-and-tenant-management-service/assign-user-roles-with-user-management.html",
+        "document": "You can select a user or group mapping to edit. You can also delete a role mapping. If a group is assigned a role, and if you are a part of the group, and you log in to, you can take the same roles that group. If you have individual mapping, then it can be consolidation of user role and the roles assigned towards the group."
+    },
+    {
+        "link": "https://help.mypurecloud.com/articles/assign-roles-divisions-licenses-and-add-ons",
+        "document": "Important: The license that each role uses corresponds to the most expensive permission assigned to the role. The license represents the cost associated with assigning the role.\n\nAssign additional roles and divisions for members of your organization who should have more permissions than the default employee role allows. For more information, see Roles and permissions overview. Roles and permissions are directly associated to license assignment. You can assign a role to an individual, and you can assign individuals to a role.\n• Assign a role to an individual. Assign one or more roles to an individual by opening a user’s profile in the administrator view. If a role does not meet the user’s existing license assignment, administrators can update the user to the appropriate license.\n• Assign people to a role. Assign roles to several people at once from the Manage Roles and Permissions page.\n\nNote: If the Division-Aware Role Management setting is enabled at the organization level, then admins must have the relevant permission on a per-division basis to provide role grants for users. For more information, see : If the Division-Aware Role Management setting is enabled at the organization level, then admins must have the relevant permission on a per-division basis to provide role grants for users. For more information, see Enable division-aware role management\n\nAssign a role and divisions to an individual\n• Find a user using search or by paging through the list.\n• Click More and from the menu that appears, click Edit Person. The view opens to the Roles tab.\n• In the Search box, begin typing the first few letters of the role you want to add and select it from the list.\n• In the Assigned column, click to enable the role for the user.\n• (Optional) To add divisions to the role, do the following:\n• Begin typing the first few letters of the division you want to add and select it from the list.\n• Locate the role to which to assign people.\n• In the Actions column, click More .\n• From the menu that appears, click Change Membership.\n• From the Search list: Assign the role to members of groups Assign the role to members of divisions Assign the role to people with the same manager Assign the role to people at the same location\n• In the field, begin typing a search query and select from the suggestion menu.\n• Choose people by selecting check boxes, or select all people by selecting the check box in the column header. To unlock the desired roles and permissions, you must assign the minimum required license. For more information about licenses, see Manage Licenses and Billing FAQs. The Divisions & Licenses tab helps administrators clarify options when configuring a user’s add-on options. If an add-on is available to the user, it appears on the Divisions & Licenses tab under Available Add-ons. When a user is assigned an add-on, an asterisk appears next to the user license. Hover over the asterisk to view the add-on:\n• Search for or navigate to the user for which you want to assign an add-on.\n• From the menu that appears, click Edit Person.\n• On the Divisions & Licenses tab, under Available Add-ons select the license to assign to this user."
+    }
+]

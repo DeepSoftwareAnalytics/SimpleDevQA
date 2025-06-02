@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.python.org/3/library/random.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.python.org/uk/3.10/library/random.html",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@thehippieandtheboss/how-to-create-random-numbers-in-python-3ddd1a0b2375",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/python-randint-function",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/9755538/how-do-i-create-a-list-of-random-numbers-without-duplicates",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/taking-input-from-console-in-python",
+        "document": ""
+    },
+    {
+        "link": "https://realpython.com/python-input-output",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/70797/user-input-and-command-line-arguments",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@romulo.gatto/handling-user-input-in-python-creating-interactive-programs-a075ed0a941d",
+        "document": ""
+    },
+    {
+        "link": "https://digitalocean.com/community/tutorials/how-to-receive-user-input-python",
+        "document": ""
+    }
+]

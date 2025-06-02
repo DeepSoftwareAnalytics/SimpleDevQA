@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/API/AudioContext",
+        "document": ""
+    },
+    {
+        "link": "https://w3.org/TR/webaudio-1.1",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/14308029/playing-a-chord-with-oscillatornodes-using-the-web-audio-api",
+        "document": ""
+    },
+    {
+        "link": "https://telerik.com/blogs/understanding-web-audio-api",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@francesco.saviano87/how-to-use-javascript-classes-26ccf5f9b92c",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@sasindran.anusha/mastering-javascript-classes-a-deep-dive-into-modern-object-oriented-programming-0de6b8e7b221",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/19725504/javascript-class-best-practice",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/javascript/comments/4bmiqj/using_classes_in_javascript_es6_best_practice",
+        "document": ""
+    }
+]

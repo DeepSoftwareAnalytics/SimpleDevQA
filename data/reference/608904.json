@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/discovery/data-visualization.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/products/matlab/data-analysis.html",
+        "document": ""
+    },
+    {
+        "link": "https://se.mathworks.com/products/matlab/data-analysis.html",
+        "document": ""
+    },
+    {
+        "link": "https://au.mathworks.com/products/matlab/data-analysis.html",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/matlab/comments/hnrd1e/simulink_model_based_development_guidelines",
+        "document": "I've been developing software for the automotive industry for the past 2 years. We design our models in Simulink and generate C-Code out of it. There are a ton of questions and problems I always come into, and I cannot justify why I think something is a bad solution because I've never found any good literature regarding good practices for model based development in Simulink.\n\nThere are some many aspects to take into consideration: Data management with Data Dictionaries, Variants, Instance parameters, libraries, projects, test harnesses, etc etc. I'm currently in a project which tries to use only exclusively Matlab tools for the complete development and testing, but I feel like the architecture is REALLY bad but I cannot justify why, and hence cannot convince anyone to change it. Example:\n\n- we have to calculate the massflow for each cabin zone, of which there are 4. The model for each zone is the same, there are only parameter changes (mainly LUTs). But because we use DataStore Reads/Writes to a Bus(and want to keep them inside the model, and not in an upper layer which would contain this model), before we actually write to the Bus we need to know if 'this model's instance' is zone1, zone2, zone3 or zone 4. So inside all models (4 instances), we have 5 triggered subsystems which try to write to Bus.zone1, Bus.zone2, etc, but only one will actually succeed for each model instance... It sounds so ridiculous.\n\nIs there any paper/book regarding development in Simulink in this regard, touching all these different topics?"
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/509626-how-to-plot-multiple-graphs-from-simulink-in-matlab",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/simulink/slref/matlabfunction.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/8479-how-do-i-plot-simulink-signal-values-saved-to-the-matlab-workspace-on-an-axes",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/1902920-how-to-plot-graph-in-simulink-model-with-help-of-matlab-function-block",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/matlab/comments/n92u6k/how_do_i_plot_the_results_obtained_from_the_to",
+        "document": "Create your account and connect with a world of communities.\n\nBy continuing, you agree to our\n\nand acknowledge that you understand the"
+    }
+]

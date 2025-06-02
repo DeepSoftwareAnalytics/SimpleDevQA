@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://v9.klinecharts.com/en-US/guide/chart-api",
+        "document": ""
+    },
+    {
+        "link": "https://klinecharts.com/en-US/guide/v9-to-v10",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/klinecharts/KLineChart",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/klinecharts/KLineChart/blob/master/README.md",
+        "document": ""
+    },
+    {
+        "link": "https://npmjs.com/package/klinecharts",
+        "document": ""
+    },
+    {
+        "link": "https://tiny.cloud/blog/javascript-localstorage",
+        "document": ""
+    },
+    {
+        "link": "https://rxdb.info/articles/localstorage.html",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/73065355/how-to-save-the-state-in-localstorage",
+        "document": ""
+    },
+    {
+        "link": "https://freecodecamp.org/news/use-local-storage-in-modern-applications",
+        "document": ""
+    }
+]

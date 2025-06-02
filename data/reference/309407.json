@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://developer.android.com/guide/topics/resources/drawable-resource",
+        "document": ""
+    },
+    {
+        "link": "https://studytonight.com/post/gradient-drawable-in-android-create-gradient-backgrounds",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/3185103/how-to-define-a-circle-shape-in-an-android-xml-drawable-file",
+        "document": ""
+    },
+    {
+        "link": "https://developer.android.com/reference/android/graphics/drawable/GradientDrawable",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/50758317/get-gradient-resource-from-shape-drawable",
+        "document": ""
+    },
+    {
+        "link": "https://developer.android.com/develop/ui/views/layout/declaring-layout",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/44668309/how-do-i-reuse-the-same-xml-background-layout-in-multiple-activities-fragments-i",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/4740538/can-i-use-multiple-shapes-in-one-android-drawable",
+        "document": ""
+    },
+    {
+        "link": "https://developer.android.com/guide/topics/resources/drawable-resource",
+        "document": ""
+    },
+    {
+        "link": "https://developer.android.com/develop/ui/views/layout/improving-layouts/reusing-layouts",
+        "document": ""
+    }
+]

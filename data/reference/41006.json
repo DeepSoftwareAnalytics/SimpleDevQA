@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://apache.github.io/echarts-handbook/en/concepts/chart-size",
+        "document": "In Get Started, we introduced the API to initialize the ECharts . API Document has introduced the specific meaning of each parameters. Please read and understand the document before reading the following content.\n\nRefer to several common usage scenarios, here is the example to initialize a chart and change the size.\n\nIn general, you need to define a node and use the CSS to change the width and height. While initializing, import the chart into the node. Without declaring or , the size of the chart will default to the size of the node.\n\nTo be noticed, before calling , you need to make sure the container already has width and height.\n\nIf the height and width of the container do not exist, or you wish the chart size not equal to the container, you can initialize the size at the beginning.\n\nListen to the Container Size to Change the Chart Size\n\nIn some cases, we want to accordingly change the chart size while the size of containers changed.\n\nFor instance, the container has a height of 400px and a width of 100% site width. If you are willing to change the site width while stable the chart width as 100% of it, try the following method.\n\nYou can listen to of the site to catch the event that the browser is resized. Then use to resize the chart.\n\nExcept for calling without parameters, you can state the height and width to implement the chart size different from the size of the container.\n\nDispose and Rebuild of the Container Node\n\nWe assume that there exist several bookmark pages and each page contained some charts. In this case, the content in other pages will be removed in DOM when select one page. The user will not find the chart after reselecting these pages.\n\nEssentially, this is because the container node of the charts was removed. Even if the node is added again later, the node where the graph is located no longer exists.\n\nThe correct way is, call to dispose the instance after the container was disposed, and call echarts.init to initialize after the container was added again."
+    },
+    {
+        "link": "https://echarts.apache.org/en/api.html",
+        "document": "We're sorry, but Apache ECharts website doesn't work properly without JavaScript enabled. Please enable it to continue."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/58712462/change-width-and-height-of-chart-echarts-library",
+        "document": "I´m using Echarts for data visualisation, documentation is not clear to me ;(\n\nWhat I need is basically change of width and height of chart. I tried to change height of pie-chart div but as a consequences only div height is changed without change of chart dimensions. If anyone know solution i would really appreciate."
+    },
+    {
+        "link": "https://echarts.apache.org/option.html",
+        "document": "We're sorry, but Apache ECharts website doesn't work properly without JavaScript enabled. Please enable it to continue."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/77516430/why-my-responsive-chart-option-settings-doesnt-work",
+        "document": "I am trying to make my charts responsive, using echarts.js. I found here that I can use the property media and query.\n\nThe problem is that I do not see any change when I change the width.\n\nMy code seems correct, as per the example, but I do not see any change in the container's width and height when I resize my window and the container size descreases too.\n\nMy html code for this chart is this:\n\nminWidth, as per the example, works, but maxWidth doesn't. The example link that I provided specifically points that width, height, aspectRatio (height / width), each of which can add min or max as prefix . That's very strange."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/58712462/change-width-and-height-of-chart-echarts-library",
+        "document": "I´m using Echarts for data visualisation, documentation is not clear to me ;(\n\nWhat I need is basically change of width and height of chart. I tried to change height of pie-chart div but as a consequences only div height is changed without change of chart dimensions. If anyone know solution i would really appreciate."
+    },
+    {
+        "link": "https://echarts.apache.org/option.html",
+        "document": "We're sorry, but Apache ECharts website doesn't work properly without JavaScript enabled. Please enable it to continue."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/33454946/echarts-and-bootstrap-responsive-width",
+        "document": "If you just want to set a fixed height try setting the width to 100% of your container and set a min-heigth:\n\nIt worked for me! Plus, if you want to make sure the graph is responsive, you can know when the window is resized and force the chart to resize, too. Like this:"
+    },
+    {
+        "link": "https://apache.github.io/echarts-handbook/en/concepts/chart-size",
+        "document": "In Get Started, we introduced the API to initialize the ECharts . API Document has introduced the specific meaning of each parameters. Please read and understand the document before reading the following content.\n\nRefer to several common usage scenarios, here is the example to initialize a chart and change the size.\n\nIn general, you need to define a node and use the CSS to change the width and height. While initializing, import the chart into the node. Without declaring or , the size of the chart will default to the size of the node.\n\nTo be noticed, before calling , you need to make sure the container already has width and height.\n\nIf the height and width of the container do not exist, or you wish the chart size not equal to the container, you can initialize the size at the beginning.\n\nListen to the Container Size to Change the Chart Size\n\nIn some cases, we want to accordingly change the chart size while the size of containers changed.\n\nFor instance, the container has a height of 400px and a width of 100% site width. If you are willing to change the site width while stable the chart width as 100% of it, try the following method.\n\nYou can listen to of the site to catch the event that the browser is resized. Then use to resize the chart.\n\nExcept for calling without parameters, you can state the height and width to implement the chart size different from the size of the container.\n\nDispose and Rebuild of the Container Node\n\nWe assume that there exist several bookmark pages and each page contained some charts. In this case, the content in other pages will be removed in DOM when select one page. The user will not find the chart after reselecting these pages.\n\nEssentially, this is because the container node of the charts was removed. Even if the node is added again later, the node where the graph is located no longer exists.\n\nThe correct way is, call to dispose the instance after the container was disposed, and call echarts.init to initialize after the container was added again."
+    },
+    {
+        "link": "https://echarts.apache.org/en/api.html",
+        "document": "We're sorry, but Apache ECharts website doesn't work properly without JavaScript enabled. Please enable it to continue."
+    }
+]

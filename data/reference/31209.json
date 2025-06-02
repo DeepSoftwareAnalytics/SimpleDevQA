@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://baeldung.com/java-8-streams",
+        "document": ""
+    },
+    {
+        "link": "https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html",
+        "document": ""
+    },
+    {
+        "link": "https://iampravo.medium.com/java-8-a-new-era-of-programming-with-lambdas-and-streams-cd9b31a23aa5",
+        "document": ""
+    },
+    {
+        "link": "https://oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackify.com/streams-guide-java-8",
+        "document": ""
+    },
+    {
+        "link": "https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.oracle.com/javase/8/docs/api?java/util/ArrayList.html",
+        "document": ""
+    },
+    {
+        "link": "https://download.java.net/java/early_access/panama/docs/api/java.base/java/util/doc-files/coll-overview.html",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/arraylist-in-java",
+        "document": ""
+    },
+    {
+        "link": "https://download.java.net/java/early_access/panama/docs/api/java.base/java/util/ArrayList.html",
+        "document": ""
+    }
+]

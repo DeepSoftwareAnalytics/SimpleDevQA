@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/1673789-bisection-method-relative-error",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/87042-bisection-method-bisection_method",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/483519-bisection-method-code-matlab",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/help/simulink/gui/relativetolerance.html",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/103960-bisection-method?s_tid=FX_rc3_behav",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/77488-regula-falsi-method?s_tid=FX_rc2_behav",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/717258-how-to-solve-regular-falsi-iteration-method-using-matlab",
+        "document": ""
+    },
+    {
+        "link": "https://codesansar.com/numerical-methods/regula-falsi-or-false-position-method-using-matlab-output.htm",
+        "document": "MATLAB program for finding real root of non-linear equation using Regula Falsi Method with Output. Regula Falsi method is also known as False Position Method.\n\nIn this MATLAB program for false position method, is nonlinear function, & are two initial guesses and is tolerable error."
+    },
+    {
+        "link": "https://reddit.com/r/EngineeringStudents/comments/hastk5/so_i_solved_some_numerical_method_examples_for",
+        "document": "Download the demo file from this link which has the numerical methods.\n\nHi. So long story short, I studied some numerical methods for finding roots of a given equation lets say X^3 - 6X + 5 etc (this included bisection method, regula falsi method, newton raphson method) for my engineering class about a few weeks back. The way I solved them using excel is as follows:\n\n1 - I understood the theory first (ofc everything begins here).\n\n2 - Made formulas for various cell which would be in compliance with the theory to solve the problems.\n\nWhat this shows is that I really didnt use some unique excel methods (besides maybe some formulas for certain cells to get specific values in them). What I have done maybe even can be done with VBA (but I just started learning it so its going take long time for me to each at that stage). But you can do this and show here the excel file for that.\n\nReason im asking you guys is that it improve my knowledge in using excel in more efficient ways since many of you here are pros and have been using excel for years (as compared to me who just started a few months back).\n\nAdvice Now if you are not familiar with these methods i.e. bisection etc. I cant really explain here because of the format + this post will be come a show and tell than. But I would recommend watching the videos below for getting an understanding of these methods:\n\nBisection and regula falsi method are fairly straight forward. Newton raphson method is a bit complicated as you have to derive teh X(N+1) eqution from the original F(X) given equation. But the derivation method is pretty simple. Just watch I guess more videos on it or read an example online. You can use this site to confirm your answers. Just dont run an adblocker with it."
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/72479-regula-falsi-mathod",
+        "document": ""
+    }
+]

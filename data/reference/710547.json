@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/451930-how-to-draw-a-electromagnetic-wave-and-plot-it-in-3d",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/1804985-plot-e-h-and-power-using-matlab",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/answers/745132-writing-a-traveling-electromagnetic-wave",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/135211-simulation-wave-propagation-maxwell-s-differential-equation",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/36117-visualizing-wave-propagation?s_tid=prof_contriblnk",
+        "document": ""
+    },
+    {
+        "link": "https://researchgate.net/publication/318277730_Calculation_and_simulation_of_electromagnetic_wave_propagation_path_loss_based_on_matlab",
+        "document": "INTERNATIONAL JOURNAL ON SMART SENSING AND INTELLIGENT SYSTEMS VOL.9, NO. environment , the indoor field intensity distribution and transmission characteristics of electromagnetic dif ference time domain method (FDTD).Then, layout of room, different furniture, position of influence on the indoor field intensity distribution, thus indoor wireless sensor network node reasonable de ed by it, the packet loss rate of WSN transmissi on was reduced\n\nWireless sensor network (WSN) is composed of a large number of wireless sensor node interac t with each other , the is optimiz e also can change the number of active node according to variation network has the characteristics of s transmission power, closer cover environment the change of factors such as indoor layout, material the same so far as to different locations in the same building, the difference is very big communication . Due to the effect of shielding and absorption of buildings themselves, even blind area can be caused. Scholars at home and abroad distribution of nodes now. In order to improve the unreasonable distribution when sensor nodes random deployed, improve effect of network coverage, and reduce the packet loss r ate of WSN transmission from information source, this paper studied field intensity distribution and indoor environment, according to field intensity distribution, wireless sensor network node can be reasonable deployed, and provided theoretical basis for further improving WSN information Electromagnetic wave propagation in indoor environment is affected by many factors, compared with outdoor environment, it is more complex. Signals at the receiving end are made up of\n\nINTERNATIONAL JOURNAL ON SMART SENSING AND INTELLIGENT SYSTEMS VOL.9, NO. incoming signal by the means of multiple paths. In addition to possible direct signal , these incoming signals have different intensity, phase, and time delay diffraction and scattering at the receiving end, attenuation and formed after superposition. At present, in the aspects of indoor electromagnetic wave propagation research, two kinds of modeling methods are widely adopted, and they are ray tracing method and finite difference time domain method (FDTD) respectively [5]. Ray tracing method usually used to simulate the characteristics of main building, but building s interior decoration, furniture and so on are not considered, and the more items are simulated, the more trace rays are required, so it is difficult to accurately mode l for the environment, thus the accuracy and application range of this method are affected. But, for FDTD method, as long as the calculation area does not changed , even if items are added, the memory requirement will not be increased, and which can be accurately modeled on the environment. And the field intensity distribution around the wireless sensor network node is regional, and ray tracing method can only get the point Finite difference time domain me thod is a kind of main time domain electrom agnetic field calculation method, and it analysis of electromagne partial differential differenc e central difference - well equations can be converted to difference equation ld solution certain of boundary and initial conditions. in free space was given by [6] [7] The c ertain weight of H or E\n\nINTERNATIONAL JOURNAL ON SMART SENSING AND INTELLIGENT SYSTEMS VOL.9, NO. be obtained under the the difference equation of the rest can be obtained In order to reduce numerical dispersion, when space grid size So i t can be seen that the numerical dispersion the size of the grid de would cause the increase of storage, so consider and process In order to make the numerical stability, according to the ournan stability conditions, the choice of time step was as followed [6] [8] [9]. the algorithm can be ensured when it was run by means of . when it is through interface . And because the PML layer is loss m transmission wave in PML layer will decay quickly, even if the thickness of PML is limited, it"
+    },
+    {
+        "link": "https://researchgate.net/publication/337800126_Matlab_Simulation_of_Electromagnetic_Waves_Propagation_Characteristics",
+        "document": "Content from this work may be used under the terms of the of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI. Published under licence by IOP Publishing Ltd\n\nAbstract. Military technology has developed rapidly in recent years and u\n\nelectromagnetic waves in water are fundamentally different from those in oil. In order to better\n\nstudy the propagation character istics of electromagnetic waves within the medium, the\n\nsimulation of the electromagnetic wav e propagation in water and o il were conducted using\n\nMATLAB, and variation of the electric field and mag netic field\n\nMoreover, the three-dimensional real-time graphics of electroma\n\nalso be simulated in M ATLAB; di\n\nThe transportation and exploitation of offshore oil have develo\n\nof underwater electromag netic wave is conducive to the developm\n\nfilm thickness measurement technol ogy, which also comes along w\n\nAt present, research on marine oil spill monitoring at home and\n\ndeveloped, and many monitoring programs h ave been proposed. Man y of them use electromagnetic\n\nelectromagnetic wave is easily affected by sea breeze and wave. In order to provide a more accurate\n\nmeasurement method, this paper discusses in detail the differen\n\nand various oils and the propagation characteristics of electro\n\nanalyses the causes and propagation rules of the differences in"
+    },
+    {
+        "link": "https://wp.tuxclub.com/fetch.php/fulldisplay/4000021/ElectromagneticWavesMaterialsAndComputationWithMatlab.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://mathworks.com/matlabcentral/fileexchange/180183-simulation-of-electromagnetic-fields-and-waves",
+        "document": ""
+    },
+    {
+        "link": "http://utpedia.utp.edu.my/161/1/Abdul_Fattah.pdf",
+        "document": ""
+    }
+]

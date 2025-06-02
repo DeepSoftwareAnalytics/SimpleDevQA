@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.python.org/3/library/shutil.html",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/python-shutil-move-method",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/shutil-module-in-python",
+        "document": ""
+    },
+    {
+        "link": "https://pymotw.com/3/shutil/index.html",
+        "document": ""
+    },
+    {
+        "link": "https://python.readthedocs.io/fr/latest/library/shutil.html",
+        "document": ""
+    },
+    {
+        "link": "https://codementor.io/@ufuksfk/how-to-run-a-python-script-in-linux-with-systemd-1nh2x3hi0e",
+        "document": ""
+    },
+    {
+        "link": "https://discuss.python.org/t/python-script-as-a-systemd-service/16518",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/torfsen/python-systemd-tutorial",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/1603109/how-to-make-a-python-script-run-like-a-service-or-daemon-in-linux",
+        "document": ""
+    },
+    {
+        "link": "https://unix.stackexchange.com/questions/731677/how-do-i-create-a-systemd-service-which-runs-a-python-script-with-sudo-permissio",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://ggplot2.tidyverse.org/reference/geom_bar.html",
+        "document": ""
+    },
+    {
+        "link": "https://rdocumentation.org/packages/ggplot2/versions/3.5.0/topics/geom_bar",
+        "document": ""
+    },
+    {
+        "link": "https://sthda.com/english/wiki/ggplot2-barplots-quick-start-guide-r-software-and-data-visualization",
+        "document": ""
+    },
+    {
+        "link": "https://r-graph-gallery.com/218-basic-barplots-with-ggplot2.html",
+        "document": ""
+    },
+    {
+        "link": "https://cran.r-project.org/web/packages/ggplot2/ggplot2.pdf",
+        "document": ""
+    },
+    {
+        "link": "https://r-graph-gallery.com/48-grouped-barplot-with-ggplot2.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/72449952/making-a-grouped-bar-chart-in-r",
+        "document": ""
+    },
+    {
+        "link": "https://guslipkin.medium.com/grouped-and-stacked-bar-charts-in-r-e5f5ac5637de",
+        "document": ""
+    },
+    {
+        "link": "https://sthda.com/english/wiki/ggplot2-barplots-quick-start-guide-r-software-and-data-visualization",
+        "document": ""
+    },
+    {
+        "link": "https://idinsight.org/article/how-to-make-bar-graphs-using-ggplot2-in-r",
+        "document": ""
+    }
+]

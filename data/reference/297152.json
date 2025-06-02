@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://libusb.info",
+        "document": ""
+    },
+    {
+        "link": "https://libusb.sourceforge.io/api-1.0",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/libusb/libusb",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/libusb/libusb/wiki",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/17239565/how-to-most-properly-use-libusb-to-talk-to-connected-usb-devices",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/63933100/how-to-correctly-do-a-usb-control-transfer-libusb",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/42910777/c-libusb-how-to-send-data-to-device",
+        "document": ""
+    },
+    {
+        "link": "https://community.nxp.com/t5/i-MX-RT/Working-Custom-USB-example-using-Bulk-transfer-incl-code/m-p/1277346",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/libusb/libusb/issues/1254",
+        "document": ""
+    },
+    {
+        "link": "https://community.nxp.com/t5/i-MX-RT-Crossover-MCUs/Working-Custom-USB-example-using-Bulk-transfer-incl-code/m-p/1260056",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://dev.mysql.com/doc/en/create-database.html",
+        "document": ""
+    },
+    {
+        "link": "https://codingnomads.com/mysql-create-database-schema-mysql-create-table-tutorial",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/1219711/mysql-create-schema-and-create-database-is-there-any-difference",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/mysql/mysql_create_table.asp",
+        "document": ""
+    },
+    {
+        "link": "https://docs.rapidminer.com/7.6/server/installation/creating_mysql_db.html",
+        "document": ""
+    },
+    {
+        "link": "https://neon.tech/postgresql/postgresql-tutorial/postgresql-insert-multiple-rows",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/20815028/how-do-i-insert-multiple-values-into-a-postgres-table-at-once",
+        "document": ""
+    },
+    {
+        "link": "https://postgresql.org/docs/current/dml-insert.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/72950298/psql-insert-into-with-multiple-select-statements-for-multiple-rows",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/postgresql/postgresql_insert_into.php",
+        "document": ""
+    }
+]

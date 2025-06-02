@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://selenium.dev/documentation/webdriver/browsers/chrome",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/41133391/which-chromedriver-version-is-compatible-with-which-chrome-browser-version",
+        "document": ""
+    },
+    {
+        "link": "https://developer.chrome.com/docs/chromedriver/downloads/version-selection",
+        "document": ""
+    },
+    {
+        "link": "https://developer.chrome.com/docs/chromedriver/downloads",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/76807012/is-selenium-webdriver-version-4-10-0-compatible-with-chromedriver-93-0-4577-63",
+        "document": ""
+    },
+    {
+        "link": "https://qatouch.com/blog/dynamic-web-elements-in-selenium",
+        "document": ""
+    },
+    {
+        "link": "https://lambdatest.com/blog/locators-in-selenium-webdriver-with-examples",
+        "document": ""
+    },
+    {
+        "link": "https://linkedin.com/pulse/best-practices-dealing-dynamic-web-elements-selenium-qa-touch-6o8kc",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/76585379/how-to-construct-locators-for-dynamic-elements-using-selenium-and-python",
+        "document": ""
+    },
+    {
+        "link": "https://selenium.dev/documentation/webdriver/elements/locators",
+        "document": ""
+    }
+]

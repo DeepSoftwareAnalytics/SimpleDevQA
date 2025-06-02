@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://geeksforgeeks.org/merge-two-sorted-arrays",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/66883653/merge-2-sorted-arrays-into-vector-c",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/35715886/merging-two-sorted-vectors-in-one-sorted-vector",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/how-to-merge-two-sorted-vector-in-cpp",
+        "document": ""
+    },
+    {
+        "link": "https://algocademy.com/link?problem=merge-sorted-arrays&lang=cpp&solution=1",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/naming-convention-in-c",
+        "document": ""
+    },
+    {
+        "link": "https://codeforces.com/blog/entry/125491",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@ryan_forrester_/c-naming-conventions-comprehensive-guide-6b813c17c23b",
+        "document": ""
+    },
+    {
+        "link": "https://google.github.io/styleguide/cppguide.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/3706379/what-is-a-good-naming-convention-for-vars-methods-etc-in-c",
+        "document": ""
+    }
+]

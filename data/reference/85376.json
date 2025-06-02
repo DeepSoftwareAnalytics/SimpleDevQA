@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://discussions.unity.com/t/third-person-camera-script/930350",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/best-practice-for-third-person-control-schemes/389822",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/Unity3D/comments/11at9s6/clean_way_for_third_person_character_controller",
+        "document": "i am struggling a bit with a clean and scalable way for my Third Person Character Controller. I have meddled a bit with it in earlier Projects but I always find myself in this very weird and messy hundreds of lines long character controller script, which also does not feel good with unitys mecanim character controller. Has anyone experienced similar issues? Or has some resources for maybe a nice design pattern or good way to approach this? I am talking about a fairly common controller, with things like running, maybe 3 different attacks, a dash or roll and blocking or getting hit."
+    },
+    {
+        "link": "https://discussions.unity.com/t/brackeys-3rd-person-controller/943098",
+        "document": ""
+    },
+    {
+        "link": "https://discussions.unity.com/t/how-can-i-implement-a-functional-third-person-movement-and-freelook-camera-on-unity-20221-3-3f1/906795",
+        "document": ""
+    },
+    {
+        "link": "https://forums.unrealengine.com/t/community-tutorial-unreal-engine-5-4-attacking-enemy-ai-with-behavior-tree-tutorial-for-game-developers/2151521",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/unrealengine/comments/rie98e/how_to_add_a_intelligent_ai",
+        "document": "Been using UE4 for a few weeks now and been building a simple map.\n\nI want to add an AI that can learn from me similar to the nemisis system in the Shadow Of War game or an AI that can simply just learn from interactions with myself.\n\nThe goal is to play the game repeatedly killing the AI with it getting smarter and smarter each time to the point where I can't beat it without a lot of effort.\n\nIs this possible to do and/or is there an AI system out there like this that I can just put into the game instead of building it myself?"
+    },
+    {
+        "link": "https://forums.unrealengine.com/t/implementing-ai-behaviour-to-a-vehicle/482038",
+        "document": ""
+    },
+    {
+        "link": "https://dev.epicgames.com/community/learning/tutorials/mJGv/how-to-make-an-enemy-ai-using-behavior-trees-in-unreal-engine-5-2-attack-player",
+        "document": ""
+    },
+    {
+        "link": "https://quora.com/How-can-I-implement-an-enemy-AI-in-Unity3D-that-learns",
+        "document": "Something went wrong. Wait a moment and try again."
+    }
+]

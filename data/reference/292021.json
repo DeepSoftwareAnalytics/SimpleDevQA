@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrame.withColumn.html",
+        "document": ""
+    },
+    {
+        "link": "https://projectpro.io/recipes/explain-spark-sql-withcolumn-function",
+        "document": ""
+    },
+    {
+        "link": "https://sparkbyexamples.com/pyspark/pyspark-withcolumn",
+        "document": ""
+    },
+    {
+        "link": "https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrame.withColumns.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/49622290/scala-spark-dataframe-sql-withcolumn-how-to-use-functionxstring-for-transfo",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/34908448/spark-add-column-to-dataframe-conditionally",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@uzzaman.ahmed/pyspark-conditional-functions-a-comprehensive-guide-115450e7ce07",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/39048229/spark-equivalent-of-if-then-else",
+        "document": ""
+    },
+    {
+        "link": "https://sparkcodehub.com/spark/spark-dataframe-withcolumn-guide",
+        "document": ""
+    },
+    {
+        "link": "https://sparkbyexamples.com/pyspark/pyspark-when-otherwise",
+        "document": ""
+    },
+    {
+        "link": "https://spark.apache.org/docs/3.5.4/sql-data-sources-text.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/71657279/read-multiple-text-files-into-a-spark-dataframe",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@anupchakole/a-comprehensive-guide-to-reading-and-writing-data-in-apache-spark-d6f992a17c8c",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/38007704/what-is-the-best-practice-for-reading-parsing-spark-generated-files-which-saved",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/read-text-file-into-pyspark-dataframe",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://learn.microsoft.com/en-us/windows/win32/dlls/using-run-time-dynamic-linking",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/8696653/dynamically-load-a-function-from-a-dll",
+        "document": ""
+    },
+    {
+        "link": "https://tbhaxor.com/loading-dlls-using-cpp-in-windows",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/431533/c-dynamically-loading-classes-from-dlls",
+        "document": ""
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/14372034/reloading-a-library-using-dynamic-loading-in-c",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/49280813/runtime-library-reloading-using-dlopen",
+        "document": ""
+    },
+    {
+        "link": "https://slembcke.github.io/HotLoadC",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/cpp_questions/comments/bu0hol/how_to_hot_reload_shared_library_on_linux",
+        "document": ""
+    },
+    {
+        "link": "https://mprtmma.medium.com/c-shared-library-dynamic-loading-eps-2-28f0a109250a",
+        "document": ""
+    }
+]

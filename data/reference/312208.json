@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://docs.oracle.com/en/java/javase/19/language/switch-expressions.html",
+        "document": ""
+    },
+    {
+        "link": "https://docs.oracle.com/en/java/javase/19/language/java-language-changes.html",
+        "document": ""
+    },
+    {
+        "link": "https://bell-sw.com/blog/a-guide-to-pattern-matching-for-switch-in-java-21",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/72703351/java-19-pattern-matching-compilation-error-the-switch-statement-does-not-cover",
+        "document": ""
+    },
+    {
+        "link": "https://hcltech.com/blogs/new-features-in-java-19",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/local-variable-type-inference-or-lvti-in-java-10",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/54021579/java-10-local-variable-type-inference-advantage",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/var-keyword-in-java",
+        "document": ""
+    },
+    {
+        "link": "https://openjdk.org/projects/amber/guides/lvti-faq",
+        "document": ""
+    },
+    {
+        "link": "https://nipafx.dev/java-10-var-type-inference",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@umutt.akbulut/memory-management-in-java-an-in-depth-look-at-garbage-collection-0a6281662b04",
+        "document": ""
+    },
+    {
+        "link": "https://docs.oracle.com/en/java/javase/11/gctuning/introduction-garbage-collection-tuning.html",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/javahelp/comments/13qilqj/advice_on_the_garbage_collector_to_use_with_jdk11",
+        "document": ""
+    },
+    {
+        "link": "https://rameshfadatare.medium.com/memory-management-in-java-best-practices-to-avoid-memory-leaks-ce1588e2dcc2",
+        "document": ""
+    },
+    {
+        "link": "https://dev.to/brilworks/the-best-way-to-optimize-garbage-collection-for-java-applications-5ba8",
+        "document": ""
+    }
+]

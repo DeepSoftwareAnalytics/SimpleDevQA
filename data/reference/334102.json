@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://threejs.org/docs/api/en/textures/VideoTexture.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/18383470/using-video-as-texture-with-three-js",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/49793156/how-to-add-video-to-a-plane-geometry-using-three-js",
+        "document": ""
+    },
+    {
+        "link": "https://discourse.threejs.org/t/making-a-video-player-in-three-js/468",
+        "document": ""
+    },
+    {
+        "link": "https://threejs.org/docs/api/en/textures/Texture.html",
+        "document": ""
+    },
+    {
+        "link": "https://webglfundamentals.org/webgl/lessons/webgl-shaders-and-glsl.html",
+        "document": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Using_textures_in_WebGL",
+        "document": ""
+    },
+    {
+        "link": "https://webgl2fundamentals.org/webgl/lessons/webgl-shaders-and-glsl.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/60614318/how-to-use-data-textures-in-webgl",
+        "document": ""
+    },
+    {
+        "link": "https://webgl2fundamentals.org/webgl/lessons/webgl-qna-how-to-bind-an-array-of-textures-to-a-webgl-shader-uniform-.html",
+        "document": ""
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://docs.pysimplegui.com/en/latest/documentation/module/layouts",
+        "document": ""
+    },
+    {
+        "link": "https://docs.pysimplegui.com/en/latest/documentation/module/elements/frame",
+        "document": ""
+    },
+    {
+        "link": "https://docs.pysimplegui.com/en/latest/documentation/module/dynamic_layouts",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/59500558/how-to-display-different-layouts-based-on-button-clicks-in-pysimple-gui-persis",
+        "document": ""
+    },
+    {
+        "link": "https://pysimplegui.net/docs/docs/en/latest/documentation/module/layouts",
+        "document": ""
+    },
+    {
+        "link": "https://docs.pysimplegui.com/en/latest/call_reference/web/popups/popup_get_file",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/66836734/force-users-to-select-a-file-with-pysimplegui",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/55573754/load-multiple-file-with-pysimplegui",
+        "document": ""
+    },
+    {
+        "link": "https://github.com/PySimpleGUI/PySimpleGUI/issues/4790",
+        "document": ""
+    },
+    {
+        "link": "https://docs.pysimplegui.com/en/latest/documentation/module/popups",
+        "document": ""
+    }
+]

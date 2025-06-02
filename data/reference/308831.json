@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/pandas-convert-json-to-dataframe",
+        "document": ""
+    },
+    {
+        "link": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_json.html",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/21104592/json-to-pandas-dataframe",
+        "document": ""
+    },
+    {
+        "link": "https://kdnuggets.com/how-to-convert-json-data-into-a-dataframe-with-pandas",
+        "document": ""
+    },
+    {
+        "link": "https://blog.cambridgespark.com/how-to-determine-the-optimal-number-of-clusters-for-k-means-clustering-14f27070048f",
+        "document": ""
+    },
+    {
+        "link": "https://analyticsvidhya.com/blog/2021/05/k-mean-getting-the-optimal-number-of-clusters",
+        "document": ""
+    },
+    {
+        "link": "https://datacamp.com/tutorial/k-means-clustering-python",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@chyun55555/quick-guide-to-k-means-clustering-with-python-example-scikit-learn-6efe8e319893",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/ml-determine-the-optimal-value-of-k-in-k-means-clustering",
+        "document": ""
+    }
+]

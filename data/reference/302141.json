@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://stackoverflow.com/questions/35532427/how-to-dynamically-allocate-arrays-in-c",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/40231706/allocating-memory-for-array-of-pointers-of-int-dynamically",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/how-to-dynamically-allocate-an-array-in-cpp",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/cpp_questions/comments/zxs3fu/when_to_use_dynamic_memory_allocation",
+        "document": ""
+    },
+    {
+        "link": "https://softwareengineering.stackexchange.com/questions/382082/is-there-a-best-practice-for-allocation-deallocating-multiple-dynamic-arrays-in",
+        "document": ""
+    },
+    {
+        "link": "https://geeksforgeeks.org/rand-and-srand-in-ccpp",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/37195821/rand-and-srand-functions-in-c",
+        "document": ""
+    },
+    {
+        "link": "https://w3schools.com/cpp/cpp_howto_random_number.asp",
+        "document": ""
+    },
+    {
+        "link": "https://digitalocean.com/community/tutorials/random-number-generator-c-plus-plus",
+        "document": ""
+    },
+    {
+        "link": "https://cplusplus.com/reference/cstdlib/rand",
+        "document": ""
+    }
+]

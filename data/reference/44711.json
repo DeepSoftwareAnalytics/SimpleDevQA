@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://helpx.adobe.com/photoshop/using/content-aware-fill.html",
+        "document": ""
+    },
+    {
+        "link": "https://helpx.adobe.com/photoshop-elements/using/content-aware-fill.html",
+        "document": ""
+    },
+    {
+        "link": "https://adobe.com/learn/photoshop/web/fills-masks-sensei",
+        "document": ""
+    },
+    {
+        "link": "https://helpx.adobe.com/lv/photoshop/how-to/content-aware-hide-objects.html",
+        "document": ""
+    },
+    {
+        "link": "https://helpx.adobe.com/si/photoshop/how-to/content-aware-hide-objects.html",
+        "document": ""
+    },
+    {
+        "link": "https://graphicdesign.stackexchange.com/questions/97525/how-can-i-replicate-photoshops-content-aware-fill-in-gimp-for-windows",
+        "document": "Stack Exchange network consists of 183 Q&A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge, and build their careers."
+    },
+    {
+        "link": "https://digital-photography-school.com/content-aware-resizing-in-gimp",
+        "document": "Get Started with Cameras and Gear"
+    },
+    {
+        "link": "https://discuss.pixls.us/t/content-aware-fill/25639",
+        "document": "Hi,\n\n what is the current state of the art content aware fill with free software?\n\n I saw resynthesizer for gimp but could not get it running because of some python2 dependencies.\n\n (using debian bullseye)\n\n What are the best tools out there? How to get them?\n\nThere are different inpainting filters in G’MIC. (G’MIC is a GIMP plugin.) Perhaps @David_Tschumperle can tell which one is the best.\n\nI show some methods, with code, at Filling holes and Filling holes in priority order. But I wouldn’t call them “current state of the art”.\n\nYes, there are several Gmic filters that can do that quite well, you find them in Gmic-qt under “repair”, they are called “inpaint”. last time I used them was perhaps 2 years ago. I think they were not modified during the last years. However, they are a bit slow - I think you have to recompile them for multi-core support.\n\nWhile not strictly the same as Content Aware Fill in Photoshop context, I have found the darktable retouch module quite effective for removing unwanted objects from e.g. the edges of the photo or the background. Especially the wavelet decomposition mode is quite effective if the object to be removed and the desired replacement have distinct scales. For example, removing tree branches and replacing them with sky."
+    },
+    {
+        "link": "https://helpx.adobe.com/photoshop/using/content-aware-fill.html",
+        "document": ""
+    },
+    {
+        "link": "https://reddit.com/r/linux/comments/bipgn/photoshops_caf_contentaware_fill_unbelievable_not",
+        "document": "Welcome to /r/Linux! This is a community for sharing news about Linux, interesting developments and press. If you're looking for tech support, /r/Linux4Noobs and /r/linuxquestions are friendly communities that can help you. Please also check out: https://lemmy.ml/c/linux and Kbin.social/m/Linux Please refrain from posting help requests here, cheers."
+    }
+]

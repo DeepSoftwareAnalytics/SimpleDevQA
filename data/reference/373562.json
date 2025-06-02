@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://devforum.roblox.com/t/mathrandom-property/640402",
+        "document": "I implore you to search the forum and the API documentation of Roblox on developer.roblox.com before asking questions here on the devforum\n\nis a function, not a property, that returns a random number generated from an algorithm. This function has two optional arguments: a minimum integer value, and a maximum integer value, which returns an integer between the two. Calling math.random with no arguments passed will return a float (decimal) from 0 - 1.\n\nIt is a useful and commonly used function. The can be used for choosing a random player to assign them a role, choosing a random minigame, etc. The uses of math.random are basically limitless\n\nmath.random uses a pseudorandom number generator with a given seed that can be set using . When using this algorithm, you will sometimes get repeated numbers"
+    },
+    {
+        "link": "https://devforum.roblox.com/t/how-do-i-use-mathrandom/1374904",
+        "document": "im trying to randomly generate something with math.random and here is the script\n\n local orb = game.Lighting.XP"
+    },
+    {
+        "link": "https://devforum.roblox.com/t/what-is-the-luau-mathrandom-function/1993169",
+        "document": "In that case, math.randomseed is not necessary. Notice how everytime you call math.random (in vanilla Lua) without calling math.randomseed will return the same result every time (within the same range).\n\nOtherwise if i’m misunderstanding, math.random is sequential from its the randomseed, every time you call randomseed(n). For example, if you call randomseed with a number argument and print math.random 3 times, you will have a sequence of 3 random numbers. If you call randomseed again afterward with the same number argument, and print math.random 3 times like previously, you will receive the exact sequence as the first three math.randoms\n\nThis behavior is why you’re receiving different results. If you do your test again, but this time calling math.randomseed(0) before each time you call math.random, you will receive the same result from both math.random calls."
+    },
+    {
+        "link": "https://devforum.roblox.com/t/how-do-i-use-mathrandom/2226137",
+        "document": "Hello everyone, this is a tutorial about math.random in scripts that can be used in many ways. I will show you how you can use math.random with positions. If you think you’re missing something, respond to this topic and others may help you and I might aswell change this topic if people request it.\n• Add a script to Workspace/ServiceScriptService and name it whatever you would like.\n\n\n\nCheck the script yourself and when you’re finished let me know what you think about this tutorial. Now, for the more advanced ones reading this script. The script is supposed to be as simplified as possible."
+    },
+    {
+        "link": "https://devforum.roblox.com/t/how-to-make-a-random-number-between-1-and-1000-appear-on-a-text-box-every-few-seconds/1174636",
+        "document": "So I don’t normally script things but recently I’ve been trying to learn some new things to help me later on down the road. I recently was making a machine with some gizmos and gadgets on it and I figured I’d add a text box with random numbers appearing every One second. I know how to do the bare minimum and print the numbers to the output tab, but I don’t know how to apply it to a a text box.\n\nAs I’m sure a lot of you can tell, this is the script that randomly prints numbers to the output tab every second out of a possible 1 in 1000 numbers\n\nSomething like this is essentially what I’m trying to accomplish"
+    },
+    {
+        "link": "https://devforum.roblox.com/t/mathrandom-property/640402",
+        "document": "I implore you to search the forum and the API documentation of Roblox on developer.roblox.com before asking questions here on the devforum\n\nis a function, not a property, that returns a random number generated from an algorithm. This function has two optional arguments: a minimum integer value, and a maximum integer value, which returns an integer between the two. Calling math.random with no arguments passed will return a float (decimal) from 0 - 1.\n\nIt is a useful and commonly used function. The can be used for choosing a random player to assign them a role, choosing a random minigame, etc. The uses of math.random are basically limitless\n\nmath.random uses a pseudorandom number generator with a given seed that can be set using . When using this algorithm, you will sometimes get repeated numbers"
+    },
+    {
+        "link": "https://devforum.roblox.com/t/how-do-i-actually-generate-a-random-number/2950444",
+        "document": "I’m currently making a game that generates a random game! Everything works perfectly fine, except…\n\n The way I’m getting the games is through math.random(1, 10000000) & I’ve also tried Random.new():NextInteger(1, 10000000), but it keeps giving me the same numbers every ~30 ids generated, which means its basically around 10 games just in a big cycle. If anyone knows a better way to generate numbers it would be very helpful!\n\nHere’s my code to generate the number:\n\n\n\nHere’s what it looks like from my POV:"
+    },
+    {
+        "link": "https://devforum.roblox.com/t/randomnew-or-mathrandom/530582",
+        "document": "Ok so i want to know which of these is better?\n\n Random.new() or math.random()\n\n And if one is better than the other, then how so?\n\n If one is not better than the other,\n\n i dont really see the point of having added Random.new() when\n\n they could have just added onto math.random()\n\n And i would like to know why they wouldnt have done that instead\n\n– if i posted in wrong section, admin please let me know"
+    },
+    {
+        "link": "https://devforum.roblox.com/t/how-does-randomness-work/2724380",
+        "document": "This might just be the stupidest question to ever be asked on this site, but I don’t know please help\n\nI have a code that generates a random number between 0 and 1 using Random.new():NextInteger()\n\nIf its “0” it adds to a variable called , if its “1” it adds to a variable called\n\nThen I an event to print\n\nHere is the thing, I thought if there was a 50/50 chance, the 2 numbers would be extremely close, and although they are, they’re not as close as I thought they would be after a good amount of tests\n\n\n\nAm I doing something wrong or Is that just how random stats work?\n\nPlease excuse my ignorance, I was never a math person."
+    },
+    {
+        "link": "https://devforum.roblox.com/t/what-is-mathrandomseed/902669",
+        "document": "This question has been asked before, I recommend reading these threads for a better explanation. In simple terms, computers don’t have the ability to generate “real” random numbers, so they take seeds.\n\nSeeds are randomized to make the computer give pseudo-randomness, even though it’s been predefined already. That’s why\n\ngenerates a random seed and is used to mimic true randomness."
+    }
+]

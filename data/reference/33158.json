@@ -1,0 +1,42 @@
+[
+    {
+        "link": "https://laravel.com/docs/11.x/seeding",
+        "document": ""
+    },
+    {
+        "link": "https://laravel.com/docs/12.x/seeding",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@online-web-tutor/how-to-use-laravel-10-seeder-for-database-seeding-tutorial-8d41feedfeeb",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/78637273/laravel-migration-and-seeders-what-i-need-to-use-and-when-to-fill-data",
+        "document": ""
+    },
+    {
+        "link": "https://blog.treblle.com/how-to-create-rest-api-using-laravel",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/71491878/unit-testing-laravel-model-that-includes-a-relationship",
+        "document": ""
+    },
+    {
+        "link": "https://laravel.com/docs/11.x/eloquent-relationships",
+        "document": ""
+    },
+    {
+        "link": "https://medium.com/@shaunthornburgh/unit-testing-relationships-in-laravel-ensuring-data-integrity-and-quality-9314f13dba9e",
+        "document": ""
+    },
+    {
+        "link": "https://stackoverflow.com/questions/62621978/laravel-rest-api-fetch-a-model-with-a-relationship",
+        "document": ""
+    },
+    {
+        "link": "https://laravel.com/docs/12.x/http-tests",
+        "document": ""
+    }
+]

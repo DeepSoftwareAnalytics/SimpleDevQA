@@ -1,0 +1,58 @@
+[
+    {
+        "link": "https://bukkit.org/threads/where-can-i-find-the-bukkit-api-documentation.348177",
+        "document": ""
+    },
+    {
+        "link": "https://helpch.at/docs/1.7.10",
+        "document": "JavaScript is disabled on your browser.\n\nThis document is designed to be viewed using the frames feature. If you see this message, you are using a non-frame-capable web client. Link to Non-frame version."
+    },
+    {
+        "link": "https://bukkit.org/threads/how-to-make-a-plugin-1-7-10-1-8-compatible.403527",
+        "document": "The bukkit and spigot team was clever enough, not to make all plugins break between versions.\n\n Everything in the net.minecraft.server package can and probably will be changed in the future. Just take a look in my signature, I provide different cnstructors for different versions.\n\n Protocol hack is when e.g. a 1.7 server is able to communicate with 1.8 clients.\n\n \n\n If you know, that you need to use a method or class, wich is going to change between versions, then you culd do something like getServer().getVersion(), and if the version is 1.7, do this, if 1.8, do that.\n\n If you don't need to, then don't use those methods. Especially, if bukkit provides an alternative."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/40831163/minecraft-development-where-to-find-older-bukkit-api-documentation",
+        "document": "While I'm not aware of a site that contains the documentation for a previous version, the Maven repo for spigot does have source and documentation jars for each version that you should be able to attach to in your IDE.\n\nIf you want to manually set it up (or Maven refuses to work), you can manually find the jars here - first select your version, and then download the latest (which will be at the bottom of the page). You can unzip that jar (which contains HTML pages rather than source or classes) and then you'll have a copy of the javadocs from that version. In the case of 1.10.2, the jar you want is this one."
+    },
+    {
+        "link": "https://bukkit.org/threads/bukkit-api.398606",
+        "document": "He was just giving a suggestion, he might not have known that there was a spigot api, I didn't when I first started..."
+    },
+    {
+        "link": "https://spigotmc.org/threads/nms-development-help.237751",
+        "document": ""
+    },
+    {
+        "link": "https://spigotmc.org/threads/1-17-moved-nbttagcompound.513786",
+        "document": ""
+    },
+    {
+        "link": "https://bukkit.org/threads/1-11-the-complete-guide-to-item-nbttags-attributes.411448",
+        "document": "Disclaimer: \"This is my first tutorial/resource I have ever made. ALL comments are appreciated especially ones that can improve the tutorial or rate it. (Please don't mind my english, I know I suck at it.) Thanks for reading.\n\nWhen dealing with NBTTags NMS is required. This tutorial is made on Spigots 1.9R1 Craftbukkit release.\n\nSo to start we need to create an ItemStack to add NBTTags to, (This should be self explanatory but i'll go through it for the sake of something to do.\n\nWhen adding NBTTags to an itemstack you have to edit and set the itemmeta BEFORE you start editing the NBTTags. So we will name our item and lore before hand.\n\nTime to start with NMS, first we are going to create an NMS copy of the itemstack we just created.\n\nIn this line above we crate an NMS ItemStack named nmsStack which is a copy of the itemstack we created earlier. Now that we have a NMS Itemstack we can start add and editing the Tags & Attributes of the NMS Copy! Next we need to grab the NMS items compound. And, An NMS itemstacks compound can be NULL so we need to check for it.\n\nOk, the last thing we need to add before we can start adding attributes and tags is the list of tags.\n\nWe will be adding all attributes to this list so we can apply them to the NMS stack.\n\nFinally we can now create an attribute to add to the itemstack. I will show you how to edit the DAMAGE attribute, but it is the same process for Speed, AttackSpeed and Health.\n\nFirst we will create the damage compound.\n\nAnd now we can start editing it.\n\nThis is the newest edition in 1.9 Not adding this next line will cause it to apply to all slots.\n\nNext we add our damage compound to our NBTList.\n\nWe then add our NBTList to out compound we created earlier.\n\nWe can then set out NMS items compound to our newly edited compound.\n\nAnd last but not least we create a bukkit copy of our NMS copy so we can give it to players as a normal itemstack.\n\nAnd now the item should have 20 Damage while in MainHand.\n\nAttributes are cool in the way they are weird. Currently from my experience and information the working NBT tags on ItemStacks is\n• None : Changes the players max health while equipped in specified slots.\n• None : Speed of movement in some unknown metric. The mob's maximum speed in blocks/second is a bit over 43 times this value, but can be affected by various conditions, such as: being ridden (if a horse), sprinting, fleeing (if a passive mob), attacking (if an enderman or zombie pigman), being led by a leash, being under the effect of a Speed or Slowness potion, being a baby zombie, or being a witch and drinking a potion.\n• None : When equipped on specified slot adds armor points to player.\n• None : Affects the results of using the quality or bonus_rolls tag (e.g. when opening chests or chest minecarts, fishing, and killing mobs).\n• None : affects the attackspeed of the user while swinging the item as long as it is in the specified slot.\n\nExactly how we edited the unbreakable tag earlier we can edit the new Tags added in 1.11.\n\nThe new tags added in 1.11 are;\n• New display tag entry for items: LocName for translation strings\n• None integer tag for potions and potion arrows to overwrite/set the color\n• None integer tag for filled maps to overwrite/set the color of the marks in the item texture\n\nAn example is presented above but for the sake of something to do here is another:\n\nLike above you can see that not much is different than the damage attribute. UUID's do not differ between attributes. The only noticeable differences is the AttributeName, Name and Amount. Since damage is saved as an int, but attackSpeed is saved as a double we just change NBTTagInt to NBTTagDouble, and changed the attribute names. IF you where to add this new compound to the modifiers it would apply to the item.\n\n- Small demonstration on adding NBTTags and checking them for \"hidden\" data."
+    },
+    {
+        "link": "https://bukkit.org/threads/nbt-tags.110447",
+        "document": "I wanted to use NBTTags for enchantments for items that aren't normally supposed to have enchantments like sticks. I've tried using the addUnsafeEnchantment() method but that only allows me to put on enchantments that have a higher level than they are supposed to and not actually put them on items that aren't supposed to have enchantments unless they changed it from 1.4. Anyways I think I've got the hang of NBT Tags, thanks for all of your help"
+    },
+    {
+        "link": "https://spigotmc.org/threads/serializing-and-deserializing-itemstacks.526698",
+        "document": ""
+    },
+    {
+        "link": "https://forums.spongepowered.org/t/how-to-serialize-and-deserialize-inventories/18542",
+        "document": "I’m currently trying to serialize and deserialize a players inventory. I had a look around and found two methods here in the forum however they both do not work.\n\n I’ve managed to break down the inventory into it’s itemstacks so that’s not a problem, however serializing them is turning out to be extremely difficult!\n\nHere are the methods I tried and the result:\n\nHowever this results in a crash:\n\nThe I tried this:\n\nHowever the string I get looks like this (Essentially contains no data):\n\nCan somebody help me out? I need the data in the form of a string or a byte array for external storage.\n\nAs a side note: I have a shulkerbox with some contents in my inventory. Some spawneggs are in there too (I suspect they might be the problem)."
+    },
+    {
+        "link": "https://stackoverflow.com/questions/25211002/found-some-code-for-serialization-of-an-itemstack-in-bukkit-how-to-deserialize",
+        "document": "I've dug up the following code for serializing an in bukkit (Minecraft). I've been able to serialize an item in hand with the following:\n\nI can't figure out how to utilize the call however. What I am trying to do is to pull an item from the players hand, serialize it, stick it into a config file, then when the player runs another command... deserialize it and slap it into their inventory. I am fairly certain this class will meet my needs if I just can get the last part working."
+    },
+    {
+        "link": "https://bukkit.org/threads/illegalargumentexception.496029",
+        "document": ""
+    },
+    {
+        "link": "https://spigotmc.org/threads/serialise-deserialise-error-help.317744",
+        "document": ""
+    }
+]
