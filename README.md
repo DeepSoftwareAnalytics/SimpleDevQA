@@ -1,8 +1,9 @@
 From Conversation to Evaluation: Benchmarking LLMs on Development Knowledge via RealDevQA
 =============
-RealDevQA is a multilingual Development Knowledge QA benchmark derived from large-scale real user dialogues via a rigorous three-phase pipeline. This dataset contains 2,740 Dev Knowledge QA pairs in three languages (English, Chinese, and Russian), and is built from dialogues that cover broad development knowledge, featuring verifiable answers grounded in web-sourced reference documents. 
+RealDevQA is a multilingual Development Knowledge QA benchmark derived from large-scale real user dialogues via a rigorous three-phase pipeline. 
 The data pipeline is as follow:
 ![](figure/pipeline.png)
+This dataset contains 2,740 Dev Knowledge QA pairs in three languages (English, Chinese, and Russian), and is built from dialogues that cover broad development knowledge, featuring verifiable answers grounded in web-sourced reference documents. 
 
 Source Code
 -------------
