@@ -17,7 +17,7 @@ You can evaluate LLM performance on RealDevQA by following these steps:
 
 (1) Download the repository [RealDevQA](https://anonymous.4open.science/r/RealDevQA-25E7/).
 
-(2) In the `code/eval/eval_demo.py` file, please add the grader model you wish to use and its corresponding API key and base URL:
+(2) In the `code/eval/eval_demo.py` file, you should add the grader model you wish to use and its corresponding API key and base URL:
 ```python
 grading_sampler = ChatCompletionSampler(
         model="",
@@ -27,11 +27,11 @@ grading_sampler = ChatCompletionSampler(
     )
 ```
 
-(3) In the `code/eval/eval_demo.py` file, please add some eval models you wish to use and its corresponding API key and base URL:
+(3) In the `code/eval/eval_demo.py` file, you should add some eval models you wish to use and its corresponding API key and base URL:
 ```python
 samplers = { 
     "model_name": ChatCompletionSampler(
-            model="model_name",
+            model="",
             system_message=OPENAI_SYSTEM_MESSAGE_API,  
             api_key="",
             base_url=""
