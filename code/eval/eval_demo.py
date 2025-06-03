@@ -1,5 +1,5 @@
 import json
-from se_simpleqa_eval import SESimpleQAEval
+from realdevqa_eval import RealDevQAEval
 from chat_completion_sampler import (
     OPENAI_SYSTEM_MESSAGE_API,
     ChatCompletionSampler,
@@ -45,7 +45,7 @@ def main():
         # Set num_examples = None to reproduce full evals
         match eval_name:
             case "se_simpleqa":
-                return SESimpleQAEval(
+                return RealDevQAEval(
                     grader_model=grading_sampler)
                     # num_examples=10 if debug else 3000)
             case _:
