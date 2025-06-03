@@ -15,8 +15,8 @@ def main():
     debug = False
     # 被评估的模型集合
     samplers = {
-        "codellama-7b-instruct": QwenCompletionSampler(
-            model="codellama-7b-instruct",
+        "": QwenCompletionSampler(
+            model="",
             system_message=OPENAI_SYSTEM_MESSAGE_API,  # for english benchmark
             # system_message=OPENAI_SYSTEM_MESSAGE_API_CN,  # for chinese benchmark(e.g. Chinese SimpleQA)
             # max_tokens=2048,
@@ -44,7 +44,7 @@ def main():
     def get_evals(eval_name):
         # Set num_examples = None to reproduce full evals
         match eval_name:
-            case "se_simpleqa":
+            case "realdevqa":
                 return RealDevQAEval(
                     grader_model=grading_sampler)
                     # num_examples=10 if debug else 3000)
@@ -52,7 +52,7 @@ def main():
                 raise Exception(f"Unrecoginized eval type: {eval_name}")
 
     evals = {
-        eval_name: get_evals(eval_name) for eval_name in ["se_simpleqa"]
+        eval_name: get_evals(eval_name) for eval_name in ["realdevqa"]
     }
     print(evals)
     debug_suffix = "_DEBUG" if debug else ""
