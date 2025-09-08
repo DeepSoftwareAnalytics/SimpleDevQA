@@ -1,7 +1,7 @@
-From Conversation to Evaluation: Benchmarking LLMs on Development Knowledge via RealDevQA
+From Conversation to Evaluation: Benchmarking LLMs on Development Knowledge via SimpleDevQA
 =============
 
-RealDevQA is a multilingual Development Knowledge QA benchmark derived from large-scale real user dialogues via a rigorous three-phase pipeline. 
+SimpleDevQA is a multilingual Development Knowledge QA benchmark derived from large-scale real user dialogues via a rigorous three-phase pipeline. 
 The data pipeline is as follow:
 
 ![](figure/pipeline.png)
@@ -22,18 +22,18 @@ The data pipeline is as follow:
    - All generated Q&A pairs come with corresponding reference URLs stored in `data/reference`, enabling verification of answer accuracy.
 
 3. **Efficient Evaluation Framework**  
-   - The `code/eval` directory provides ready-to-use code for conveniently and efficiently evaluating LLM performance on the RealDevQA benchmark.
+   - The `code/eval` directory provides ready-to-use code for conveniently and efficiently evaluating LLM performance on the SimpleDevQA benchmark.
    
 🛠️Implementation
 -------------
 ### ⚙️ Environment
 Create the environment and install the required packages
 ```bash
-conda create -n RealDevQA python=3.11
-conda activate RealDevQA
+conda create -n SimpleDevQA python=3.11
+conda activate SimpleDevQA
 ```
 ### 🧪 Evaluation
-You can evaluate LLM performance on RealDevQA by following these steps:
+You can evaluate LLM performance on SimpleDevQA by following these steps:
 
 (1) Get Started.
 ```bash
