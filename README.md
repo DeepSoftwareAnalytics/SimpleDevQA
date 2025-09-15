@@ -4,7 +4,7 @@ From Conversation to Evaluation: Benchmarking LLMs on Development Knowledge via 
 SimpleDevQA is a multilingual Development Knowledge QA benchmark derived from large-scale real user dialogues via a rigorous three-phase pipeline. 
 The data pipeline is as follow:
 
-![](figure/pipeline_v4.pdf)
+![](figure/pipeline.png)
 
 🔍 **Dataset Overview**  
 - 📊 2,740 Dev Knowledge QA pairs  
