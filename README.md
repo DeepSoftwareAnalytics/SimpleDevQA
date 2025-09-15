@@ -4,7 +4,7 @@ From Conversation to Evaluation: Benchmarking LLMs on Development Knowledge via 
 SimpleDevQA is a multilingual Development Knowledge QA benchmark derived from large-scale real user dialogues via a rigorous three-phase pipeline. 
 The data pipeline is as follow:
 
-![](figure/pipeline.png)
+![](figure/pipeline_v4.pdf)
 
 🔍 **Dataset Overview**  
 - 📊 2,740 Dev Knowledge QA pairs  
@@ -37,8 +37,8 @@ You can evaluate LLM performance on SimpleDevQA by following these steps:
 
 (1) Get Started.
 ```bash
-git clone https://anonymous.4open.science/r/RealDevQA-25E7/
-cd RealDevQA
+git clone https://anonymous.4open.science/r/SimpleDevQA-6881
+cd SimpleDevQA
 ```
 
 (2) In the `code/eval/eval_demo.py` file, you should add the grader model you wish to use and its corresponding API key and base URL:
